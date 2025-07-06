@@ -1,4 +1,4 @@
-25612950146748166
+25618205676737810
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102647,3 +102647,24 @@ Varistor VF
 0
 2
 2
+project footprints
+JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal
+JST SH series connector, SM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+5
+4
+project footprints
+USB_C_Receptacle_JAE_DX07S016JA1R1500
+USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
+USB C Type-C Receptacle SMD USB 2.0
+0
+22
+17
+project footprints
+XTAL_ABM8-272-T3
+
+
+0
+4
+4

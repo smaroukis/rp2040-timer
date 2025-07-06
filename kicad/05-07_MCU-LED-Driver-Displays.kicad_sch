@@ -1728,7 +1728,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 63.5 115.57 0)
+		(at 57.15 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1737,7 +1737,7 @@
 		(fields_autoplaced yes)
 		(uuid "79bdb075-ec15-4d11-8fe9-03e179f13bb5")
 		(property "Reference" "Y1"
-			(at 63.5 107.95 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,15 +1745,15 @@
 			)
 		)
 		(property "Value" "ABM8-272-T3"
-			(at 63.5 110.49 0)
+			(at 57.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 115.57 0)
+		(property "Footprint" "project footprints:XTAL_ABM8-272-T3"
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1780,7 @@
 			)
 		)
 		(property "MPN" "ABM8-272-T3"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1789,7 @@
 			)
 		)
 		(property "Manufacturer" "Abracon LLC"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1798,7 @@
 			)
 		)
 		(property "Package" "SMD3225-4P"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1816,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "C20625731"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1825,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://lcsc.com/product-detail/Crystals_Abracon-LLC-ABM8-272-T3_C20625731.html?s_z=n_ABM8-272-T3%2520"
-			(at 63.5 115.57 0)
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

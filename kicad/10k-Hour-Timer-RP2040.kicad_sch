@@ -1823,12 +1823,6 @@
 		(uuid "ec5c6219-a144-4faa-818b-bb730f7a14c2")
 	)
 	(junction
-		(at 73.66 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "356f2043-38da-45ec-9214-1ae41086d704")
-	)
-	(junction
 		(at 58.42 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1857,6 +1851,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1d97b60-fa5d-41ff-bfb9-aea33094eeec")
+	)
+	(no_connect
+		(at 73.66 87.63)
+		(uuid "1cd3406f-8bb0-471a-b192-d705415b39f4")
+	)
+	(no_connect
+		(at 73.66 85.09)
+		(uuid "b2bc03a9-8cd5-415e-bd23-de4070174552")
 	)
 	(wire
 		(pts
@@ -1960,16 +1962,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 86.36) (xy 80.01 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63cc08ab-c241-4478-9b72-e7118c0296d0")
-	)
-	(wire
-		(pts
 			(xy 96.52 62.23) (xy 102.87 62.23)
 		)
 		(stroke
@@ -2070,16 +2062,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6c00a6-0ee2-4fd5-b6d4-f56f2d23a4c6")
-	)
-	(wire
-		(pts
 			(xy 99.06 76.2) (xy 99.06 64.77)
 		)
 		(stroke
@@ -2087,16 +2069,6 @@
 			(type default)
 		)
 		(uuid "c3193ea8-c541-43d9-b122-a9afa50015d1")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ee80c1-fa25-4894-bd2d-eddb444dcd90")
 	)
 	(wire
 		(pts
@@ -2127,16 +2099,6 @@
 			(type default)
 		)
 		(uuid "d64f57f3-832c-4338-9128-79e7c5ef4214")
-	)
-	(wire
-		(pts
-			(xy 73.66 85.09) (xy 73.66 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db688bc6-61b7-4cc0-94aa-94d0d892d7b5")
 	)
 	(wire
 		(pts
@@ -2326,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "project footprints:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -2740,7 +2702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+		(property "Footprint" "project footprints:USB_C_Receptacle_JAE_DX07S016JA1R1500"
 			(at 62.23 72.39 0)
 			(effects
 				(font
@@ -3155,71 +3117,6 @@
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2d2aba7-994f-44d9-b31e-200ade49086d")
-		(property "Reference" "#PWR04"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51e46ba5-a9a8-4c3b-a3f9-0d8e9340c151")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)

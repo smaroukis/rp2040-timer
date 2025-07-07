@@ -153,6 +153,11 @@
 	(net 73 "unconnected-(U3-DO{slash}IO_{1}-Pad2)")
 	(net 74 "unconnected-(Y1-Pad1)")
 	(net 75 "unconnected-(Y1-Pad2)")
+	(net 76 "Net-(D1-K)")
+	(net 77 "Net-(U1-VBUS)")
+	(net 78 "/01-04-Power-DCDC-Charger-Battery/VBATT_VBUS")
+	(net 79 "Net-(D3-A)")
+	(net 80 "/01-04-Power-DCDC-Charger-Battery/+BATT")
 	(footprint "project footprints:XTAL_ABM8-272-T3"
 		(layer "F.Cu")
 		(uuid "0befbbbd-8610-460c-bd80-7fedf56587e2")
@@ -452,6 +457,237 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "project footprints:BLM18SP221SN1D_BEADC1608X95N"
+		(layer "F.Cu")
+		(uuid "115a05b8-f886-418b-b6ba-e633142b6a04")
+		(at 154.265 45)
+		(property "Reference" "FB1"
+			(at 0.5 -1.5 0)
+			(layer "F.SilkS")
+			(uuid "d1c39ab4-10f7-4fe5-a37a-34ab98a62c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BLM18SP221SN1D"
+			(at 1.76 1.07 0)
+			(layer "F.Fab")
+			(uuid "2c7d3e55-0590-4c54-b855-b8b1a8398e62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09495c6b-8c6f-4de8-aa5f-c53eb20006ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb15a677-a5b6-4a61-aa07-d47b35bccdc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BLM18SP221SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26b33ab1-aeb5-4086-ace5-4137ccbd3698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc1cb486-4c1b-4e7f-864a-fec575b75471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4031d6c-bf0b-4bc5-bb03-5acfbd0c16a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4924989-8fbf-45c8-94ac-f975652dc96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/murata-electronics/BLM18SP221SN1D/12759416"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e5f994-9541-4fcf-986c-4f25e46228b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(path "/6317e6f1-0422-4513-81d8-923b5f039d5e")
+		(sheetname "/")
+		(sheetfile "10k-Hour-Timer-RP2040.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "60bf82b0-ed0a-42b1-92d3-6e191df70fab")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d1a2ffe4-5cee-4f2b-9e07-99bd486cc2c9")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6fba817-c11d-4e99-b4c1-3fbc073d243b")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3bbb8e2-5ef5-42b3-9ecc-85501fff1f97")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2dd1afd7-367f-40dd-be9b-8f8db2b7775e")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eccd0767-46c3-4764-9bf2-1d7a3cece3f3")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c29fdf5f-c77a-4b2f-a714-60c6a75c2bea")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc9456dd-ead5-457d-90d8-38ceafbd652c")
+		)
+		(pad "1" smd rect
+			(at -0.735 0)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 77 "Net-(U1-VBUS)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6e1257f8-6016-4486-be34-d1ff0097e28f")
+		)
+		(pad "2" smd rect
+			(at 0.735 0)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7dad4dcb-895f-4237-a47d-9538658625c3")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Project_Libraries/3dmodels/BLM18PG221SN1D.step"
+			(offset
+				(xyz 0 -0.47 0.37)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -1992,6 +2228,455 @@
 			)
 		)
 	)
+	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(layer "F.Cu")
+		(uuid "6a97a12a-b34a-48b3-af8a-f344773c733c")
+		(at 160.885 36.175)
+		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOT TO_SOT_SMD")
+		(property "Reference" "Q1"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "8e8672b7-ad3c-472a-8e48-9c693e9af3ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 0 2.4 0)
+			(layer "F.Fab")
+			(uuid "c9723a2f-c5ec-4d13-a2ac-f8eb568292fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e1c7de1-1716-40b3-ac17-b1a9a4c4f3f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "20V 3.1A 1.6W 142mΩ@2.5V,2.7A 1V@250uA 1 P-Channel SOT-23 MOSFETs ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad50f451-2bc8-4187-9b9c-fad1efe781d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c5c4b5f-541b-462c-9fd2-b7ce8b94b284")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2b13bc6-dd70-40ac-9b3d-fce62b093e5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d62691d4-84bd-4ad1-9667-2be1ea069396")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SI2301CDS-T1-GE3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "398315ea-d5cf-45ff-954e-ac6656a98eb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b2238a-3b6a-4ff6-a99a-6add0bcd2557")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a5801d-3ff2-4593-a453-28b36b1a6642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "167aef97-cb15-4a7b-809b-430b3028c478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 SKU" "C10487"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd8998a-cbd5-4cfa-af41-42cb5da38738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://lcsc.com/product-detail/MOSFETs_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.html?s_z=n_SI2301CDS-T1-GE3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ae8f776-bc56-42d7-9802-0843bb1100a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/4d6cea9f-3736-4147-ac17-ffeea9877174")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -1.56)
+			(end -0.65 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4186e91e-ba14-46df-9788-352c5967a055")
+		)
+		(fp_line
+			(start 0 -1.56)
+			(end 0.65 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0a92574-a3dc-4cf1-b99d-44d0e8a8bc45")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end -0.65 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1edf79c-2324-4c93-8436-d5399bb48c48")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end 0.65 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b5974f0-9288-4ca4-b7e7-4e9a92cfe553")
+		)
+		(fp_poly
+			(pts
+				(xy -1.1625 -1.51) (xy -1.4025 -1.84) (xy -0.9225 -1.84)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "833e5963-632b-4063-92cb-461f8080bc30")
+		)
+		(fp_line
+			(start -1.93 -1.5)
+			(end -0.9 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc6a5151-58c5-40e1-8b8d-e0dd889c1a9e")
+		)
+		(fp_line
+			(start -1.93 1.5)
+			(end -1.93 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c87c0915-3f25-4d43-b269-6e449fd7a3b2")
+		)
+		(fp_line
+			(start -0.9 -1.7)
+			(end 0.9 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fbf2f36c-1adc-46c9-b124-58d67b7cf383")
+		)
+		(fp_line
+			(start -0.9 -1.5)
+			(end -0.9 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f34e33bc-01f7-4eb5-8a76-3a5ff85100ff")
+		)
+		(fp_line
+			(start -0.9 1.5)
+			(end -1.93 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "27b4a329-d50f-40ec-9d85-959a43ec79da")
+		)
+		(fp_line
+			(start -0.9 1.7)
+			(end -0.9 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95029fff-d312-4d3f-8a61-ed188f34d884")
+		)
+		(fp_line
+			(start 0.9 -1.7)
+			(end 0.9 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "03cbb435-df5f-429e-841c-b1d1bb18d243")
+		)
+		(fp_line
+			(start 0.9 -0.55)
+			(end 1.93 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "40b2c3a0-5a37-42ea-91a1-91c69aba7c70")
+		)
+		(fp_line
+			(start 0.9 0.55)
+			(end 0.9 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8aedf5e5-5f43-4a98-8e1f-d3f93a51f91c")
+		)
+		(fp_line
+			(start 0.9 1.7)
+			(end -0.9 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98e8b351-6751-4f8d-b601-f3e52efbea5e")
+		)
+		(fp_line
+			(start 1.93 -0.55)
+			(end 1.93 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9111bab8-d4df-44f0-9da4-7a98e591e4ff")
+		)
+		(fp_line
+			(start 1.93 0.55)
+			(end 0.9 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b82c12c4-9741-4c23-be90-b443917476c7")
+		)
+		(fp_line
+			(start -0.65 -1.125)
+			(end -0.325 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1a60df1c-b102-45fa-8086-27adef9905cf")
+		)
+		(fp_line
+			(start -0.65 1.45)
+			(end -0.65 -1.125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "574e8bb5-4b01-44e5-a184-a7dcb40ebea5")
+		)
+		(fp_line
+			(start -0.325 -1.45)
+			(end 0.65 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9175d553-9c0e-40dd-ade2-cfdf22f5bf8d")
+		)
+		(fp_line
+			(start 0.65 -1.45)
+			(end 0.65 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bec2dc6f-814c-4d17-b693-b38e07f9ad81")
+		)
+		(fp_line
+			(start 0.65 1.45)
+			(end -0.65 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5b249d3a-960b-4387-a456-1a4cbaf990fe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "44c35f11-dc33-46fd-b60c-085dbd38dd8e")
+			(effects
+				(font
+					(size 0.32 0.32)
+					(thickness 0.05)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9375 -0.95)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 80 "/01-04-Power-DCDC-Charger-Battery/+BATT")
+			(pinfunction "D")
+			(pintype "passive")
+			(uuid "040e2997-7e03-40ff-8591-cab17aaad615")
+		)
+		(pad "2" smd roundrect
+			(at -0.9375 0.95)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 79 "Net-(D3-A)")
+			(pinfunction "G")
+			(pintype "input")
+			(uuid "58f34aa2-452c-4211-8560-ded033d1d403")
+		)
+		(pad "3" smd roundrect
+			(at 0.9375 0)
+			(size 1.475 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 78 "/01-04-Power-DCDC-Charger-Battery/VBATT_VBUS")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "08eb274e-f712-412e-a38f-590e0da78bd9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "project footprints:USB_C_Receptacle_JAE_DX07S016JA1R1500"
 		(layer "F.Cu")
 		(uuid "8c584ef4-9780-4454-894c-3f8c28a92091")
@@ -2309,7 +2994,7 @@
 			(at -2.35 -3.05)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(net 77 "Net-(U1-VBUS)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "6bf2ea27-906b-4618-bcc0-bd4e3f834fe1")
@@ -2354,7 +3039,7 @@
 			(at 2.35 -3.05)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(net 77 "Net-(U1-VBUS)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "214cbb2c-eecb-4c3e-96fd-d4ca4446872e")
@@ -2381,7 +3066,7 @@
 			(at 2.35 -3.05)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(net 77 "Net-(U1-VBUS)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "b9c1111e-b634-4b60-bd5e-cdb292b34966")
@@ -2426,7 +3111,7 @@
 			(at -2.35 -3.05)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(net 77 "Net-(U1-VBUS)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "08ab045f-a6b8-48a8-9054-142ac1d1abec")
@@ -2509,6 +3194,318 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "9499e23a-3cbe-4b26-a916-4acda21fd454")
+		(at 154.5625 34.5)
+		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(tags "LED")
+		(property "Reference" "D1"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "58896ca4-c99f-416d-8da5-26431c38b012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "d9a71b07-3402-4c49-a382-b125d13bd4f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "988daf6b-c24f-4ebc-94a0-2fe816d000ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c1cc30-8bf4-4597-b301-06c29ac63b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8192a135-86ac-4e69-9c9a-6a71ffbfdeec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "164501f6-4a31-4697-b56a-229ca7edf18c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49f68ab3-41c0-477c-bb46-d4f41656c74e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "297eb945-4cf9-47fc-baeb-7e20b23ea6bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 SKU" "C2297"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22747c6e-5e32-4d1e-9c03-557af1de4f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0805G_C2297.html?s_z=n_KT-0805G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9494480b-fcc7-403c-9d09-12f25ad2fdd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9d93acd-b809-4ae9-90cb-47072a41e81c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/88463664-1eb9-4a37-9092-2f455c5dae4d")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.685 -0.96)
+			(end -1.685 0.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00e7be8c-0660-4392-bc47-81cb2b0a8946")
+		)
+		(fp_line
+			(start -1.685 0.96)
+			(end 1 0.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bac33e8e-5c52-4d0b-8bb8-9decd02c3252")
+		)
+		(fp_line
+			(start 1 -0.96)
+			(end -1.685 -0.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ca3d5609-d103-4bb1-9911-64d0106ed108")
+		)
+		(fp_line
+			(start -1.68 -0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "286c0291-013a-4136-9500-24ba2cc60d5a")
+		)
+		(fp_line
+			(start -1.68 0.95)
+			(end -1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b78a7eee-435c-4118-9195-c89818e6df3f")
+		)
+		(fp_line
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0730961-54db-499d-a96f-423221f3bf69")
+		)
+		(fp_line
+			(start 1.68 0.95)
+			(end -1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e08350e-c334-440e-a044-0430f5aa6aa2")
+		)
+		(fp_line
+			(start -1 -0.3)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63fbd386-fb57-4db8-b19b-42f5f5bdbba8")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb1cf778-7970-4ae4-b6c3-59cc5e243422")
+		)
+		(fp_line
+			(start -0.7 -0.6)
+			(end -1 -0.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4992bf2-3caa-4cb2-befd-8fc0854a5e12")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -0.7 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d542e78a-72dc-4d43-96b3-abf641ac873e")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5f086de8-8ccb-41eb-8f55-b50537263159")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3389c909-5b8f-4ef9-bd8f-8a8a0d3907c0")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9375 0)
+			(size 0.975 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 76 "Net-(D1-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "8a675f6d-6d39-4972-9650-195081a0d66f")
+		)
+		(pad "2" smd roundrect
+			(at 0.9375 0)
+			(size 0.975 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "f3941b0c-71b5-4ee4-8c49-93da41c9e7f9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2866,7 +3863,7 @@
 			(net 13 "unconnected-(J2-MountPin-PadMP)")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "55c59b1e-4c85-47c0-8430-7f3156239d37")
+			(uuid "8e997eb3-364d-49f6-a935-eb405e700034")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Project_Libraries/3dmodels/SM03B-SRSS-TB(LF)(SN)--3DModel-STEP-56544.STEP"
@@ -3294,7 +4291,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "/01-04-Power-DCDC-Charger-Battery/5V_USB")
+			(net 77 "Net-(U1-VBUS)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "05338fac-9f3b-40fd-a847-ed3b85394061")
@@ -3311,6 +4308,279 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SMA"
+		(layer "F.Cu")
+		(uuid "ffc2bcad-332a-4212-9264-baa21e265266")
+		(at 166 30)
+		(descr "Diode SMA (DO-214AC)")
+		(tags "Diode SMA (DO-214AC)")
+		(property "Reference" "D3"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "1d70714a-47f9-4008-a1b2-3d4ae220475b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 0 2.6 0)
+			(layer "F.Fab")
+			(uuid "05fed328-e62e-4b5b-a9b2-6905eaaf8c69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36a01a7e-351b-45cc-9b23-16e4c60cf94a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1f82694-2ff6-47aa-ab71-e3e66be9a200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*SMA*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/d03d78ec-5353-4870-85eb-aaaeaff7e217")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.51 -1.65)
+			(end -3.51 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fd79134e-b907-40f9-814d-964e0b9a81d8")
+		)
+		(fp_line
+			(start -3.51 -1.65)
+			(end 2 -1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6cfabd9b-0fd0-4837-b7b5-77130d11262e")
+		)
+		(fp_line
+			(start -3.51 1.65)
+			(end 2 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "008507d3-79d0-43e4-809f-36214981cd7c")
+		)
+		(fp_line
+			(start -3.5 -1.75)
+			(end 3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b6a5c9a5-8cb3-4c27-90d3-385ca3cf7799")
+		)
+		(fp_line
+			(start -3.5 1.75)
+			(end -3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f305dc6e-b5a2-4a32-b76c-6b17c53152c9")
+		)
+		(fp_line
+			(start 3.5 -1.75)
+			(end 3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d9578aa-2c60-4010-bdce-b6d550c63428")
+		)
+		(fp_line
+			(start 3.5 1.75)
+			(end -3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "112e8856-af5a-41a9-8a45-6de9da789201")
+		)
+		(fp_line
+			(start -2.3 1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ddcd317b-4de2-4918-b4a7-62e7d403aaae")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c023076-08ba-47fb-94ae-67f117723798")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9bb81e59-c187-47d1-b703-867cbf064fec")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1f2611df-dab2-4e0f-9b49-688ab7e7a321")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d23dcc42-8c4a-4bb4-941b-f2dd65870bd6")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "286aee2f-e4fb-42f6-8473-ea87143ac583")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed858427-735a-4218-88cb-e911e4c2bb67")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d8897992-ee6d-4c1d-ae6d-be5566d7973e")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end 2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ea197e13-26ea-4e76-b5bc-903f3485c731")
+		)
+		(fp_line
+			(start 2.3 1.5)
+			(end -2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bee8e3e1-08b3-4c87-9c01-f382ec41191c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "e7a92772-de21-4a50-b2b0-b7670a74c0ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 78 "/01-04-Power-DCDC-Charger-Battery/VBATT_VBUS")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "ac05de45-db9a-41aa-92d5-4d2cf8dc5410")
+		)
+		(pad "2" smd roundrect
+			(at 2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 79 "Net-(D3-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "e693c375-a5d6-4b95-bf52-86914cf231d6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -564,7 +564,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -606,10 +606,28 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "q",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

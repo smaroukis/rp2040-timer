@@ -1,1 +1,5 @@
 kicad/fp-info-cache
+**.claudekicad/**backups/
+kicad/10k-Hour-Timer-RP2040-backups
+kicad/#auto_saved_files#
+kicad/~*

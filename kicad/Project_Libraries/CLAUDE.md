@@ -45,3 +45,27 @@ USB-C Receptacle JAE DX07S016JA1R1500:
 JST Connector:
 - Footprint: `/usr/share/kicad/footprints/Connector_JST.pretty/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.kicad_mod`
 - Symbol: Found in `/usr/share/kicad/symbols/Connector_Generic_MountingPin.kicad_sym`
+
+## Importing Downloaded Components
+
+### Step 1: Move component folder to imports_source
+```bash
+mv "/home/spencer/Downloads/COMPONENT_FOLDER" "/path/to/project/Project_Libraries/imports_source/"
+```
+
+### Step 2: Run the copy script
+```bash
+cd "/path/to/project/Project_Libraries"
+bash scripts/copy_imports.sh
+```
+
+The script will automatically:
+- Copy all `.kicad_mod` files to `footprints/`
+- Copy all `.kicad_sym` files to `symbols/`
+- Copy all `.step` files to `3dmodels/`
+
+### Example: BLM18PG221SN1D Import Process
+1. Downloaded BLM18PG221SN1D.zip to ~/Downloads and extracted
+2. Moved folder: `mv "/home/spencer/Downloads/BLM18PG221SN1D" "/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Project_Libraries/imports_source/"`
+3. Ran script: `cd "/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Project_Libraries" && bash scripts/copy_imports.sh`
+4. Components now available in project libraries

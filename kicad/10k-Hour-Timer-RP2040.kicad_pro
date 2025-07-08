@@ -627,7 +627,7 @@
           "show": false
         }
       ],
-      "filter_string": "q",
+      "filter_string": "u5",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

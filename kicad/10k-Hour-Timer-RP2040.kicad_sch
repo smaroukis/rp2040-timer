@@ -2171,6 +2171,26 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 99.06) (xy 186.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b6534e-91f7-45c1-ba1e-c040e74c2846")
+	)
+	(wire
+		(pts
+			(xy 191.77 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12603e47-599a-49b3-8da9-e85d8f803aa9")
+	)
+	(wire
+		(pts
 			(xy 73.66 74.93) (xy 73.66 76.2)
 		)
 		(stroke
@@ -2201,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 62.23) (xy 191.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4661681b-cb2e-4bb6-adc8-9d4c34ac5ec3")
+	)
+	(wire
+		(pts
 			(xy 102.87 81.28) (xy 102.87 83.82)
 		)
 		(stroke
@@ -2208,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "46c24644-ec32-4759-945a-830cf63d5617")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4871f7b7-a91c-40e1-bf23-2035eadd8892")
 	)
 	(wire
 		(pts
@@ -2241,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 177.8 67.31)
+			(xy 172.72 62.23) (xy 191.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2271,26 +2311,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634d1a6c-3906-4cdf-b067-e573e6893591")
-	)
-	(wire
-		(pts
-			(xy 190.5 86.36) (xy 129.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6965c224-a975-40b3-b6e1-5be30543d334")
-	)
-	(wire
-		(pts
 			(xy 73.66 69.85) (xy 73.66 72.39)
 		)
 		(stroke
@@ -2298,16 +2318,6 @@
 			(type default)
 		)
 		(uuid "6d2d2ea3-1630-496a-b197-8b4a5f464d22")
-	)
-	(wire
-		(pts
-			(xy 172.72 57.15) (xy 190.5 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "716cd3e5-3953-49fa-85df-a8837cfa0a6a")
 	)
 	(wire
 		(pts
@@ -2431,17 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 129.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd09942-ba16-49c1-8bff-79e9a3a70b94")
-	)
-	(wire
-		(pts
-			(xy 172.72 62.23) (xy 177.8 62.23)
+			(xy 172.72 57.15) (xy 186.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2478,16 +2478,6 @@
 			(type default)
 		)
 		(uuid "d64f57f3-832c-4338-9128-79e7c5ef4214")
-	)
-	(wire
-		(pts
-			(xy 190.5 57.15) (xy 190.5 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd553f3-d4ae-4e01-b933-5c3c78939f3e")
 	)
 	(wire
 		(pts
@@ -2549,7 +2539,7 @@
 		)
 		(uuid "fe6f6392-5559-4bd7-9b6a-6aa26278e938")
 	)
-	(label "SWCK_UART_Rx"
+	(label "SWCLK"
 		(at 111.76 118.11 0)
 		(effects
 			(font
@@ -2579,7 +2569,7 @@
 		)
 		(uuid "53de0470-abaf-4273-aecb-3d8e60330c92")
 	)
-	(label "SWCK_UART_Rx"
+	(label "SWCLK"
 		(at 78.74 120.65 180)
 		(effects
 			(font
@@ -2589,7 +2579,7 @@
 		)
 		(uuid "6fa798bd-74ea-4647-a323-dadf5333c882")
 	)
-	(label "SWD_UART_Tx"
+	(label "SWDIO"
 		(at 111.76 113.03 0)
 		(effects
 			(font
@@ -2599,7 +2589,7 @@
 		)
 		(uuid "7be0ac80-ced9-4eb3-a9cd-f89e87080f2f")
 	)
-	(label "SWD_UART_Tx"
+	(label "SWDIO"
 		(at 77.47 128.27 180)
 		(effects
 			(font
@@ -4065,7 +4055,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWD_UART_Tx" input
+		(pin "SWD" input
 			(at 133.35 113.03 180)
 			(uuid "e5d26895-87f2-4111-9406-8e7aea88d018")
 			(effects
@@ -4075,7 +4065,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWCK_UART_Rx" input
+		(pin "SWCK" input
 			(at 133.35 118.11 180)
 			(uuid "df29d4b7-525b-43cb-aea9-2d5c42ef9c3c")
 			(effects
@@ -4085,14 +4075,24 @@
 				(justify left)
 			)
 		)
-		(pin "Vbatt_Vbus" input
-			(at 133.35 97.79 180)
-			(uuid "527aaea4-5327-4417-8672-dbc6d7e0bc67")
+		(pin "BTN_PWR" output
+			(at 171.45 99.06 0)
+			(uuid "48ae1bce-b9eb-4da9-a902-85035667baff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "PWR_CTL" output
+			(at 171.45 104.14 0)
+			(uuid "bced10ca-3324-455b-aa1b-c70d5f257495")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4147,18 +4147,8 @@
 				(justify left)
 			)
 		)
-		(pin "Vbatt_Vbus" input
-			(at 172.72 57.15 0)
-			(uuid "dacd10c3-224d-46b2-83be-f5ece1bb8a9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BTN_PWR" input
-			(at 172.72 62.23 0)
+			(at 172.72 57.15 0)
 			(uuid "2a72f8de-3068-4b8a-9478-6fbee956f39d")
 			(effects
 				(font
@@ -4167,8 +4157,8 @@
 				(justify right)
 			)
 		)
-		(pin "PWR_CTRL" input
-			(at 172.72 67.31 0)
+		(pin "PWR_CTL" input
+			(at 172.72 62.23 0)
 			(uuid "1b03f58d-fd32-445f-aac3-a7c29cb28d91")
 			(effects
 				(font

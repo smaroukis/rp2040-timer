@@ -4657,7 +4657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00d36102-ec99-4e8e-9e26-931ba04b3759")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 144.78 96.774 0)
 			(effects
 				(font
@@ -4711,7 +4711,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4726,7 +4726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04d9c7f9-3e2b-4207-9585-d994cad4cf6d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 58.166 126.746 90)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4793,7 +4793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08194ef6-6977-4a19-a2ad-857adb47e364")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 165.1 129.54 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "082c1fb1-0e05-469b-8128-14c5e11d47ea")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 195.58 30.734 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dc84999-0b1f-46a6-9f8f-96c14806b756")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 75.184 131.572 0)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4994,7 +4994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16dc66d5-6d0b-40b5-b494-41d56d915c6c")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 77.978 129.794 0)
 			(effects
 				(font
@@ -5048,7 +5048,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1846a97c-d2d5-4df0-b74a-d73c00f68e17")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 201.422 112.014 0)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1910ffa2-5fed-4844-8143-cd168052a030")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 47.244 124.206 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19708c9b-ca5d-4139-873c-8cfced90453a")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 182.88 30.734 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5271,7 +5271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bb49d08-5f1d-490c-a70f-682439108734")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 96.012 111.76 90)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5338,7 +5338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c802058-36a4-4158-9fb6-0bb930ea9542")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 187.96 96.774 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2728453d-7746-4979-8e43-ce726612ba6b")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 140.97 30.48 0)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 		(instances
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5557,7 +5557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2768bd6f-485f-4024-a439-636cd01c1c8b")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 162.56 117.094 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b37e9ad-8738-419f-8e4b-51a3ef873b06")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 201.422 99.314 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b81df32-7205-4cb3-9cd0-c27a73e3e275")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5762,7 +5762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "417aea5f-3be1-489b-a8f6-b1b1817f0d03")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5827,7 +5827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "432abda3-d2ff-4dde-abcb-7c5889d5bf89")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -5877,7 +5877,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5892,7 +5892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43b692f5-599a-4424-b9f4-87a12262b5d5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5957,7 +5957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "446e0c94-81a3-4099-9145-c82650f1a280")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 40.64 35.56 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46e89ac2-4867-493b-897e-95ed4565a863")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 61.722 52.324 0)
 			(effects
 				(font
@@ -6076,7 +6076,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fa25f2b-f7ce-4a04-9be1-bc80d3ecbb2f")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 141.732 127.254 90)
 			(effects
 				(font
@@ -6297,7 +6297,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "518aa4ff-ee92-4d33-85fb-1d628b57775d")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 88.392 120.396 0)
 			(effects
 				(font
@@ -6364,7 +6364,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52ea9d33-25ee-4881-8842-6b4d9bd330fc")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 36.322 110.744 0)
 			(effects
 				(font
@@ -6433,7 +6433,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6561,7 +6561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "618ec294-b963-4c9e-82b6-2d2d95fee67b")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 77.978 110.744 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "701954b7-c0f4-4d9e-a863-0286ea96ce90")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 161.29 44.196 90)
 			(effects
 				(font
@@ -6684,7 +6684,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6699,7 +6699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "706d463f-6999-4db4-9098-6a6909b54bef")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 185.42 107.95 0)
 			(effects
 				(font
@@ -6749,7 +6749,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6764,7 +6764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75bc10c5-2893-4642-b924-2b2583d6ae01")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 69.85 110.236 0)
 			(effects
 				(font
@@ -6873,7 +6873,7 @@
 		(instances
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6888,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76d26f45-1041-478f-bcd1-c1f9e42abfba")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 69.596 101.092 90)
 			(effects
 				(font
@@ -6942,7 +6942,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7972a601-31ae-418c-bd84-479acc0ad5af")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 170.942 35.56 90)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7090,7 +7090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d1da6f-086e-435f-8ed0-3529eb32cfda")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 96.266 121.666 90)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7158,7 +7158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82a4a022-d968-491e-86eb-80162fee41ea")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -7208,7 +7208,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7223,7 +7223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88463664-1eb9-4a37-9092-2f455c5dae4d")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 68.58 42.926 90)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f70393f-eed5-4b29-893b-ddd861f4113e")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 48.768 43.434 0)
 			(effects
 				(font
@@ -7409,7 +7409,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7424,7 +7424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "923a0b3c-1cc7-4ac1-a919-9cf1b612af82")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 96.266 126.238 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1209689-0695-4dd0-95d8-e7b37b51e2fd")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 130.302 45.974 0)
 			(effects
 				(font
@@ -7553,7 +7553,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7568,7 +7568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a472006b-bf4b-48b9-bec2-7d9aee7952a9")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 59.182 30.48 90)
 			(effects
 				(font
@@ -7685,7 +7685,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6ec4da9-2de0-4a3a-b1e8-e4a5d5018ff3")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 142.24 115.316 90)
 			(effects
 				(font
@@ -7958,7 +7958,7 @@
 		(instances
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae863272-e56e-424b-b599-122ad532b681")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -8023,7 +8023,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8039,7 +8039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0c6a0e5-248a-4710-850f-a18308bf895d")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 98.044 115.57 0)
 			(effects
 				(font
@@ -8097,7 +8097,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8112,7 +8112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7ab9327-2a1a-45cc-9ceb-c0f76672a7c2")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 48.768 52.324 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R12")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8181,7 +8181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf1027ba-1ad4-47e2-9bfe-39a1296e24f5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -8231,7 +8231,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8248,7 +8248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f16102-d50a-4e17-a446-e4f20f7ca375")
-		(property "Reference" "TP1"
+		(property "Reference" "TP6"
 			(at 96.52 132.0799 90)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP1")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c211449e-3874-44c9-aeee-3aa352745fea")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 212.09 96.774 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8384,7 +8384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4635e32-c463-478d-815a-649386f48d9e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 107.95 114.3 0)
 			(effects
 				(font
@@ -8434,7 +8434,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8449,7 +8449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c499b820-f0e7-4abf-8fa5-329a4a735dc1")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 51.816 31.496 90)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d07ed5de-c549-496c-b6d7-e0a2f287bee5")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 176.022 117.094 0)
 			(effects
 				(font
@@ -8642,7 +8642,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8657,7 +8657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1c3390e-e575-4876-a45e-29d281f739fa")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -8707,7 +8707,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5dd8877-f9ec-49c2-987a-92df21a561e7")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -8786,7 +8786,7 @@
 		(instances
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8801,7 +8801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5eb280e-0596-484d-9dfc-65539f0bbe7c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -8851,7 +8851,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef782566-265f-457c-9441-aba0f9d7d05d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4db7cc7-2788-41a7-83ef-db7edae5b7d7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR011"
 			(at 85.09 31.75 0)
 			(effects
 				(font
@@ -8982,7 +8982,7 @@
 		(instances
 			(project ""
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8997,7 +8997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9e45f02-a575-41f7-b331-903ab223d1fe")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 45.974 112.014 90)
 			(effects
 				(font
@@ -9051,7 +9051,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)

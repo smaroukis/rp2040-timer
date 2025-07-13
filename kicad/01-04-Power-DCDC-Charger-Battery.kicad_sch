@@ -3257,7 +3257,7 @@
 	)
 	(text "Check for turn off"
 		(exclude_from_sim no)
-		(at 80.772 46.99 0)
+		(at 77.724 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,6 +3322,12 @@
 		(uuid "199cedb6-3eb0-4b48-9794-76f7c01138d4")
 	)
 	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29920b33-cde4-48af-b49e-767d929a3511")
+	)
+	(junction
 		(at 152.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3344,6 +3350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3de52560-05d4-42a4-92ea-cdc68b7e9f03")
+	)
+	(junction
+		(at 85.09 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "401b437b-edfe-4282-b0c9-eaf65d27c560")
 	)
 	(junction
 		(at 142.24 93.98)
@@ -4011,6 +4023,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 27.94) (xy 87.63 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7277b8c4-142f-461b-ba01-f4c21c46aaba")
+	)
+	(wire
+		(pts
 			(xy 40.64 128.27) (xy 40.64 134.62)
 		)
 		(stroke
@@ -4421,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 40.64) (xy 86.36 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3899590-b0a4-49c9-974a-73b6d76c8806")
+	)
+	(wire
+		(pts
 			(xy 53.34 129.54) (xy 53.34 134.62)
 		)
 		(stroke
@@ -4550,6 +4582,17 @@
 		)
 		(uuid "056b8031-5dd0-49a8-ad0f-c44dafdf600f")
 	)
+	(hierarchical_label "ADC0_VBUS_In"
+		(shape output)
+		(at 86.36 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ef6895a-a21b-4905-9f3c-30bdffbcba32")
+	)
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 177.8 26.67 180)
@@ -4571,6 +4614,17 @@
 			(justify right)
 		)
 		(uuid "701649b5-8011-4fa4-927e-a2b4bb256752")
+	)
+	(hierarchical_label "ADC1_VSW_In"
+		(shape output)
+		(at 87.63 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3f5ef7f-5845-4dc9-a67f-b50b694bac44")
 	)
 	(hierarchical_label "PWR_CTL"
 		(shape input)

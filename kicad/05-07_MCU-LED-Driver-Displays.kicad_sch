@@ -4015,6 +4015,16 @@
 		)
 		(uuid "1831b93a-e966-47ce-bfcd-f946f8277830")
 	)
+	(text "Can only use either INT1 or CLOCKOUT - not both"
+		(exclude_from_sim no)
+		(at 137.668 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ae36e52-0b24-4f01-a973-f834f2122c78")
+	)
 	(text "Use Internal Pullup"
 		(exclude_from_sim no)
 		(at 201.676 117.348 0)
@@ -4084,6 +4094,16 @@
 			)
 		)
 		(uuid "63644051-4cb6-4e0e-befb-d15807ab8826")
+	)
+	(text "INT needs pullup\nUse INT1 for wakeup during dormant (active low)\nNo need for Clock Out for RP2040 RTC"
+		(exclude_from_sim no)
+		(at 151.13 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "703b75ad-8cc3-488b-beef-dac479dfc1c9")
 	)
 	(text "Double row for probing"
 		(exclude_from_sim no)
@@ -4165,6 +4185,16 @@
 			)
 		)
 		(uuid "97835d0c-e8d3-402a-97e3-ac83347ec38b")
+	)
+	(text "The most low power would be zero power alarm state\non batt backup (DCDC off)\n- use INT1 to enable DCDC "
+		(exclude_from_sim no)
+		(at 118.364 198.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9be9f735-dad1-468a-8413-97179b447f5b")
 	)
 	(text "Use Internal Pullup"
 		(exclude_from_sim no)

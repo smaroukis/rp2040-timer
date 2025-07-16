@@ -3595,6 +3595,12 @@
 		(uuid "60aef957-30d8-46ee-9abd-e33831a33c18")
 	)
 	(junction
+		(at 38.1 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fd8a7d-c45a-45a5-8f6c-facd200801b1")
+	)
+	(junction
 		(at 91.44 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3735,6 +3741,16 @@
 			(type default)
 		)
 		(uuid "08ea29e3-136b-4dd6-8517-e4a4d663a179")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f606b2b-e4b5-4511-bca5-ab193f46563f")
 	)
 	(wire
 		(pts
@@ -4238,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 40.64 106.68)
+			(xy 35.56 106.68) (xy 38.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4305,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "7bc5ae49-d21b-47b2-8880-66abd1dbe866")
+	)
+	(wire
+		(pts
+			(xy 38.1 106.68) (xy 40.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8e7fa9-2462-4d4a-9bcd-29d707dcc729")
 	)
 	(wire
 		(pts
@@ -4465,6 +4491,16 @@
 			(type default)
 		)
 		(uuid "a837a77d-eaa4-4008-b38d-9bd4b9a39b79")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 38.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a915f781-c7b4-4468-ba6d-69ebdef50b2c")
 	)
 	(wire
 		(pts
@@ -4786,6 +4822,16 @@
 		)
 		(uuid "020ac182-4aed-473b-938b-b3c999efea4c")
 	)
+	(label "Vbatt"
+		(at 34.29 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09de4f66-aa1a-4d3b-a0a8-6af4d27ae26e")
+	)
 	(label "Batt+"
 		(at 57.15 87.63 0)
 		(effects
@@ -4815,16 +4861,6 @@
 			(justify right bottom)
 		)
 		(uuid "3782df4e-b474-4976-aa82-3ab2c78ff86a")
-	)
-	(label "Vbatt"
-		(at 35.56 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77f2320f-96f4-462d-a528-abbfe979e0b5")
 	)
 	(label "Vbatt"
 		(at 156.21 36.83 0)
@@ -4867,7 +4903,7 @@
 		)
 		(uuid "056b8031-5dd0-49a8-ad0f-c44dafdf600f")
 	)
-	(hierarchical_label "ADC0_VBUS_In"
+	(hierarchical_label "ADC0_VUSB_In"
 		(shape output)
 		(at 86.36 40.64 0)
 		(effects
@@ -4899,6 +4935,17 @@
 			(justify right)
 		)
 		(uuid "701649b5-8011-4fa4-927e-a2b4bb256752")
+	)
+	(hierarchical_label "Vbatt"
+		(shape output)
+		(at 35.56 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79c530ac-a581-4340-94db-0e0dbe5df86e")
 	)
 	(hierarchical_label "ADC1_VSW_In"
 		(shape output)

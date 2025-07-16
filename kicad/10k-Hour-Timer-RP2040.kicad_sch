@@ -2208,7 +2208,7 @@
 	)
 	(text "TODO - find Yokogawa compatible connectors for USB "
 		(exclude_from_sim no)
-		(at 81.28 39.37 0)
+		(at 60.96 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,6 +2297,26 @@
 	(no_connect
 		(at 73.66 85.09)
 		(uuid "b2bc03a9-8cd5-415e-bd23-de4070174552")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221728d7-fabf-4297-8674-1c17c7b8244d")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf4278f-af9e-4c65-8fc4-39d6401d868c")
 	)
 	(wire
 		(pts
@@ -2547,6 +2567,16 @@
 			(type default)
 		)
 		(uuid "abca5866-d3f8-4a5c-b96a-05cc2b5df7de")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad324c6c-0736-4aeb-8992-bf4f3bde1271")
 	)
 	(wire
 		(pts
@@ -4445,7 +4475,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC0_In" input
+		(pin "ADC0_VUSB_In" input
 			(at 171.45 109.22 0)
 			(uuid "0b32a36c-cb21-48dd-b8c0-8796dfc850c3")
 			(effects
@@ -4455,7 +4485,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC1_In" input
+		(pin "ADC1_VSW_In" input
 			(at 171.45 114.3 0)
 			(uuid "6b073635-3011-49b6-a5fa-706424e44030")
 			(effects
@@ -4463,6 +4493,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Vbatt" input
+			(at 133.35 97.79 180)
+			(uuid "ef4c4395-4bee-4385-97a7-6defc22bcfca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4537,7 +4577,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC1_In" output
+		(pin "ADC1_VSW_In" output
 			(at 172.72 72.39 0)
 			(uuid "61e8241f-4e43-49b8-abff-5f1f6a454f26")
 			(effects
@@ -4547,7 +4587,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC0_In" output
+		(pin "ADC0_VUSB_In" output
 			(at 172.72 67.31 0)
 			(uuid "9db6ad82-4260-45f1-aef9-4c8521c7d1c5")
 			(effects
@@ -4555,6 +4595,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Vbatt" output
+			(at 134.62 72.39 180)
+			(uuid "765c8a18-e567-4346-be0f-08e67fabaa1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

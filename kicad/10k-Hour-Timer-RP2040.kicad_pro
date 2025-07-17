@@ -699,7 +699,7 @@
           "show": false
         }
       ],
-      "filter_string": "y2",
+      "filter_string": "bz1",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

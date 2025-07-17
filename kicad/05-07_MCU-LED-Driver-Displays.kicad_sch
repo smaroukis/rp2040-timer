@@ -853,6 +853,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4605,6 +4766,16 @@
 		)
 		(uuid "db85c1c0-014c-472e-8381-1dd0c218a04b")
 	)
+	(text "Drive with Opposite Phase Square Wave, 4kHz"
+		(exclude_from_sim no)
+		(at 127.508 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1d6dcaa-c07b-4c40-8b21-4bc613de53b2")
+	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 204.216 32.004 0)
@@ -5130,6 +5301,16 @@
 			(type default)
 		)
 		(uuid "16a56ed4-89b0-4457-a0b4-e51d7f7b4eb5")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173c4dbb-dbe0-46b6-9836-d953e8379523")
 	)
 	(wire
 		(pts
@@ -6821,6 +7002,16 @@
 		)
 		(uuid "dfbfd44c-ebc0-4821-bc20-83d402fde0bb")
 	)
+	(wire
+		(pts
+			(xy 123.19 184.15) (xy 124.46 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe68e3d-fec0-4481-9f8d-47f5aa1f6ee0")
+	)
 	(polyline
 		(pts
 			(xy 15.24 17.78) (xy 20.32 17.78)
@@ -6953,6 +7144,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 189.23) (xy 124.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5929e5-a0f3-4670-8ff5-c2195dcf4be7")
+	)
+	(wire
+		(pts
 			(xy 222.25 40.64) (xy 222.25 41.91)
 		)
 		(stroke
@@ -6990,6 +7191,16 @@
 			(type default)
 		)
 		(uuid "ee9df0b8-7cc2-4970-99a2-236cfd16cc60")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed3f300-5e36-4a07-b086-ac9d5a6355ee")
 	)
 	(polyline
 		(pts
@@ -7123,6 +7334,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 184.15) (xy 115.57 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8ab3d7-f62f-4bc0-96bf-cb250a9a529f")
+	)
+	(wire
+		(pts
 			(xy 113.03 102.87) (xy 121.92 102.87)
 		)
 		(stroke
@@ -7190,6 +7411,16 @@
 			(justify right bottom)
 		)
 		(uuid "009e4f25-c64a-4148-a5b1-f4fad507b552")
+	)
+	(label "Buzz_P"
+		(at 182.88 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01cf2dae-3e28-48b3-905d-de54efcf076b")
 	)
 	(label "QSPI_SD0"
 		(at 19.05 63.5 0)
@@ -7290,6 +7521,16 @@
 			(justify left bottom)
 		)
 		(uuid "27457a9a-82fa-4f16-9d59-234624e7bd9f")
+	)
+	(label "Buzz_N"
+		(at 182.88 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a9bb43e-ebed-4c7a-97e7-d82b9478a172")
 	)
 	(label "CLKOUT"
 		(at 67.31 153.67 0)
@@ -7521,6 +7762,16 @@
 		)
 		(uuid "8b09081e-7a3a-4771-9b74-a8691acedf1a")
 	)
+	(label "Buzz_N"
+		(at 111.76 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fe9e38d-fabc-4f6b-9f58-402d439ae1ae")
+	)
 	(label "QSPI_SD1"
 		(at 110.49 82.55 0)
 		(effects
@@ -7700,6 +7951,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9552579-622f-4ff7-915a-67cbd24b4ff7")
+	)
+	(label "Buzz_P"
+		(at 106.68 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f00d5930-fff3-48d6-97f9-cad50e0b744e")
 	)
 	(label "BTN_A_Sense"
 		(at 222.25 82.55 180)
@@ -9318,6 +9579,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Buzzer")
+		(at 127 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e613e56-fee5-4605-9416-13c1545d7c5b")
+		(property "Reference" "BZ1"
+			(at 130.81 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PKMCS0909E4000"
+			(at 130.81 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.365 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.365 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzers Transducer, Externally Driven Piezo 1.5 V 4kHz 65dB @ 1.5V, 10cm Surface Mount Solder Pads"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PKMCS0909E4000-R1"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/murata-electronics/PKMCS0909E4000-R1/4878401?gclsrc=aw.ds&gad_source=1&gad_campaignid=20220851003"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a2d18b4-fe33-4e9f-bd06-703b3b6d5a39")
+		)
+		(pin "1"
+			(uuid "0dd7c116-3e1b-46ae-a812-6ec4872065a9")
+		)
+		(instances
+			(project ""
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/550d9dc0-5a0f-4821-af38-4e76d354dcfd"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 36.83 90)
 		(unit 1)
@@ -10066,6 +10433,73 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/550d9dc0-5a0f-4821-af38-4e76d354dcfd"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5283d704-26db-4f5f-bc0c-17cd7c59d001")
+		(property "Reference" "R38"
+			(at 118.872 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 119.126 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 182.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1afc19-e8fe-4c57-ac90-048be24f80ed")
+		)
+		(pin "2"
+			(uuid "4a4b45bd-6546-4bc1-a5a9-0d66ed0d7be3")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/550d9dc0-5a0f-4821-af38-4e76d354dcfd"
+					(reference "R38")
 					(unit 1)
 				)
 			)

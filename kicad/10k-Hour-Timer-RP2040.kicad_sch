@@ -3085,6 +3085,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "(Embedded)"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "813e8798-09c1-45fc-8475-392dceea4aba")
 		)
@@ -3457,6 +3466,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "(Embedded)"
+			(at 131.5369 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95b7aff9-bc6f-4190-bd31-86fe47ddb0c5")
 		)
@@ -3533,6 +3551,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "(Embedded)"
+			(at 58.42 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88bf4898-02af-4190-8715-82d220fd2ae9")
 		)
@@ -3601,6 +3628,15 @@
 			)
 		)
 		(property "Subsystem" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Embedded)"
 			(at 90.17 57.15 0)
 			(effects
 				(font

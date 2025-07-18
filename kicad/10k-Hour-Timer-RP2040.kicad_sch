@@ -2927,6 +2927,15 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "90abece3-9fe9-44cd-bf49-c3387d56f599")
 		)
@@ -3040,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -3059,6 +3068,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -3128,6 +3146,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
 			(at 109.22 60.96 0)
 			(effects
 				(font
@@ -3306,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.55 64.008 90)
 			(effects
 				(font
@@ -3342,6 +3369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 82.55 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d82963e2-8e1f-4331-b6de-4ba626d27cd5")
 		)
@@ -3366,7 +3402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe25514-08d7-4cb6-b685-8e04cb3b0092")
-		(property "Reference" "TP13"
+		(property "Reference" "TP3"
 			(at 129.7589 52.07 0)
 			(effects
 				(font
@@ -3385,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 136.6169 57.15 0)
 			(effects
 				(font
@@ -3412,13 +3448,22 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 131.5369 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95b7aff9-bc6f-4190-bd31-86fe47ddb0c5")
 		)
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
-					(reference "TP13")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3433,7 +3478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "562f22e3-28be-41f1-82c8-311c2922d48d")
-		(property "Reference" "TP12"
+		(property "Reference" "TP1"
 			(at 62.738 95.504 90)
 			(effects
 				(font
@@ -3452,7 +3497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 58.42 100.33 0)
 			(effects
 				(font
@@ -3479,13 +3524,22 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 58.42 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88bf4898-02af-4190-8715-82d220fd2ae9")
 		)
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
-					(reference "TP12")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3500,7 +3554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59c7fb5e-4017-451e-9e9e-dd62195b87e0")
-		(property "Reference" "TP11"
+		(property "Reference" "TP2"
 			(at 88.392 52.07 0)
 			(effects
 				(font
@@ -3519,7 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 95.25 57.15 0)
 			(effects
 				(font
@@ -3546,13 +3600,22 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c772dc61-9a83-4792-b61a-0d4bce6464e1")
 		)
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
-					(reference "TP11")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3648,6 +3711,15 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/murata-electronics/BLM18SP221SN1D/12759416"
+			(at 119.38 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
 			(at 119.38 57.15 90)
 			(effects
 				(font
@@ -3843,6 +3915,15 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A9"
 			(uuid "f0223dbd-b4b9-480a-8705-94d6326c266e")
 		)
@@ -3928,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.55 66.548 90)
 			(effects
 				(font
@@ -3956,6 +4037,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 82.55 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
 			(at 82.55 64.77 90)
 			(effects
 				(font
@@ -4155,6 +4245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfda7e9e-8372-4f4e-8179-4f46f9e9044b")
 		)
@@ -4228,6 +4327,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
 			(at 125.73 60.96 0)
 			(effects
 				(font

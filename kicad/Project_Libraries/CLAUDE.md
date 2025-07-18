@@ -46,6 +46,10 @@ JST Connector:
 - Footprint: `/usr/share/kicad/footprints/Connector_JST.pretty/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.kicad_mod`
 - Symbol: Found in `/usr/share/kicad/symbols/Connector_Generic_MountingPin.kicad_sym`
 
+TestPoint Components:
+- Footprint Library: `/usr/share/kicad/footprints/TestPoint.pretty/`
+- Contains various test point footprints including loops, pads, and through-hole types
+
 ## Importing Downloaded Components
 
 ### Manual Import Process (for individual files)

@@ -29095,6 +29095,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RP2040 WOD Timer Eval Board"
+		(at 37 152.25 0)
+		(layer "F.SilkS")
+		(uuid "9f633c6c-6506-455d-9c43-ce5e21940aeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DCDC"
 		(at 105.5 23.75 0)
 		(layer "F.SilkS")

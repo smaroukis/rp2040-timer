@@ -201,4 +201,15 @@
 		(uuid "ba0f52aa-2250-46df-9ef9-bd866eac7534")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project_Libraries/3dmodels/ABM8-272-T3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

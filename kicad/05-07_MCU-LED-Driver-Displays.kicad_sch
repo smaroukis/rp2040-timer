@@ -4517,7 +4517,7 @@
 	)
 	(text "Route D+/D- as 90Ohm diff pair, < 100mil skew"
 		(exclude_from_sim no)
-		(at 93.218 27.432 0)
+		(at 95.25 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4547,7 @@
 	)
 	(text "XTAL"
 		(exclude_from_sim no)
-		(at 17.018 89.916 0)
+		(at 18.034 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4555,25 +4555,15 @@
 		)
 		(uuid "4838b267-a241-421e-88d7-94c39593942c")
 	)
-	(text "see omron B3U PBs"
+	(text "TODO/v2 change to omron B3U PBs"
 		(exclude_from_sim no)
-		(at 59.436 31.75 0)
+		(at 49.784 20.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "4e335c88-672a-4ab3-acd4-e2668a9e078f")
-	)
-	(text "see omron B3U PBs"
-		(exclude_from_sim no)
-		(at 87.122 52.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "53b698ea-e363-498f-8301-4700a3b7b572")
 	)
 	(text "XTAL CL=10pF\nAssume Cstray=2.5pF\nXTAL sees caps in series: <-15-15-> = 7.5pF"
 		(exclude_from_sim no)
@@ -4605,6 +4595,16 @@
 		)
 		(uuid "67e5ebfe-48ad-4557-8971-c571c3648ac3")
 	)
+	(text "BOM Note: LCSC has lower per unit, higher fixed price"
+		(exclude_from_sim no)
+		(at 72.898 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "742a5f62-db68-4e18-ab13-b49689270264")
+	)
 	(text "Double row for probing"
 		(exclude_from_sim no)
 		(at 76.2 186.944 0)
@@ -4617,7 +4617,7 @@
 	)
 	(text "When in SHUTDOWN: hold USER_B_PWR to power up\nRunning Mode: \n- USER_B_PWR can be used as normal User Button\n- USER_B_PWR long press for SHUTDOWN"
 		(exclude_from_sim no)
-		(at 227.33 155.194 0)
+		(at 227.33 156.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,7 +4688,7 @@
 	)
 	(text "Add 27Ohm series termination \nresistor close to RP2040,\n matches intneral USB driver to \n45 Ohm impedance (90Ohm differential)"
 		(exclude_from_sim no)
-		(at 93.726 19.304 0)
+		(at 95.758 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4716,9 +4716,19 @@
 		)
 		(uuid "a21910ef-9fef-43e8-890c-090dbe88ebdf")
 	)
+	(text "Place 100Ω Rs close to pins"
+		(exclude_from_sim no)
+		(at 90.424 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a41e0511-f3aa-4fb9-bbe6-556753008ec6")
+	)
 	(text "DCDC Converter Enable"
 		(exclude_from_sim no)
-		(at 223.774 100.33 0)
+		(at 223.774 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,13 +4861,13 @@
 		(uuid "147b3900-ceb0-42fa-9e0b-360546ce513c")
 	)
 	(junction
-		(at 241.3 143.51)
+		(at 241.3 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "185b725c-3942-40ec-a8e7-4d70a6d25f24")
 	)
 	(junction
-		(at 234.95 133.35)
+		(at 234.95 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1969f99d-c81f-47c5-8324-4c235a26690d")
@@ -4917,7 +4927,7 @@
 		(uuid "437353a3-0460-4f9a-8272-1789ad81499b")
 	)
 	(junction
-		(at 246.38 125.73)
+		(at 246.38 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "563d1b8a-1c1f-4930-aa81-42750315c1ef")
@@ -4929,7 +4939,7 @@
 		(uuid "59128601-68da-40d4-99c8-c38547da5411")
 	)
 	(junction
-		(at 237.49 118.11)
+		(at 237.49 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59a6aac3-41e4-4c46-a74b-594d50b5eee1")
@@ -5043,7 +5053,7 @@
 		(uuid "a756ea5c-ba6b-4816-b83d-a3d0d207e4f4")
 	)
 	(junction
-		(at 261.62 113.03)
+		(at 261.62 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa8dd669-8768-4e76-9faa-479301afca86")
@@ -5085,7 +5095,7 @@
 		(uuid "e81e3d96-0e42-41a1-8cdd-8f8c8c8fee77")
 	)
 	(junction
-		(at 250.19 113.03)
+		(at 250.19 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef701859-60ba-4d19-b703-8e567e0ea0e5")
@@ -5114,7 +5124,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 104.14) (xy 212.09 162.56)
+			(xy 212.09 105.41) (xy 212.09 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 133.35) (xy 238.76 133.35)
+			(xy 234.95 134.62) (xy 238.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 107.95) (xy 229.87 113.03)
+			(xy 229.87 109.22) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 261.62 113.03)
+			(xy 260.35 114.3) (xy 261.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 113.03) (xy 265.43 113.03)
+			(xy 261.62 114.3) (xy 265.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5244,7 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 118.11) (xy 237.49 118.11)
+			(xy 265.43 119.38) (xy 237.49 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5344,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 113.03) (xy 250.19 113.03)
+			(xy 246.38 114.3) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 113.03) (xy 252.73 113.03)
+			(xy 250.19 114.3) (xy 252.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5764,7 +5774,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 143.51) (xy 246.38 143.51)
+			(xy 241.3 144.78) (xy 246.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6194,7 +6204,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 113.03) (xy 236.22 113.03)
+			(xy 229.87 114.3) (xy 236.22 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6244,7 +6254,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 125.73) (xy 246.38 125.73)
+			(xy 229.87 127) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -6274,7 +6284,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 101.6) (xy 212.09 101.6)
+			(xy 281.94 102.87) (xy 212.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6344,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 133.35) (xy 234.95 134.62)
+			(xy 234.95 134.62) (xy 234.95 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6464,7 +6474,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 101.6) (xy 212.09 104.14)
+			(xy 212.09 102.87) (xy 212.09 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6474,7 +6484,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 162.56) (xy 281.94 101.6)
+			(xy 281.94 163.83) (xy 281.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6534,7 +6544,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 107.95) (xy 261.62 107.95)
+			(xy 265.43 109.22) (xy 261.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6644,7 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 143.51) (xy 234.95 142.24)
+			(xy 234.95 144.78) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6704,7 +6714,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 107.95) (xy 261.62 113.03)
+			(xy 261.62 109.22) (xy 261.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6814,7 +6824,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 143.51) (xy 234.95 143.51)
+			(xy 241.3 144.78) (xy 234.95 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6904,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 118.11) (xy 228.6 118.11)
+			(xy 237.49 119.38) (xy 228.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6994,7 +7004,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 246.38 125.73)
+			(xy 246.38 129.54) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -7024,7 +7034,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 143.51) (xy 246.38 138.43)
+			(xy 246.38 144.78) (xy 246.38 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7244,7 +7254,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 162.56) (xy 281.94 162.56)
+			(xy 212.09 163.83) (xy 281.94 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7304,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 133.35) (xy 234.95 133.35)
+			(xy 231.14 134.62) (xy 234.95 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7503,7 +7513,7 @@
 		(uuid "0e42600f-fb2a-4c49-9915-cd489ce3b577")
 	)
 	(label "BTN_B_Sense"
-		(at 229.87 125.73 180)
+		(at 229.87 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7633,7 +7643,7 @@
 		(uuid "584d31c8-7282-438f-8a09-c072d709a1b5")
 	)
 	(label "IO_Gate"
-		(at 231.14 133.35 180)
+		(at 231.14 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7663,7 +7673,7 @@
 		(uuid "5975b506-d1c1-448f-91a9-c62d90242ab4")
 	)
 	(label "IO_Gate"
-		(at 265.43 107.95 0)
+		(at 265.43 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7943,7 +7953,7 @@
 		(uuid "c23131be-5eb4-4afb-a669-373004211d5a")
 	)
 	(label "DCDC_EN"
-		(at 228.6 118.11 180)
+		(at 228.6 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8035,7 +8045,7 @@
 	)
 	(hierarchical_label "BTN_PWR"
 		(shape output)
-		(at 265.43 113.03 0)
+		(at 265.43 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8123,7 +8133,7 @@
 	)
 	(hierarchical_label "PWR_CTL"
 		(shape output)
-		(at 265.43 118.11 0)
+		(at 265.43 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8196,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "LCSC"
+		(property "Supplier 1" "Digikey"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -8205,7 +8215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 SKU" "C113767"
+		(property "Supplier 1 SKU" ""
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -8214,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 URL" "https://lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C113767.html?s_z=n_W25Q128JVS%2520"
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -8223,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "SOIC-8"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -8232,7 +8242,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "LCSC"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 SKU" "C113767"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 URL" "https://lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-W25Q128JVSIQ_C113767.html?s_z=n_W25Q128JVS%2520"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q128JVSIQ"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -8636,7 +8682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.7652 26.67 0)
 			(effects
 				(font
@@ -8663,7 +8709,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 177.8 22.86 0)
 			(effects
 				(font
@@ -9451,7 +9533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.6652 26.67 0)
 			(effects
 				(font
@@ -9478,7 +9560,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 139.7 22.86 0)
 			(effects
 				(font
@@ -9594,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 33.02 98.0948 0)
 			(effects
 				(font
@@ -9621,7 +9739,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 29.21 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 29.21 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 29.21 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 29.21 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 29.21 99.06 90)
 			(effects
 				(font
@@ -9968,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 158.75 36.83 90)
 			(effects
 				(font
@@ -9978,6 +10132,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 158.75 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 158.75 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 158.75 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 158.75 36.83 90)
 			(effects
 				(font
@@ -10118,7 +10299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 55.88 111.76 90)
 			(effects
 				(font
@@ -10128,6 +10309,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 55.88 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 55.88 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 55.88 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 55.88 111.76 90)
 			(effects
 				(font
@@ -10278,7 +10486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.1952 26.67 0)
 			(effects
 				(font
@@ -10305,7 +10513,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 189.23 22.86 0)
 			(effects
 				(font
@@ -10949,7 +11193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 109.22 52.07 0)
 			(effects
 				(font
@@ -10959,6 +11203,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 109.22 52.07 0)
 			(effects
 				(font
@@ -11008,7 +11279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -11035,7 +11306,34 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -11111,7 +11409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 116.84 123.19 90)
 			(effects
 				(font
@@ -11121,6 +11419,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 116.84 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 116.84 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 116.84 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 116.84 123.19 90)
 			(effects
 				(font
@@ -11261,7 +11586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 36.83 34.29 90)
 			(effects
 				(font
@@ -11271,6 +11596,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 36.83 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 36.83 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 36.83 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 36.83 34.29 90)
 			(effects
 				(font
@@ -11596,7 +11948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.5052 26.67 0)
 			(effects
 				(font
@@ -11623,7 +11975,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 129.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 129.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 129.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 129.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 129.54 22.86 0)
 			(effects
 				(font
@@ -11674,7 +12062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.3352 26.67 0)
 			(effects
 				(font
@@ -11701,7 +12089,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 166.37 22.86 0)
 			(effects
 				(font
@@ -11727,7 +12151,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 241.3 113.03 0)
+		(at 241.3 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11736,7 +12160,7 @@
 		(fields_autoplaced yes)
 		(uuid "681bdaf1-11e9-4953-9ca2-351e7e7b6caa")
 		(property "Reference" "SW4"
-			(at 241.3 105.41 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,15 +12168,15 @@
 			)
 		)
 		(property "Value" "USER_B_PWR"
-			(at 241.3 107.95 0)
+			(at 241.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 241.3 107.95 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 241.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +12185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 107.95 0)
+			(at 241.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +12194,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 241.3 113.03 0)
+			(at 241.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +12203,34 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 241.3 113.03 0)
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 241.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11891,7 +12342,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 243.84 133.35 0)
+		(at 243.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11899,7 +12350,7 @@
 		(dnp no)
 		(uuid "6d0d3270-1a58-4523-89f5-441bc8a49b9d")
 		(property "Reference" "Q5"
-			(at 252.984 134.62 0)
+			(at 252.984 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +12358,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 253.238 132.08 0)
+			(at 253.238 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +12366,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 248.92 135.255 0)
+			(at 248.92 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +12377,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 248.92 137.16 0)
+			(at 248.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,7 +12387,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 243.84 133.35 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11945,7 +12396,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 243.84 133.35 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +12449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 150.8252 26.67 0)
 			(effects
 				(font
@@ -12025,7 +12476,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 149.86 22.86 0)
 			(effects
 				(font
@@ -12044,6 +12531,128 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/550d9dc0-5a0f-4821-af38-4e76d354dcfd"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 13.97 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "73758df5-57a0-4f99-bb05-fe0b3f411d30")
+		(property "Reference" "SW5"
+			(at 13.97 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3U-1100PM"
+			(at 13.97 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P"
+			(at 13.97 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1100PM"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "omron"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 4mmx2.5mm"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/omron-electronics-inc-emc-div/B3U-1100PM/3908607?gclsrc=aw.ds&gad_source=1&gad_campaignid=20220851003"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f889522-cd22-42db-9c53-4934734a21ec")
+		)
+		(pin "2"
+			(uuid "79c541d9-2c52-410e-936c-7fbce2f7e90b")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/550d9dc0-5a0f-4821-af38-4e76d354dcfd"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -12298,7 +12907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 41.91 104.14 90)
 			(effects
 				(font
@@ -12884,7 +13493,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 143.51 0)
+		(at 241.3 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12892,7 +13501,7 @@
 		(dnp no)
 		(uuid "923c0d2c-b635-4fab-a4f0-db8ad30ed1f4")
 		(property "Reference" "#PWR062"
-			(at 241.3 149.86 0)
+			(at 241.3 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +13510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 147.574 0)
+			(at 241.3 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +13518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 143.51 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +13527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 143.51 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +13536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 143.51 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,7 +13623,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 229.87 107.95 90)
+		(at 229.87 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13023,7 +13632,7 @@
 		(fields_autoplaced yes)
 		(uuid "9600833a-ab2d-4e38-aa28-f3ed36df8c22")
 		(property "Reference" "#PWR060"
-			(at 233.68 107.95 0)
+			(at 233.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13032,7 +13641,7 @@
 			)
 		)
 		(property "Value" "Vbatt_Vbus"
-			(at 226.06 107.9499 90)
+			(at 226.06 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 107.95 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +13659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 107.95 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 107.95 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "QFN-56-1EP"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -13179,7 +13788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -13370,7 +13979,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 237.49 118.11 180)
+		(at 237.49 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13378,7 +13987,7 @@
 		(dnp no)
 		(uuid "9c4d86fa-cd81-47ed-8f69-f60ebfef423b")
 		(property "Reference" "TP19"
-			(at 239.776 123.19 0)
+			(at 239.776 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13996,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 234.95 120.1421 0)
+			(at 234.95 121.4121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13397,7 +14006,7 @@
 			)
 		)
 		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 232.41 118.11 0)
+			(at 232.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +14015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 118.11 0)
+			(at 232.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +14024,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 118.11 0)
+			(at 237.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +14033,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 237.49 118.11 0)
+			(at 237.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +14042,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 237.49 118.11 0)
+			(at 237.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13455,7 +14064,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 246.38 125.73 270)
+		(at 246.38 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13463,7 +14072,7 @@
 		(dnp no)
 		(uuid "9e9687a3-13de-4e33-9ed0-ff7ba79de86c")
 		(property "Reference" "TP21"
-			(at 251.46 123.444 0)
+			(at 251.46 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +14081,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 248.4121 128.27 0)
+			(at 248.4121 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,7 +14091,7 @@
 			)
 		)
 		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 246.38 130.81 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +14100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 130.81 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +14109,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 246.38 125.73 0)
+			(at 246.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +14118,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 246.38 125.73 0)
+			(at 246.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,7 +14127,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 246.38 125.73 0)
+			(at 246.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +14390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 54.3052 54.61 0)
 			(effects
 				(font
@@ -13808,7 +14417,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -13834,7 +14479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 113.03 90)
+		(at 256.54 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13843,7 +14488,7 @@
 		(fields_autoplaced yes)
 		(uuid "aed50b7b-e398-42a0-9d4f-36261bbaaa77")
 		(property "Reference" "R37"
-			(at 256.54 106.68 90)
+			(at 256.54 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,7 +14496,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 256.54 109.22 90)
+			(at 256.54 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13859,7 +14504,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 256.54 114.808 90)
+			(at 256.54 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,7 +14513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 113.03 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13877,7 +14522,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 113.03 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13886,7 +14531,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 256.54 113.03 90)
+			(at 256.54 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13895,7 +14540,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 256.54 113.03 90)
+			(at 256.54 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 27.94 29.21 0)
 			(effects
 				(font
@@ -14045,6 +14690,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 27.94 29.21 0)
 			(effects
 				(font
@@ -14250,7 +14922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 163.5252 46.99 0)
 			(effects
 				(font
@@ -14277,7 +14949,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -14670,7 +15378,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 113.03 0)
+		(at 250.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14678,7 +15386,7 @@
 		(dnp no)
 		(uuid "c9b7a74a-17c8-46af-8459-2c05af6fd6ab")
 		(property "Reference" "TP22"
-			(at 247.904 107.95 0)
+			(at 247.904 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14687,7 +15395,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 252.73 110.9979 0)
+			(at 252.73 112.2679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +15405,7 @@
 			)
 		)
 		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 255.27 113.03 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14706,7 +15414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 113.03 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14715,7 +15423,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 113.03 0)
+			(at 250.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14724,7 +15432,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 250.19 113.03 0)
+			(at 250.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14733,7 +15441,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 250.19 113.03 0)
+			(at 250.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14885,7 +15593,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 138.43 180)
+		(at 234.95 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14893,7 +15601,7 @@
 		(dnp no)
 		(uuid "d1a46923-4829-45aa-bcc6-3a08fd43bfbe")
 		(property "Reference" "R35"
-			(at 229.362 137.16 0)
+			(at 229.362 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +15610,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 229.362 139.7 0)
+			(at 229.362 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +15619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 236.728 138.43 90)
+			(at 236.728 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +15628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 138.43 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,7 +15637,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 138.43 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +15646,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 234.95 138.43 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +15655,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 234.95 138.43 0)
+			(at 234.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +16069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 33.02 110.7948 0)
 			(effects
 				(font
@@ -15388,7 +16096,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 29.21 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 29.21 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 29.21 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 29.21 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 29.21 111.76 90)
 			(effects
 				(font
@@ -15694,7 +16438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 54.61 0)
 			(effects
 				(font
@@ -15721,7 +16465,43 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -16010,7 +16790,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 133.35 0)
+		(at 234.95 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16018,7 +16798,7 @@
 		(dnp no)
 		(uuid "eeff0804-e818-4782-a0e7-ec2b461182fd")
 		(property "Reference" "TP18"
-			(at 232.664 128.27 0)
+			(at 232.664 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16027,7 +16807,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.49 131.3179 0)
+			(at 237.49 132.5879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16037,7 +16817,7 @@
 			)
 		)
 		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 240.03 133.35 0)
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16046,7 +16826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 133.35 0)
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,7 +16835,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 234.95 133.35 0)
+			(at 234.95 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16064,7 +16844,7 @@
 			)
 		)
 		(property "Subsystem" ""
-			(at 234.95 133.35 0)
+			(at 234.95 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,7 +16853,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 234.95 133.35 0)
+			(at 234.95 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16189,7 +16969,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f431fa57-7051-4ced-82d4-e672105f8aae")
 		(property "Reference" "J7"
 			(at 199.39 132.0799 0)
@@ -16207,6 +16986,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -16354,7 +17134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 240.03 77.47 0)
 			(effects
 				(font
@@ -16382,6 +17162,33 @@
 			)
 		)
 		(property "Subsystem" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -16542,7 +17349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
 			(at 116.84 125.73 90)
 			(effects
 				(font
@@ -16552,6 +17359,33 @@
 			)
 		)
 		(property "MPN" "(Generic)"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 116.84 125.73 90)
 			(effects
 				(font
@@ -16688,7 +17522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 48.26 29.21 0)
 			(effects
 				(font
@@ -16715,7 +17549,52 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "05-MCU-XTAL-FLASH"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" ""
 			(at 48.26 34.29 0)
 			(effects
 				(font

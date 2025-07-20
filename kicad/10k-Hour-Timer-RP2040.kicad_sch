@@ -3387,6 +3387,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 82.55 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d82963e2-8e1f-4331-b6de-4ba626d27cd5")
 		)
@@ -4082,6 +4091,15 @@
 			)
 		)
 		(property "Subsystem" ""
+			(at 82.55 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
 			(at 82.55 64.77 90)
 			(effects
 				(font

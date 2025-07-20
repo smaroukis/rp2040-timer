@@ -709,14 +709,26 @@
           "label": "Notes",
           "name": "Notes",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 URL",
+          "name": "Supplier 2 URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2",
+          "name": "Supplier 2",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "Q",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Supplier 1"
     },
     "connection_grid_size": 50.0,
     "drawing": {

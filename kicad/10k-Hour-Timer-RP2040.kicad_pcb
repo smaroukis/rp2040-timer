@@ -161,45 +161,46 @@
 	(net 81 "Net-(D7-Pad2)")
 	(net 82 "Net-(U2-PROG)")
 	(net 83 "Net-(D8-K)")
-	(net 84 "Net-(U3-BAT)")
-	(net 85 "Net-(U3-V-)")
-	(net 86 "Net-(D8-A)")
-	(net 87 "Net-(U6-VDD)")
-	(net 88 "Net-(C11-Pad2)")
-	(net 89 "Net-(U7-USB_DM)")
-	(net 90 "Net-(U7-USB_DP)")
-	(net 91 "Net-(U7-SWCLK)")
-	(net 92 "Net-(U7-SWD)")
-	(net 93 "Net-(U7-ADC_AVDD)")
-	(net 94 "Net-(D9-A)")
-	(net 95 "unconnected-(U3-NC-Pad1)")
-	(net 96 "Net-(U6-OSCI)")
-	(net 97 "Net-(U6-OSCO)")
-	(net 98 "unconnected-(U7-GPIO10-Pad13)")
-	(net 99 "unconnected-(U7-TESTEN-Pad19)")
-	(net 100 "unconnected-(U7-GPIO21-Pad32)")
-	(net 101 "unconnected-(U7-GPIO5-Pad7)")
-	(net 102 "unconnected-(U7-GPIO2-Pad4)")
-	(net 103 "unconnected-(U7-GPIO6-Pad8)")
-	(net 104 "unconnected-(U7-GPIO18-Pad29)")
-	(net 105 "unconnected-(U7-GPIO17-Pad28)")
-	(net 106 "unconnected-(U7-GPIO14-Pad17)")
-	(net 107 "unconnected-(U7-GPIO4-Pad6)")
-	(net 108 "unconnected-(U7-GPIO3-Pad5)")
-	(net 109 "unconnected-(U7-GPIO9-Pad12)")
-	(net 110 "unconnected-(U7-GPIO22-Pad34)")
-	(net 111 "/01-04-Power-DCDC-Charger-Battery/STAT")
-	(net 112 "Net-(JP10-B)")
-	(net 113 "Net-(JP18-A)")
-	(net 114 "Net-(R22-Pad1)")
-	(net 115 "Net-(R37-Pad1)")
+	(net 84 "Net-(U3-V-)")
+	(net 85 "Net-(D8-A)")
+	(net 86 "Net-(U6-VDD)")
+	(net 87 "Net-(C11-Pad2)")
+	(net 88 "Net-(U7-USB_DM)")
+	(net 89 "Net-(U7-USB_DP)")
+	(net 90 "Net-(U7-SWCLK)")
+	(net 91 "Net-(U7-SWD)")
+	(net 92 "Net-(U7-ADC_AVDD)")
+	(net 93 "Net-(D9-A)")
+	(net 94 "unconnected-(U3-NC-Pad1)")
+	(net 95 "Net-(U6-OSCI)")
+	(net 96 "Net-(U6-OSCO)")
+	(net 97 "unconnected-(U7-GPIO10-Pad13)")
+	(net 98 "unconnected-(U7-TESTEN-Pad19)")
+	(net 99 "unconnected-(U7-GPIO21-Pad32)")
+	(net 100 "unconnected-(U7-GPIO5-Pad7)")
+	(net 101 "unconnected-(U7-GPIO2-Pad4)")
+	(net 102 "unconnected-(U7-GPIO6-Pad8)")
+	(net 103 "unconnected-(U7-GPIO18-Pad29)")
+	(net 104 "unconnected-(U7-GPIO17-Pad28)")
+	(net 105 "unconnected-(U7-GPIO14-Pad17)")
+	(net 106 "unconnected-(U7-GPIO4-Pad6)")
+	(net 107 "unconnected-(U7-GPIO3-Pad5)")
+	(net 108 "unconnected-(U7-GPIO9-Pad12)")
+	(net 109 "unconnected-(U7-GPIO22-Pad34)")
+	(net 110 "/01-04-Power-DCDC-Charger-Battery/STAT")
+	(net 111 "Net-(JP10-B)")
+	(net 112 "Net-(R22-Pad1)")
+	(net 113 "Net-(R37-Pad1)")
+	(net 114 "Net-(JP10-A)")
+	(net 115 "Net-(JP11-A)")
+	(net 116 "Net-(JP20-A)")
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "03f7336e-6b09-47dd-b9d9-9646a8a56db6")
 		(at 120.75 29)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP15"
+		(property "Reference" "TP16"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "886989dc-c225-4f64-944a-6dd9a5e6c88c")
@@ -417,6 +418,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d30ef25a-2d7c-4996-b617-6a15ef5e3c2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43783124-3499-4eaf-b1db-89d0f8cd620b")
 			(effects
 				(font
 					(size 1 1)
@@ -843,7 +857,7 @@
 			(at -0.875 -1.15)
 			(size 1.05 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 97 "Net-(U6-OSCO)")
+			(net 96 "Net-(U6-OSCO)")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -853,7 +867,7 @@
 			(at -0.875 1.15)
 			(size 1.05 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 96 "Net-(U6-OSCI)")
+			(net 95 "Net-(U6-OSCI)")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -889,7 +903,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0e5a3483-4f2a-438f-add8-18611be37a18")
-		(at 246.25 71.3)
+		(at 225.25 35.65)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -938,12 +952,51 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91f91445-39e9-4df7-9dfd-7536292dc14b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ed3a315-d46f-4826-ad67-88692db1ff66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37916967-a124-4234-be19-f7c505e99c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3aaa63f-4a5b-480b-bc01-bdceb70bcdc7")
 			(effects
 				(font
 					(size 1 1)
@@ -1081,7 +1134,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 85 "Net-(U3-V-)")
+			(net 84 "Net-(U3-V-)")
 			(pintype "passive")
 			(uuid "62b90614-07cf-4c26-b867-c2861a9360f9")
 		)
@@ -1101,10 +1154,10 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "0e63a96c-377c-45a8-9f88-e72042ed6df7")
-		(at 234.5 106)
+		(at 218.5 43.95)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "a2730335-ff8c-4bfb-9c78-cabb28546137")
@@ -1115,7 +1168,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Q23_D"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "6500465b-ebfc-4f9e-8087-0f69e4b8dc69")
@@ -1152,7 +1205,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1498,7 +1551,7 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "14ae5935-63ea-42f3-9bbc-647d223c5361")
-		(at 259.5 108.85)
+		(at 213 43.2)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP8"
@@ -1512,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "BAT+"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "f46ea0fd-4f33-4845-b996-5600190537f5")
@@ -1549,7 +1602,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2417,7 +2470,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1d33d65c-4f54-439c-9cae-17a739d6fc22")
-		(at 246.25 77.2)
+		(at 225.25 41.55)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -2466,12 +2519,51 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "032f0633-0782-4b26-8c7c-5b534c44de4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c12100f2-6f4c-497d-87d5-9d06a37a00fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9d5301f-0f03-4bbf-b84c-b79b1ec9980a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58b981ab-390e-40f8-a82d-ad9b8b6388bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2782,10 +2874,10 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "23d05a09-d0cc-48a6-9ff8-5891d7763f5e")
-		(at 243.55 92.9)
+		(at 212.75 29.95)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "001c4101-ad1d-4b56-b6ce-291b56091cb5")
@@ -2796,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "CHG"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "4a38cc95-427f-4ace-b368-cb1d46ad6349")
@@ -3318,7 +3410,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 111 "/01-04-Power-DCDC-Charger-Battery/STAT")
+			(net 110 "/01-04-Power-DCDC-Charger-Battery/STAT")
 			(pinfunction "STAT")
 			(pintype "tri_state")
 			(uuid "4c10b55e-86bd-4ce3-ad6b-ce5a231839c7")
@@ -3886,7 +3978,7 @@
 		(at 259.5 97.55)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP20"
+		(property "Reference" "TP21"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "d83db72c-123e-47d3-a0fb-995627223666")
@@ -4039,7 +4131,7 @@
 		(at 256.65 122)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP16"
+		(property "Reference" "JP18"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "e3f53a1e-c437-4237-8f49-45ae67948c1b")
@@ -4347,7 +4439,7 @@
 		(at 256.65 125.55)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "JP17"
+		(property "Reference" "JP19"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "06ea0200-c646-4390-8aa6-69de01b848c7")
@@ -5216,7 +5308,7 @@
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 94 "Net-(D9-A)")
+			(net 93 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3f11ab0f-24a6-4a6e-890d-685b8ecdde18")
@@ -5390,10 +5482,10 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "35dfeb14-67e3-49a4-8d06-378d6b39b8a2")
-		(at 250.2 92.9)
+		(at 218.75 30.2)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP14"
+		(property "Reference" "TP15"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "ba3be18c-f972-4fe3-ad67-b5d1ce94f668")
@@ -5404,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "BAT-"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "f9f2ca36-65b4-4a00-a2c7-784a2486c3d8")
@@ -5441,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6315,7 +6407,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net 111 "/01-04-Power-DCDC-Charger-Battery/STAT")
+			(net 110 "/01-04-Power-DCDC-Charger-Battery/STAT")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -6835,6 +6927,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9befbcd-2cdc-4249-aa98-2a7872e5b037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/302cc60c-983b-4e05-86ff-f4ddd728a0ac")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -6965,7 +7070,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 89 "Net-(U7-USB_DM)")
+			(net 88 "Net-(U7-USB_DM)")
 			(pintype "passive")
 			(uuid "e3fd31ec-fd9c-4208-bbfd-a530b3f1dfdf")
 		)
@@ -7040,6 +7145,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ece1bc5f-5bd5-47d0-9628-ab2afa350b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a3f67a-2458-4a0e-b599-614464502505")
 			(effects
 				(font
 					(size 1 1)
@@ -7177,7 +7295,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 91 "Net-(U7-SWCLK)")
+			(net 90 "Net-(U7-SWCLK)")
 			(pintype "passive")
 			(uuid "96e67f43-5f1e-4579-9856-9379d22189bc")
 		)
@@ -7252,6 +7370,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e9b48a3-4d91-4e39-8c37-f578ba1e0705")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a9cc9aa-ff85-46e7-b514-048b048cfe56")
 			(effects
 				(font
 					(size 1 1)
@@ -7796,6 +7927,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72e6275f-60d9-455f-8fb5-8dced9386781")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/043f1e97-2a2b-4385-b1f1-dbb23b713627")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -7926,7 +8070,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 94 "Net-(D9-A)")
+			(net 93 "Net-(D9-A)")
 			(pintype "passive")
 			(uuid "2ae6b880-e7e7-47c2-b17d-7c996c48b05c")
 		)
@@ -8316,7 +8460,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 112 "Net-(JP10-B)")
+			(net 115 "Net-(JP11-A)")
 			(pinfunction "EN")
 			(pintype "input")
 			(uuid "99949588-e8b8-46bc-aec6-8685b5807e18")
@@ -8380,7 +8524,7 @@
 		(at 259.5 92.9)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP19"
+		(property "Reference" "TP20"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "84278c0a-fc3e-4cd5-9743-a2188cc0d165")
@@ -8835,6 +8979,270 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "5212bd47-0dfb-43c2-803e-7535ba841f7d")
+		(at 206.73 42.68)
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C5"
+			(at 0 -1.68 0)
+			(layer "F.SilkS")
+			(uuid "107a2b40-725b-4f0a-b0f3-3058cbe5e0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 0 1.68 0)
+			(layer "F.Fab")
+			(uuid "ed45efa7-27b1-46dc-bcac-fe692f6c8307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3914dae1-5247-4983-91c8-a1ac04bbe1f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b32785-cca9-4277-8496-1b59ed69c5c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Subsystem" "04-Batt-Prot"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f5d07b-810e-4cde-bfea-c544d4a2cabc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5486adb-51bb-4b4e-aa8c-6bb77084811d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e58a708-40c5-4491-af5a-0788b75a02e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2414935-8b21-48d3-99d1-9d5217f0ca2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a00a040-9ecc-4fb9-b5ae-159a17336fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/1910ffa2-5fed-4844-8143-cd168052a030")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b368814f-54c4-4353-94e4-cbfee9043581")
+		)
+		(fp_line
+			(start -0.261252 0.735)
+			(end 0.261252 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46cf8446-98f9-4ee1-8595-cea755c8e06f")
+		)
+		(fp_line
+			(start -1.88 -0.98)
+			(end 1.88 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eaa61048-9440-4906-b636-a7266683b98f")
+		)
+		(fp_line
+			(start -1.88 0.98)
+			(end -1.88 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e3dfa65b-40db-47e2-9916-2b95eb4f48a0")
+		)
+		(fp_line
+			(start 1.88 -0.98)
+			(end 1.88 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d3a3164-4762-4306-8abd-7e2980667e2e")
+		)
+		(fp_line
+			(start 1.88 0.98)
+			(end -1.88 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "618e9690-f6a7-42f2-b73e-6000bc2b6edc")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "edfe037d-9304-4caa-add9-2580247c852d")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f08404b9-b255-44e6-8631-5396b53802b6")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec2e18f0-a0b7-4c0f-9d44-f00a7a545ff5")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73553db6-1e66-4528-968c-306c26ba4114")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d9380d5b-baa5-4389-9735-eab2f0112102")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.0375 0)
+			(size 1.175 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.212766)
+			(net 111 "Net-(JP10-B)")
+			(pintype "passive")
+			(uuid "99e24b13-dc30-4595-97e8-5c09112ba25c")
+		)
+		(pad "2" smd roundrect
+			(at 1.0375 0)
+			(size 1.175 1.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.212766)
+			(net 20 "/01-04-Power-DCDC-Charger-Battery/Batt-")
+			(pintype "passive")
+			(uuid "e217fbaf-3346-4a3b-90eb-a35a44540481")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "524d4e9d-16e8-4c0e-984f-1d5e27d6b33e")
@@ -9136,7 +9544,7 @@
 		(at 263.25 14.8)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP14"
+		(property "Reference" "JP16"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "5b0bad09-d66a-4e04-ba36-f4441406e90a")
@@ -9441,10 +9849,10 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "53b9443d-265a-4904-87d7-1838184766f8")
-		(at 243.55 97.55)
+		(at 212.75 36.7)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "ddad1b28-8d0d-4d08-b68d-e543d8947450")
@@ -9455,7 +9863,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "1234d1a7-4454-4846-82a7-322a0c22696c")
@@ -9492,7 +9900,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9594,7 +10002,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "57721473-e56a-4d73-96d9-9b785c7d7d3b")
-		(at 53 36.9)
+		(at 204.25 36.95)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -9643,12 +10051,51 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69107a51-06d8-44e3-ac89-c7cf74635c88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ca16c39-5926-498e-bd83-6fb3f276ac90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "508b00eb-a94f-4e7e-905c-294c597355a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ad5f91-fedf-4222-9637-b301349a2baf")
 			(effects
 				(font
 					(size 1 1)
@@ -10357,6 +10804,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b65e81b-985a-4e55-9af2-d6ec9687acf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/c499b820-f0e7-4abf-8fa5-329a4a735dc1")
 		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
@@ -10510,7 +10970,7 @@
 		(at 263.25 18.35)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP15"
+		(property "Reference" "JP17"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "e7bf9c24-ca68-4489-8bf4-9e6d9cbdc7d3")
@@ -11123,7 +11583,7 @@
 	(footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "668e08a7-49e9-48a3-b4ad-a453a2a50c30")
-		(at 140.2525 81.05)
+		(at 195.525 42.95)
 		(descr "WSON6, http://www.ti.com/lit/ds/symlink/tlv702.pdf")
 		(tags "WSON6_1.5x1.5mm_P0.5mm")
 		(property "Reference" "U3"
@@ -11239,7 +11699,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11395,7 +11855,7 @@
 			(size 0.28 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 95 "unconnected-(U3-NC-Pad1)")
+			(net 94 "unconnected-(U3-NC-Pad1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "9563822f-c3f8-4edd-bc5b-5f75dd2d661e")
@@ -11435,7 +11895,7 @@
 			(size 0.28 0.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 84 "Net-(U3-BAT)")
+			(net 114 "Net-(JP10-A)")
 			(pinfunction "BAT")
 			(pintype "input")
 			(uuid "63f91578-c619-4816-ba9f-a7fa87a3e415")
@@ -11445,7 +11905,7 @@
 			(size 0.28 0.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 85 "Net-(U3-V-)")
+			(net 84 "Net-(U3-V-)")
 			(pinfunction "V-")
 			(pintype "input")
 			(uuid "1d8726b0-be8d-42f8-9c24-eab65eeb5eff")
@@ -12241,6 +12701,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24c70ee8-5af2-407c-88f2-9646627091b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/fd2a2d6c-625f-44e3-8b59-3aea66fd2008")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -12371,7 +12844,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 90 "Net-(U7-USB_DP)")
+			(net 89 "Net-(U7-USB_DP)")
 			(pintype "passive")
 			(uuid "6bfc13b4-362a-492d-932a-2d88ceff96f6")
 		)
@@ -13442,7 +13915,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 102 "unconnected-(U7-GPIO2-Pad4)")
+			(net 101 "unconnected-(U7-GPIO2-Pad4)")
 			(pinfunction "GPIO2")
 			(pintype "bidirectional")
 			(uuid "466611c0-f57e-48b9-802d-bce1fbf88ae1")
@@ -13452,7 +13925,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 108 "unconnected-(U7-GPIO3-Pad5)")
+			(net 107 "unconnected-(U7-GPIO3-Pad5)")
 			(pinfunction "GPIO3")
 			(pintype "bidirectional")
 			(uuid "9a16d48f-4269-417f-81de-9eaf2ae51390")
@@ -13462,7 +13935,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 107 "unconnected-(U7-GPIO4-Pad6)")
+			(net 106 "unconnected-(U7-GPIO4-Pad6)")
 			(pinfunction "GPIO4")
 			(pintype "bidirectional")
 			(uuid "92121dcf-6e8d-4327-bd7e-2feeb6930880")
@@ -13472,7 +13945,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 101 "unconnected-(U7-GPIO5-Pad7)")
+			(net 100 "unconnected-(U7-GPIO5-Pad7)")
 			(pinfunction "GPIO5")
 			(pintype "bidirectional")
 			(uuid "43980311-b407-4b88-b259-2afcab9f8225")
@@ -13482,7 +13955,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 103 "unconnected-(U7-GPIO6-Pad8)")
+			(net 102 "unconnected-(U7-GPIO6-Pad8)")
 			(pinfunction "GPIO6")
 			(pintype "bidirectional")
 			(uuid "4cad8fe8-b465-41ed-9e92-53d57632cde7")
@@ -13522,7 +13995,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 109 "unconnected-(U7-GPIO9-Pad12)")
+			(net 108 "unconnected-(U7-GPIO9-Pad12)")
 			(pinfunction "GPIO9")
 			(pintype "bidirectional")
 			(uuid "9e87d62a-2616-470a-bfb5-a19b8a7bc853")
@@ -13532,7 +14005,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 98 "unconnected-(U7-GPIO10-Pad13)")
+			(net 97 "unconnected-(U7-GPIO10-Pad13)")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
 			(uuid "2df46576-6a67-4442-aebb-82ab25d40c76")
@@ -13572,7 +14045,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 106 "unconnected-(U7-GPIO14-Pad17)")
+			(net 105 "unconnected-(U7-GPIO14-Pad17)")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional")
 			(uuid "794c2bfb-438c-4fcc-b891-b554d1bcfe94")
@@ -13592,7 +14065,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 99 "unconnected-(U7-TESTEN-Pad19)")
+			(net 98 "unconnected-(U7-TESTEN-Pad19)")
 			(pinfunction "TESTEN")
 			(pintype "input")
 			(uuid "33f6c743-37fd-43cb-a3e5-f32890fabdad")
@@ -13642,7 +14115,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 91 "Net-(U7-SWCLK)")
+			(net 90 "Net-(U7-SWCLK)")
 			(pinfunction "SWCLK")
 			(pintype "input")
 			(uuid "7fc9c013-7bf1-40cd-ac73-e1f235125357")
@@ -13652,7 +14125,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 92 "Net-(U7-SWD)")
+			(net 91 "Net-(U7-SWD)")
 			(pinfunction "SWD")
 			(pintype "bidirectional")
 			(uuid "1759c60c-fb42-438b-ab1e-b4dc80331cc4")
@@ -13682,7 +14155,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 105 "unconnected-(U7-GPIO17-Pad28)")
+			(net 104 "unconnected-(U7-GPIO17-Pad28)")
 			(pinfunction "GPIO17")
 			(pintype "bidirectional")
 			(uuid "715d50d3-5724-439d-a8b9-2d8e878388a9")
@@ -13692,7 +14165,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 104 "unconnected-(U7-GPIO18-Pad29)")
+			(net 103 "unconnected-(U7-GPIO18-Pad29)")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional")
 			(uuid "6235a7f0-a04a-479b-913f-c142d1354bf2")
@@ -13722,7 +14195,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 100 "unconnected-(U7-GPIO21-Pad32)")
+			(net 99 "unconnected-(U7-GPIO21-Pad32)")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
 			(uuid "3a90c5d0-b56b-4d69-b211-66c72e426c2e")
@@ -13742,7 +14215,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 110 "unconnected-(U7-GPIO22-Pad34)")
+			(net 109 "unconnected-(U7-GPIO22-Pad34)")
 			(pinfunction "GPIO22")
 			(pintype "bidirectional")
 			(uuid "ea6fb00b-ebd4-4d65-b3c8-6dea7de24538")
@@ -13832,7 +14305,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 93 "Net-(U7-ADC_AVDD)")
+			(net 92 "Net-(U7-ADC_AVDD)")
 			(pinfunction "ADC_AVDD")
 			(pintype "power_in")
 			(uuid "156d95e8-c460-426d-9648-f56de9dc7005")
@@ -13862,7 +14335,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 89 "Net-(U7-USB_DM)")
+			(net 88 "Net-(U7-USB_DM)")
 			(pinfunction "USB_DM")
 			(pintype "bidirectional")
 			(uuid "3bee446f-0a09-4afc-ad27-0d272770d89c")
@@ -13872,7 +14345,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 90 "Net-(U7-USB_DP)")
+			(net 89 "Net-(U7-USB_DP)")
 			(pinfunction "USB_DP")
 			(pintype "bidirectional")
 			(uuid "e5427d42-4cb2-4985-bdc4-560ca98c08fe")
@@ -14627,6 +15100,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac436985-6717-4567-b5dc-5911b0b197f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/a306c997-5713-4b7e-953e-b5ef16d9f7ef")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -14777,7 +15263,7 @@
 	(footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "79d56b83-43b4-42ce-ad7f-7db8effd46f9")
-		(at 112.5 98.5)
+		(at 187.25 37.5)
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J3"
@@ -14814,7 +15300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN HEADER R/A 2POS 2MM"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14995,12 +15481,64 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdd90c4f-b7b1-4b2a-9036-6e45f6441975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "S2B-PH-K-S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7dee626-2008-4eef-b829-796503ce74ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a9c401c-eaff-4ae7-b4ad-2d35bad56c29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2aaca7a-1e3c-4b88-8962-22ac78965c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626?gclsrc=aw.ds&gad_source=1&gad_campaignid=20192530079"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb08b44e-a3c8-4400-a776-ca445b888cc0")
 			(effects
 				(font
 					(size 1 1)
@@ -15524,6 +16062,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce211ce-f1a9-415c-8073-ca092cf89911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/f62382e7-6592-4f65-9358-ecf7d8dd3c63")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -15645,7 +16196,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 87 "Net-(U6-VDD)")
+			(net 86 "Net-(U6-VDD)")
 			(pintype "passive")
 			(uuid "1f285deb-6f59-449f-b541-263a15373442")
 		)
@@ -15889,6 +16440,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8830e85c-e5d0-46b4-a333-ba73646a3921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/c4fd5c6b-1dcc-44d5-a073-1ad44ff66540")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -16101,6 +16665,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b743b6c5-7916-460b-8d98-96b759b0d6b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/5283d704-26db-4f5f-bc0c-17cd7c59d001")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -16231,7 +16808,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 113 "Net-(JP18-A)")
+			(net 116 "Net-(JP20-A)")
 			(pintype "passive")
 			(uuid "07720eab-32b0-420a-96d5-861292bf6c79")
 		)
@@ -16807,10 +17384,10 @@
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "8232e74b-1e1c-447a-af46-8eadbdef3947")
-		(at 245 112.5)
+		(at 218.75 36.7)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "60216ce4-d2ac-4305-8430-a8831ff1f71e")
@@ -16821,7 +17398,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "U3_V-"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "b759e9dc-0b86-46ed-a6f3-13ea2cd2936b")
@@ -16858,7 +17435,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16950,7 +17527,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 85 "Net-(U3-V-)")
+			(net 84 "Net-(U3-V-)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "3bbe33ba-9679-48d7-b9f4-721438f93fa4")
@@ -16960,7 +17537,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "852998f9-073d-4477-aded-1c4304488c69")
-		(at 246.25 68.35)
+		(at 225.25 32.7)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -17009,12 +17586,51 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "108b346e-cd0c-4fb7-9b9e-9a0fe3618741")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "716a1844-9b7e-40c1-9c57-8253b725297a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c8c3938-8913-4d1e-bcb9-29db820c2763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88467d08-5249-4594-83c8-39b5dd00a295")
 			(effects
 				(font
 					(size 1 1)
@@ -17143,7 +17759,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 84 "Net-(U3-BAT)")
+			(net 111 "Net-(JP10-B)")
 			(pintype "passive")
 			(uuid "cecaa6df-bb8b-44de-974f-b85f4a88ffb5")
 		)
@@ -17477,7 +18093,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 96 "Net-(U6-OSCI)")
+			(net 95 "Net-(U6-OSCI)")
 			(pinfunction "OSCI")
 			(pintype "input")
 			(uuid "2d860579-c224-444b-8c4e-875354d7c4bd")
@@ -17487,7 +18103,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 97 "Net-(U6-OSCO)")
+			(net 96 "Net-(U6-OSCO)")
 			(pinfunction "OSCO")
 			(pintype "output")
 			(uuid "a7d2ed99-fba0-433c-8951-7361ead1944c")
@@ -17547,7 +18163,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 87 "Net-(U6-VDD)")
+			(net 86 "Net-(U6-VDD)")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "49b90536-c394-46ee-9d77-06d5a79641dd")
@@ -17803,7 +18419,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 111 "/01-04-Power-DCDC-Charger-Battery/STAT")
+			(net 110 "/01-04-Power-DCDC-Charger-Battery/STAT")
 			(pintype "passive")
 			(uuid "5d88e794-2ad4-4767-82e0-424a0d74d678")
 		)
@@ -18211,6 +18827,159 @@
 			)
 		)
 	)
+	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(layer "F.Cu")
+		(uuid "8d2f0062-0048-4c64-a6e9-5b6c9b939602")
+		(at 206.35 46.21)
+		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP9"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "82e79a0e-7389-4f04-885f-d75ea70b85ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "8831c305-d39b-4b18-9b0e-df2b7c1443ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2467bec9-abbb-4c60-96c8-10e7014f00d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c38bd875-2d6c-4c76-aa53-5e8ade74c9b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Subsystem" "04-Batt-Prot"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0be1da8a-33a6-4be3-8925-ea9719da5c98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2985aef9-a1b8-4877-8ce6-19e22aaf24b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/86bfc86e-5401-42d0-b663-c946d7b441a9")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a09e5d7a-0363-4abf-9f6e-895d96e24aeb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "dfa8ef69-73e6-4313-b772-3c311fb70f93")
+		)
+		(fp_text user "${Value}"
+			(at 0 2.4 0)
+			(layer "F.SilkS")
+			(uuid "5100302b-5fbf-400d-a610-d3d7e480e63d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "dbc1eb5d-27dc-495a-9637-35ad6a0d87da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${Value}"
+			(at 0 2.4 0)
+			(layer "F.Fab")
+			(uuid "f8985662-3bdc-45bd-bc75-2f19a09ca7d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "/01-04-Power-DCDC-Charger-Battery/Batt-")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "cbb0ed44-9fbe-4515-a143-78f730d60a52")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8fbac739-eb98-4e27-94ad-291fa6bf6f52")
@@ -18481,7 +19250,7 @@
 		(at 258.9 25.45)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP12"
+		(property "Reference" "JP14"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "089a9b53-ee5b-402d-a1ac-58cfdea79b50")
@@ -18786,7 +19555,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "914bf622-f3f5-40d3-89ae-77a6106301cd")
-		(at 246.25 74.25)
+		(at 225.25 38.6)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -18835,12 +19604,51 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc965089-e645-4d5f-be3a-f21f81b3b36f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00b56b79-6422-4dd5-be46-ab4a3f8b0a2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f497628-fd13-4544-8106-bcaf9dc6372f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b628873-422f-4894-9885-6376abba8d40")
 			(effects
 				(font
 					(size 1 1)
@@ -19787,7 +20595,7 @@
 		(at 256.65 129.1)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP18"
+		(property "Reference" "JP20"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "61f481ac-aadc-49e8-adba-783d3c9603ea")
@@ -20019,7 +20827,7 @@
 			(at -0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net 113 "Net-(JP18-A)")
+			(net 116 "Net-(JP20-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -20095,7 +20903,7 @@
 		(at 256.65 132.65)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP19"
+		(property "Reference" "JP21"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "5d1e397a-a61b-41cc-bbf7-4734a0c7dd76")
@@ -20981,7 +21789,7 @@
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 86 "Net-(D8-A)")
+			(net 85 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ac23b0e6-7962-456a-a1e0-e71f676717a2")
@@ -21057,6 +21865,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df04d6d7-d0fb-486e-bc36-06d68f1ab355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f19213e-5247-485a-80c6-d33cea309170")
 			(effects
 				(font
 					(size 1 1)
@@ -21276,6 +22097,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8425756-3d22-4b00-ae54-4ef9ee8f3262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/5d77c1ad-f029-4504-9303-84d401f44f01")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -21397,7 +22231,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 114 "Net-(R22-Pad1)")
+			(net 112 "Net-(R22-Pad1)")
 			(pintype "passive")
 			(uuid "32024a47-ed76-44d4-b0f5-0325a447d9cd")
 		)
@@ -21789,6 +22623,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53e2b391-67ef-4d27-bcb0-17683cc4eb1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eac5819-5af6-4c37-820f-6f6d00429178")
 			(effects
 				(font
 					(size 1 1)
@@ -22272,6 +23119,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e169a902-a5c3-4aeb-b741-1c9373223d40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/aed50b7b-e398-42a0-9d4f-36261bbaaa77")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -22393,7 +23253,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 115 "Net-(R37-Pad1)")
+			(net 113 "Net-(R37-Pad1)")
 			(pintype "passive")
 			(uuid "22ffa4fc-07ec-49d0-af15-bc9c662c5fea")
 		)
@@ -22418,6 +23278,314 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "a5a5b0e7-2b99-46e1-bddb-c2908d3ef37b")
+		(at 202.15 42.95)
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
+		(tags "net tie solder jumper bridged")
+		(property "Reference" "JP9"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "a2209894-28c5-4122-b4b4-1abbc72ac6d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "e6d7d15b-1667-49a0-b9d5-0e9d46e4c967")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "312fa5fc-0c78-4380-8e2c-d34ba3c99b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25ca7ce6-6089-4b3b-a10f-719d5a7403ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Subsystem" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c528d6a-4d65-4364-84b4-1b4249913ae1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf877e3-c24a-4f56-83e0-242cf802fbc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Bridged*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/64746a8f-fd83-4bca-a852-05cfb970b17c")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy 0.25 -0.3) (xy -0.25 -0.3) (xy -0.25 0.3) (xy 0.25 0.3)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "b21a54c2-08a7-4f2b-8171-5e871e59db7e")
+		)
+		(fp_rect
+			(start -0.15 -0.75)
+			(end 0.15 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "43b0f8e1-02ef-4287-9925-fb3ecd30c008")
+		)
+		(fp_line
+			(start -1.4 0.3)
+			(end -1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1b69b38-6f81-43ad-8052-5f2221dd7a60")
+		)
+		(fp_line
+			(start -0.7 -1)
+			(end 0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec3e59e9-0d05-4b73-b1a5-6e0d32da94b6")
+		)
+		(fp_line
+			(start 0.7 1)
+			(end -0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22fcfa22-7408-4de5-a374-0d219874bf0f")
+		)
+		(fp_line
+			(start 1.4 -0.3)
+			(end 1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af832a8e-36c3-4dca-b097-d3ba9ec85423")
+		)
+		(fp_arc
+			(start -1.4 -0.3)
+			(mid -1.194975 -0.794975)
+			(end -0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15b86b3a-67ea-41ab-b950-e92c1da43018")
+		)
+		(fp_arc
+			(start -0.7 1)
+			(mid -1.194975 0.794975)
+			(end -1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a99ed020-b9ae-4f70-b639-c13db891785c")
+		)
+		(fp_arc
+			(start 0.7 -1)
+			(mid 1.194975 -0.794975)
+			(end 1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b47ac22d-c6df-4ee3-931d-ddcb385deb82")
+		)
+		(fp_arc
+			(start 1.4 0.3)
+			(mid 1.194975 0.794975)
+			(end 0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea3cd07b-d5ce-4427-9cd5-d0b9008e4fad")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2c335352-4d2b-40e5-be55-b9489dea7b1c")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3d0d867-6c60-4205-9ab0-744e66952f84")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ad9220f-5ff9-40b1-bdd2-37eaa7845fd3")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed94e227-3d57-4b57-b78d-af5cdd483465")
+		)
+		(pad "1" smd custom
+			(at -0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 20 "/01-04-Power-DCDC-Charger-Battery/Batt-")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy 0 0.75) (xy 0 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "5fa20732-70aa-440c-b2cf-f0c9ae8f778b")
+		)
+		(pad "2" smd custom
+			(at 0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "16e949b9-456f-4a49-95f9-9ee446f9d247")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
@@ -22565,7 +23733,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 111 "/01-04-Power-DCDC-Charger-Battery/STAT")
+			(net 110 "/01-04-Power-DCDC-Charger-Battery/STAT")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "fffcd3ae-62c2-4eb6-8a6b-648064befa7c")
@@ -22630,6 +23798,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92d2b23f-6220-41cc-94b8-15967579ecca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a46498d7-fb9e-424b-a007-0b65eead71d2")
 			(effects
 				(font
 					(size 1 1)
@@ -23420,7 +24601,7 @@
 			(at -0.875 -1.15)
 			(size 1.05 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 88 "Net-(C11-Pad2)")
+			(net 87 "Net-(C11-Pad2)")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -23516,6 +24697,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be749495-527b-4578-99dd-2e578b78b3ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea3efd7-8d05-459e-9d80-1ec1d72de01f")
 			(effects
 				(font
 					(size 1 1)
@@ -23735,6 +24929,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3da865e9-b377-4e5f-a507-09bda65a1249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/3e697500-b2ac-4af0-985c-1b30eb82c24e")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -23856,7 +25063,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 93 "Net-(U7-ADC_AVDD)")
+			(net 92 "Net-(U7-ADC_AVDD)")
 			(pintype "passive")
 			(uuid "3145085f-c54e-4eb1-b839-4a4dde69973c")
 		)
@@ -23888,7 +25095,7 @@
 		(at 254.85 92.9)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP17"
+		(property "Reference" "TP18"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "83fc3cf3-eebc-4a1a-8e27-8085b7fac5be")
@@ -24041,7 +25248,7 @@
 		(at 133 38.75)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP11"
+		(property "Reference" "JP13"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "aca8e77b-cac4-4e72-8ca2-e5bd498d5799")
@@ -24273,7 +25480,7 @@
 			(at -0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net 86 "Net-(D8-A)")
+			(net 85 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -24349,7 +25556,7 @@
 		(at 104.4 39.25)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP9"
+		(property "Reference" "JP11"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "1a04931a-5a1e-453c-b9cb-14f77dc87356")
@@ -24581,7 +25788,7 @@
 			(at -0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net 112 "Net-(JP10-B)")
+			(net 115 "Net-(JP11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -24882,7 +26089,7 @@
 		(at 245 105.5)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP21"
+		(property "Reference" "TP22"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "dfeffa13-c754-4d97-856e-c0054f6b91c9")
@@ -25022,7 +26229,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(R37-Pad1)")
+			(net 113 "Net-(R37-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "68f5aa67-a70e-4290-aa1e-b2b2573e154d")
@@ -25087,6 +26294,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a0cf216-da12-4f14-86d5-272ea799215a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad7b6e99-70e0-4df6-b85f-a5b40585a437")
 			(effects
 				(font
 					(size 1 1)
@@ -25536,13 +26756,308 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "cb27f8c8-7531-4c66-a592-6ab2bfe64e8a")
+		(at 202.15 46.5)
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP10"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "884034f5-bb9b-4ee5-b4da-b543cb1e85dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "fb07273b-e9a0-46f0-9ff0-ef594f9a8082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "653e18e3-d4c7-4e5b-be01-356f1c2588b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58f0621c-91d5-4189-99cf-97b2ffe8ffb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Subsystem" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fae4886-ef60-4d91-9986-5a1aaba44dfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17053b3d-18d7-4a05-aeef-6d6b2598802a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/9c84c2c8-9981-4486-adaf-4a40ca17b6d0/7e7d6846-54f3-4c3b-9fba-b628b79f998b")
+		(sheetname "/01-04-Power-DCDC-Charger-Battery/")
+		(sheetfile "01-04-Power-DCDC-Charger-Battery.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(fp_rect
+			(start -0.15 -0.75)
+			(end 0.15 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "34857d79-7dfb-4441-bad5-f8fe4bd1bfb6")
+		)
+		(fp_line
+			(start -1.4 0.3)
+			(end -1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bba02b4-9ea3-4143-82f3-b24d13495a59")
+		)
+		(fp_line
+			(start -0.7 -1)
+			(end 0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed7f465e-30e5-4b20-b05e-bc7cfc848e40")
+		)
+		(fp_line
+			(start 0.7 1)
+			(end -0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0c4e410-c109-41b2-9679-ebace6617cad")
+		)
+		(fp_line
+			(start 1.4 -0.3)
+			(end 1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "38586c9c-a14c-44d5-a7a8-c8366fbbb9eb")
+		)
+		(fp_arc
+			(start -1.4 -0.3)
+			(mid -1.194975 -0.794975)
+			(end -0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3575c12c-dbd7-4f3b-a9f6-5dfb3b49875e")
+		)
+		(fp_arc
+			(start -0.7 1)
+			(mid -1.194975 0.794975)
+			(end -1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0faede03-3849-44e4-8ee6-f28f7c96428a")
+		)
+		(fp_arc
+			(start 0.7 -1)
+			(mid 1.194975 -0.794975)
+			(end 1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61a2a6fe-90e9-4c06-b3cb-557fbc14c40f")
+		)
+		(fp_arc
+			(start 1.4 0.3)
+			(mid 1.194975 0.794975)
+			(end 0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "637a97e8-e0a9-4136-947c-b99a36fdf573")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9993a22f-0bf5-44b3-9903-f9fa3e3a95b5")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc705dad-dccc-4402-ad6c-4e237423d9bc")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2fc4d462-f19f-4d67-ae71-0d6d6b2ef8ad")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24fa8fcc-fcd3-4dec-ab3a-4767fe3fef4f")
+		)
+		(pad "1" smd custom
+			(at -0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 114 "Net-(JP10-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy 0 0.75) (xy 0 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "c986b54d-bec3-4896-addf-7e44ab078ef1")
+		)
+		(pad "2" smd custom
+			(at 0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 111 "Net-(JP10-B)")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ec4f837c-e872-42bc-a12b-9400df7c892f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "ce9b5367-99d7-4d46-8747-dde3998b2383")
-		(at 259.5 113.5)
+		(at 213 49.95)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "f5d0aa66-36e3-4c2c-aa36-61484f5816b1")
@@ -25553,7 +27068,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "DSG"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "72706c73-12d6-4461-b843-2954e0965e94")
@@ -25590,7 +27105,7 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26049,6 +27564,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d11283c2-7dc1-4f36-ae51-02df8ab89a79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/33226cb8-8e3f-4a4b-a5c8-19ec2e00d36c")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -26414,6 +27942,19 @@
 				)
 			)
 		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e2e28b7-cb23-4ee1-b79c-252ab1ebe6a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/550d9dc0-5a0f-4821-af38-4e76d354dcfd/f95670b1-8d2b-4df4-9427-266789ef0ed6")
 		(sheetname "/05-07_MCU-LED-Driver-Displays/")
@@ -26544,7 +28085,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 92 "Net-(U7-SWD)")
+			(net 91 "Net-(U7-SWD)")
 			(pintype "passive")
 			(uuid "a33c8866-5690-42ac-81ea-e352f53ff8e9")
 		)
@@ -26619,6 +28160,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3186bb70-d6f9-4859-8a8a-ab0c463d0464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18fe4cfe-72a4-44b5-8783-70ca8c30ee93")
 			(effects
 				(font
 					(size 1 1)
@@ -26756,7 +28310,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net 88 "Net-(C11-Pad2)")
+			(net 87 "Net-(C11-Pad2)")
 			(pintype "passive")
 			(uuid "d8fa284c-1b45-430a-a9db-1695a322b6ab")
 		)
@@ -26831,6 +28385,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6650a42-5d4a-46b5-afee-a9e74a75e4a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37d35ac4-377a-4763-bcae-ee402449688b")
 			(effects
 				(font
 					(size 1 1)
@@ -26988,7 +28555,7 @@
 	(footprint "project footprints:USB_C_Receptacle_JAE_DX07S016JA1R1500"
 		(layer "F.Cu")
 		(uuid "dabb514a-2115-4bd9-832f-dd6814ade872")
-		(at 121.32 85.6)
+		(at 120.75 81.75)
 		(descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
 		(tags "USB C Type-C Receptacle SMD USB 2.0")
 		(property "Reference" "J2"
@@ -27524,7 +29091,7 @@
 		(at 246 118.5)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP22"
+		(property "Reference" "TP23"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "ad9f04fe-2b32-4cae-8a8f-99754cdf304c")
@@ -27677,7 +29244,7 @@
 		(at 126.5 29)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP16"
+		(property "Reference" "TP17"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "688c3e71-7f37-45b9-b6e1-afeff20865ec")
@@ -27830,7 +29397,7 @@
 		(at 263.25 11.25)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
-		(property "Reference" "JP13"
+		(property "Reference" "JP15"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "e6871ff1-ee34-429e-8998-03af8d6f59db")
@@ -28399,7 +29966,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "e22f4c1e-6300-4942-9f94-798994e8cee9")
-		(at 119.93 107.77)
+		(at 196.4375 38.15)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
@@ -28448,12 +30015,90 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a03d1502-a155-4696-ae24-0594ab09fbc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b260bd5-bdfa-47af-af26-bf30f1d1b933")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "533360b0-2718-44b4-b92a-3b89671b31cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cdf1253-9446-47a1-ac8e-1dafee791d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c23da2c-e13f-455c-bae8-aea41db3e459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 SKU" "C20917"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c75abba6-2d52-4dd1-bbcb-d3c99683a472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19582d77-2b9f-4675-8658-46919cdacc17")
 			(effects
 				(font
 					(size 1 1)
@@ -29091,7 +30736,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "e5e33ba5-892f-42f4-92d7-bf21b53638f1")
-		(at 119.93 103.145)
+		(at 196.4375 32.65)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
@@ -29140,12 +30785,90 @@
 				)
 			)
 		)
-		(property "Subsystem" ""
+		(property "Subsystem" "04-Batt-Prot"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25069898-e6d0-4f75-9416-64e8e510452e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "084af266-42c6-4ce3-a533-43a1122d1ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82eb3a80-9d25-4e53-85d4-28639ca1bd8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f47929e8-5c9a-4de5-af2b-7fb1c9e85aff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef1df896-e1d6-4aea-81cf-4f7e76326c63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 SKU" "C20917"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b84d14ea-0098-4011-9234-a03e955c7dc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 1 URL" "https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54739300-cb3d-4e12-8e2e-f90ffa330202")
 			(effects
 				(font
 					(size 1 1)
@@ -29440,7 +31163,7 @@
 		(at 99.65 39.75)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "JP10"
+		(property "Reference" "JP12"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "c7790f27-7a7b-4191-b3bc-c0902b375f62")
@@ -29695,7 +31418,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net 112 "Net-(JP10-B)")
+			(net 115 "Net-(JP11-A)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -29735,7 +31458,7 @@
 		(at 254.85 97.55)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP18"
+		(property "Reference" "TP19"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "7c06a1e3-1e3b-4dd5-b2af-8d906b7e4274")
@@ -29953,6 +31676,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "474f3321-01fc-491c-b7a3-6f05a318b1e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5efd6d35-8a70-469d-89e3-da9a253ebde7")
 			(effects
 				(font
 					(size 1 1)
@@ -30935,6 +32671,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d4560ccd-7348-4bde-96c4-1911deb39c4a")
+	)
+	(gr_text "Batt Protect"
+		(at 197.75 24.25 0)
+		(layer "F.SilkS")
+		(uuid "190ae123-4ac7-45d2-a750-08e5295df163")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Power-Mux"
 		(at 43.3 24 0)

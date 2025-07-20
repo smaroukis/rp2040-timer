@@ -752,10 +752,17 @@
 					(type background)
 				)
 			)
+			(text "${VALUE}"
+				(at -0.254 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin no_connect line
 				(at -3.81 -1.27 0)
 				(length 2.54)
-				(hide yes)
 				(name "1"
 					(effects
 						(font
@@ -1114,13 +1121,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -1235,6 +1241,16 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
 			(at 0 0 0)
 			(effects
 				(font

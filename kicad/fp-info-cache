@@ -1,4 +1,4 @@
-25628719649903373
+25633982875417303
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102648,12 +102648,26 @@ Varistor VF
 2
 2
 project footprints
+BEADC1608X95N
+
+
+0
+2
+2
+project footprints
 BLM18SP221SN1D_BEADC1608X95N
 
 
 0
 2
 2
+project footprints
+Buz-TH_D9.6_P5
+Buzzer Through Hole 9.6mm body diameter, pins 5mm pitch 1mm hole. Reference PN = HNB09A05
+Buzzer Beeper HNB09A05
+0
+2
+1
 project footprints
 IND_SDER041H-2R2MS
 
@@ -102682,6 +102696,13 @@ SON50P150X150X80-6N
 0
 6
 6
+project footprints
+SPKR_PKMCS0909E4000-R1
+
+
+0
+2
+2
 project footprints
 TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
 wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm

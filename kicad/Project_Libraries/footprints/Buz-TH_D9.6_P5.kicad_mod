@@ -1,0 +1,136 @@
+(footprint "Buz-TH_D9.6_P5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buzzer Through Hole 9.6mm body diameter, pins 5mm pitch 1mm hole. Reference PN = HNB09A05")
+	(tags "Buzzer Beeper HNB09A05")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4535f297-71dd-4847-beee-f1f40f7a5ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "${VALUE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4806319-c0e3-41a0-b68e-93516ec89318")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0802e7db-20f7-4e1b-be40-9faf9ac04d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a859bdb7-e66d-4a2a-aec4-60051e20234c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -5.5 0)
+		(end -6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "92281506-0421-4802-be9b-0bdbe7169671")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.8 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "162bd3fe-64aa-4425-a854-715470b5f519")
+	)
+	(fp_text user "+"
+		(at -2.5 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "600c7a97-8310-4495-ae7f-bf3709a96967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00888f47-f014-49b0-8982-e1c89db1a799")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.5 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1ce82a8-b25f-4881-87dd-2fd6b3e84507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c49bb931-4866-4ded-9718-339ae2c6422c")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91d52fac-4f56-4784-a843-65d0380ecf02")
+	)
+	(embedded_fonts no)
+)

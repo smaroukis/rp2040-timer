@@ -3670,7 +3670,7 @@
 	)
 	(text "Remove D1 for\n low power consumption"
 		(exclude_from_sim no)
-		(at 24.892 30.226 0)
+		(at 52.578 40.132 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3835,12 +3835,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6023f719-55cc-4df7-a65a-ca894506aaaa")
-	)
-	(junction
-		(at 35.56 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62fd8a7d-c45a-45a5-8f6c-facd200801b1")
 	)
 	(junction
 		(at 92.71 130.81)
@@ -4038,7 +4032,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 127) (xy 35.56 127)
+			(xy 21.59 19.05) (xy 26.67 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09215a39-efa1-44ff-a065-3280d0667c46")
+	)
+	(wire
+		(pts
+			(xy 31.75 129.54) (xy 38.1 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4678,16 +4682,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 129.54) (xy 35.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed70498-f111-42a2-8bca-4d5ee1fe2eee")
-	)
-	(wire
-		(pts
 			(xy 156.21 64.77) (xy 156.21 63.5)
 		)
 		(stroke
@@ -4755,16 +4749,6 @@
 			(type default)
 		)
 		(uuid "7bab6fb0-bba2-4c33-810a-020aeb6409c2")
-	)
-	(wire
-		(pts
-			(xy 35.56 129.54) (xy 38.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8e7fa9-2462-4d4a-9bcd-29d707dcc729")
 	)
 	(wire
 		(pts
@@ -4955,16 +4939,6 @@
 			(type default)
 		)
 		(uuid "a837a77d-eaa4-4008-b38d-9bd4b9a39b79")
-	)
-	(wire
-		(pts
-			(xy 35.56 127) (xy 35.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a915f781-c7b4-4468-ba6d-69ebdef50b2c")
 	)
 	(wire
 		(pts
@@ -5366,8 +5340,8 @@
 		)
 		(uuid "056b6d50-0f39-43a4-8483-20c10746f20c")
 	)
-	(label "Vbatt"
-		(at 31.75 127 180)
+	(label "Vbat"
+		(at 31.75 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5386,7 +5360,7 @@
 		)
 		(uuid "18bd12ee-0789-468f-a6b7-6ee2288e9db0")
 	)
-	(label "Vbatt"
+	(label "Vbat"
 		(at 190.5 29.21 180)
 		(effects
 			(font
@@ -5416,7 +5390,17 @@
 		)
 		(uuid "49c700bb-0334-42bf-b974-60f61c979c9c")
 	)
-	(label "Vbatt"
+	(label "Vbat"
+		(at 26.67 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f8f5266-688e-418e-b5f9-c264fcbfebad")
+	)
+	(label "Vbat"
 		(at 160.02 39.37 180)
 		(effects
 			(font
@@ -5436,7 +5420,7 @@
 		)
 		(uuid "8614df93-75d1-497f-b5da-607de24a912e")
 	)
-	(label "Vbatt"
+	(label "Vbat"
 		(at 45.72 27.94 180)
 		(effects
 			(font
@@ -5467,6 +5451,17 @@
 		)
 		(uuid "056b8031-5dd0-49a8-ad0f-c44dafdf600f")
 	)
+	(hierarchical_label "PWR_CTL"
+		(shape input)
+		(at 29.21 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31e37ed7-5a25-4bb2-92af-d5a4882c4c9f")
+	)
 	(hierarchical_label "ADC0_VUSB_In"
 		(shape output)
 		(at 86.36 45.72 0)
@@ -5489,7 +5484,7 @@
 		)
 		(uuid "5a54d57d-b561-41d5-b553-50cc99672fe0")
 	)
-	(hierarchical_label "BTN_PWR"
+	(hierarchical_label "BTN_PWR_RTC"
 		(shape input)
 		(at 137.16 127 180)
 		(effects
@@ -5499,17 +5494,6 @@
 			(justify right)
 		)
 		(uuid "701649b5-8011-4fa4-927e-a2b4bb256752")
-	)
-	(hierarchical_label "Vbatt"
-		(shape output)
-		(at 33.02 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79c530ac-a581-4340-94db-0e0dbe5df86e")
 	)
 	(hierarchical_label "ADC1_VSW_In"
 		(shape output)
@@ -5532,6 +5516,28 @@
 			(justify right)
 		)
 		(uuid "b769fe72-1c79-407e-ad39-3964c43c6f79")
+	)
+	(hierarchical_label "BTN_PWR_RTC"
+		(shape input)
+		(at 30.48 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9e8198d-2d8e-418e-86f8-14210b5e2516")
+	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 21.59 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c341a44f-c338-4f23-ae9e-9629af9bd77e")
 	)
 	(hierarchical_label "5V_USB"
 		(shape input)
@@ -9398,7 +9404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VBATT"
+		(property "Value" "VBAT"
 			(at 50.8 21.082 0)
 			(effects
 				(font

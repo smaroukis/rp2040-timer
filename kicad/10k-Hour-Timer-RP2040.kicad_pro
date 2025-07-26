@@ -791,11 +791,15 @@
     ],
     [
       "9c84c2c8-9981-4486-adaf-4a40ca17b6d0",
-      "01-04-Power-DCDC-Charger-Battery"
+      "Power-DCDC-Charger-Battery"
     ],
     [
       "550d9dc0-5a0f-4821-af38-4e76d354dcfd",
-      "05-07_MCU-LED-Driver-Displays"
+      "MCU-IO"
+    ],
+    [
+      "0e234469-901c-4318-947f-74f6fef01c6d",
+      "RTC"
     ]
   ],
   "text_variables": {}

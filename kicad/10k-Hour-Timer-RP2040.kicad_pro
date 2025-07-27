@@ -515,7 +515,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Subsystem",
           "name": "Subsystem",
           "show": true
@@ -735,6 +735,12 @@
           "label": "Supplier 2 SKU",
           "name": "Supplier 2 SKU",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Lab_In_Stock",
+          "name": "Lab_In_Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -742,7 +748,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Supplier 1"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

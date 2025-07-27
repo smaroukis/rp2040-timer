@@ -1,0 +1,333 @@
+(footprint "Battery-Holder-BH-123A_37.5P_1.8D_MH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -19.5 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bdc7660b-8efa-4537-accb-16fba47dd71f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery-Holder-BH-123A_37.5P_1.8D_MH"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bfc798e4-c77d-4e15-9090-70584650d613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8260d509-7599-4d39-8b2a-97a7aa1a3f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57faadbf-e629-4e7d-8339-8a49d07a692d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -21.65 -9.1)
+		(end 21.65 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c343e7b-346b-44e9-802f-85c5f73787dd")
+	)
+	(fp_text user "+"
+		(at 17.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "97a3bbf8-3ee6-4f37-8f00-8c6b643ae7a4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 17.7 11.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9e15b8d-7c96-48ac-ae3d-14e2f188946e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 17.5 3.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ab91acfe-08f7-4605-8b46-d0f2567f80b1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d97fda5c-0e52-4e3a-b40c-98d7592d45e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "3fdfc4b6-edbe-4709-b828-a350ac441e53")
+		(pts
+			(xy 18.75 0) (xy 18.95 8.4)
+		)
+		(height 7.65)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8.4"
+			(at 25.25 4.2 90)
+			(layer "User.2")
+			(uuid "3fdfc4b6-edbe-4709-b828-a350ac441e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "5e45369e-2fd7-41a3-8c0f-4b097e2f9573")
+		(pts
+			(xy 18.75 0) (xy -18.75 0)
+		)
+		(height -14.3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "37.5"
+			(at 0 -15.45 0)
+			(layer "User.2")
+			(uuid "5e45369e-2fd7-41a3-8c0f-4b097e2f9573")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "70053e92-2e71-4e59-ad2d-63964fe9cd05")
+		(pts
+			(xy 18.95 8.4) (xy 0 0)
+		)
+		(height 11.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "18.95"
+			(at 9.475 18.75 0)
+			(layer "User.2")
+			(uuid "70053e92-2e71-4e59-ad2d-63964fe9cd05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "a1a32d02-209e-483d-8442-542672018f87")
+		(pts
+			(xy 0 0) (xy 18.75 0)
+		)
+		(height 16.2)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "18.75"
+			(at 9.375 15.05 0)
+			(layer "User.2")
+			(uuid "a1a32d02-209e-483d-8442-542672018f87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "f4cf03e0-c07b-46c6-9825-8f5310d7f84e")
+		(pts
+			(xy -17.85 0) (xy -19.65 0)
+		)
+		(height 3.7)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1.8"
+			(at -18.75 2.55 0)
+			(layer "User.2")
+			(uuid "f4cf03e0-c07b-46c6-9825-8f5310d7f84e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 18.95 8.4)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9a34bfc6-09f6-4267-9d17-6636d61300e9")
+	)
+	(pad "1" thru_hole circle
+		(at 18.75 0)
+		(size 2.3 2.3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb475731-337f-4110-82ea-7ef876ba76f8")
+	)
+	(pad "2" thru_hole circle
+		(at -18.75 0)
+		(size 2.3 2.3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82b372af-e61a-4eac-aec8-9e8e6af4c180")
+	)
+	(embedded_fonts no)
+)

@@ -1,4 +1,4 @@
-25633982875417303
+25635736471138498
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102661,6 +102661,13 @@ BLM18SP221SN1D_BEADC1608X95N
 0
 2
 2
+project footprints
+Battery-Holder-BH-123A_37.5P_1.8D_MH
+
+
+0
+0
+0
 project footprints
 Buz-TH_D9.6_P5
 Buzzer Through Hole 9.6mm body diameter, pins 5mm pitch 1mm hole. Reference PN = HNB09A05

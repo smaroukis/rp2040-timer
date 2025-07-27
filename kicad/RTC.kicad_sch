@@ -168,6 +168,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1744,9 +1851,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "For Pullups see MCU sheet"
+		(exclude_from_sim no)
+		(at 88.138 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f121816-1bdc-448b-87ca-4fb42ff38121")
+	)
 	(text "Limit VDD slew rate"
 		(exclude_from_sim no)
-		(at 106.426 56.896 0)
+		(at 117.856 82.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,7 +1873,7 @@
 	)
 	(text "Use XTAL with CL 7pF \nNo need to add parasitics"
 		(exclude_from_sim no)
-		(at 102.87 93.472 0)
+		(at 114.3 118.872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,49 +1881,51 @@
 		)
 		(uuid "cfc9a67c-0f61-4de4-961d-b66081362e28")
 	)
-	(text "Probe CLKOut with 10:1 probe\nwith JP10 = Open"
-		(exclude_from_sim no)
-		(at 140.462 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f26c8bc2-2458-4663-a2f1-98c9a6eb0d55")
-	)
 	(junction
-		(at 154.94 71.12)
+		(at 166.37 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20a93026-d9f6-46cd-aba7-17b62651629a")
 	)
 	(junction
-		(at 119.38 66.04)
+		(at 130.81 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32730d85-a8ec-4f09-96f3-dc175c72d026")
 	)
 	(junction
-		(at 135.89 80.01)
+		(at 147.32 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63279146-cb83-4afa-b475-2f6568971d5f")
 	)
 	(junction
-		(at 154.94 80.01)
+		(at 162.56 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c125e01c-5198-41e0-be54-70a6f76705fb")
+	)
+	(junction
+		(at 184.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86740cd-dc7f-41e0-bfae-a6b1d26dd7d0")
+	)
+	(junction
+		(at 166.37 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd667960-318a-41ea-af37-69fde9b99c62")
 	)
 	(junction
-		(at 149.86 80.01)
+		(at 161.29 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fed5c1a9-3290-4122-9f88-2df771e08eb5")
 	)
 	(wire
 		(pts
-			(xy 142.24 62.23) (xy 142.24 63.5)
+			(xy 153.67 87.63) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 171.45 74.93)
+			(xy 180.34 96.52) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 106.68 87.63)
+			(xy 118.11 110.49) (xy 118.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1836,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 109.22 82.55)
+			(xy 118.11 107.95) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 149.86 80.01)
+			(xy 161.29 99.06) (xy 161.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1856,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 171.45 71.12)
+			(xy 166.37 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 35.56) (xy 31.75 35.56)
+			(xy 35.56 30.48) (xy 31.75 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 27.94) (xy 35.56 27.94)
+			(xy 31.75 22.86) (xy 35.56 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 53.34) (xy 142.24 54.61)
+			(xy 153.67 78.74) (xy 153.67 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 154.94 80.01)
+			(xy 161.29 105.41) (xy 162.56 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 33.02) (xy 130.81 30.48)
+			(xy 74.93 22.86) (xy 74.93 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 119.38 66.04)
+			(xy 130.81 90.17) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 154.94 92.71)
+			(xy 166.37 105.41) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +2055,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 109.22 77.47)
+			(xy 162.56 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f60f85-8540-41cd-8d79-d5967cadf6fc")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a1b0dd-c10d-415f-b73f-26f6f29bc0cf")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 109.22 74.93)
+			(xy 105.41 100.33) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 66.04) (xy 124.46 69.85)
+			(xy 135.89 91.44) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 106.68 68.58)
+			(xy 118.11 91.44) (xy 118.11 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1976,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 35.56 31.75)
+			(xy 31.75 26.67) (xy 35.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 119.38 66.04)
+			(xy 127 91.44) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 80.01)
+			(xy 166.37 104.14) (xy 166.37 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 119.38 69.85)
+			(xy 130.81 91.44) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 142.24 71.12)
+			(xy 153.67 99.06) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2026,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04) (xy 124.46 66.04)
+			(xy 137.16 91.44) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2036,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 134.62 80.01)
+			(xy 147.32 105.41) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2046,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 39.37) (xy 31.75 39.37)
+			(xy 35.56 34.29) (xy 31.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 182.88 85.09)
+			(xy 193.04 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 24.13) (xy 39.37 24.13)
+			(xy 31.75 19.05) (xy 39.37 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 106.68 82.55)
+			(xy 118.11 105.41) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2086,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 135.89 83.82)
+			(xy 147.32 105.41) (xy 147.32 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 156.21 67.31)
+			(xy 166.37 92.71) (xy 167.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2106,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 106.68 66.04)
+			(xy 119.38 91.44) (xy 118.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 177.8 92.71)
+			(xy 173.99 120.65) (xy 189.23 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 142.24 80.01)
+			(xy 147.32 105.41) (xy 153.67 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2136,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 173.99 85.09)
+			(xy 180.34 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 149.86 73.66)
+			(xy 153.67 99.06) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 106.68 87.63)
+			(xy 114.3 113.03) (xy 118.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 106.68 85.09)
+			(xy 120.65 110.49) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 119.38 57.15)
+			(xy 133.35 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 132.08 30.48)
+			(xy 74.93 20.32) (xy 76.2 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2196,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 163.83 80.01)
+			(xy 166.37 105.41) (xy 172.72 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 106.68 80.01)
+			(xy 114.3 105.41) (xy 118.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 154.94 71.12)
+			(xy 166.37 92.71) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2364,7 @@
 		(uuid "fff1dc54-ae39-4e76-b93a-03c1674f97bd")
 	)
 	(label "Vbat"
-		(at 39.37 24.13 0)
+		(at 39.37 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2234,8 +2373,18 @@
 		)
 		(uuid "09080d84-5bfc-4d3c-995d-f8985528e4bf")
 	)
+	(label "INT_G"
+		(at 166.37 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b20bdbb-e130-49d3-a88b-01cb1af94d83")
+	)
 	(label "RTC_INT_GPIN0"
-		(at 35.56 31.75 0)
+		(at 35.56 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2245,7 +2394,7 @@
 		(uuid "167d8f22-851f-422d-9288-47d885f78a0f")
 	)
 	(label "I2C_SDA"
-		(at 93.98 77.47 0)
+		(at 105.41 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2404,7 @@
 		(uuid "3fb5e2c2-ce43-47b6-bd5a-212e1d0fc3c5")
 	)
 	(label "BTN_PWR_RTC"
-		(at 182.88 85.09 0)
+		(at 194.31 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2265,7 +2414,7 @@
 		(uuid "469521f4-7e90-4f95-b075-fe26aa01755c")
 	)
 	(label "CLKOUT"
-		(at 135.89 80.01 0)
+		(at 147.32 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2275,7 +2424,7 @@
 		(uuid "4d5b155c-b568-4694-97f9-3c4d60bd7296")
 	)
 	(label "I2C_SCL"
-		(at 93.98 74.93 0)
+		(at 105.41 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2285,7 +2434,7 @@
 		(uuid "6a5eabf0-4896-4784-8b3a-4d13c6bd353c")
 	)
 	(label "BTN_PWR_RTC"
-		(at 35.56 27.94 0)
+		(at 35.56 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2444,7 @@
 		(uuid "7095641d-6364-4ad7-8960-cf2023d2f1b8")
 	)
 	(label "I2C_SCL"
-		(at 35.56 35.56 0)
+		(at 35.56 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2305,7 +2454,7 @@
 		(uuid "804c5db9-1796-4b68-9e0b-8a5b44220c86")
 	)
 	(label "Vbat"
-		(at 125.73 66.04 0)
+		(at 137.16 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2315,7 +2464,7 @@
 		(uuid "b3b549e9-7440-4cb1-9ee5-0ef7b46b2128")
 	)
 	(label "RTC_INT_GPIN0"
-		(at 177.8 92.71 180)
+		(at 189.23 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2325,7 +2474,7 @@
 		(uuid "b738c181-a097-4e7a-967f-379a15f83f3e")
 	)
 	(label "Vbat"
-		(at 132.08 30.48 0)
+		(at 76.2 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2335,7 +2484,7 @@
 		(uuid "f4dad000-7c84-4226-8412-d7a58f92ebaa")
 	)
 	(label "I2C_SDA"
-		(at 35.56 39.37 0)
+		(at 35.56 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2346,7 +2495,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
-		(at 31.75 39.37 180)
+		(at 31.75 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2357,7 +2506,7 @@
 	)
 	(hierarchical_label "BTN_PWR_RTC"
 		(shape output)
-		(at 31.75 27.94 180)
+		(at 31.75 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2368,7 +2517,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
-		(at 31.75 35.56 180)
+		(at 31.75 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2379,7 +2528,7 @@
 	)
 	(hierarchical_label "RTC_INT_GPIN0"
 		(shape output)
-		(at 31.75 31.75 180)
+		(at 31.75 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2390,7 +2539,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 31.75 24.13 180)
+		(at 31.75 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,15 +2550,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 66.04 270)
+		(at 123.19 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0667a770-75a7-43c4-a38c-75bed37d00fa")
-		(property "Reference" "C12"
-			(at 109.728 60.452 90)
+		(property "Reference" "C25"
+			(at 121.158 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2567,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 109.728 62.484 90)
+			(at 121.158 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,8 +2575,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 67.0052 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.38 92.4052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 66.04 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2594,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 66.04 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,8 +2602,44 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 111.76 66.04 90)
+		(property "Subsystem" "07-RTC"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 123.19 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2656,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "C12")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2664,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 156.21 67.31 270)
+		(at 167.64 92.71 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2487,8 +2672,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07113e5e-a228-4076-aa89-d36591d7c9b6")
-		(property "Reference" "#PWR041"
-			(at 152.4 67.31 0)
+		(property "Reference" "#PWR071"
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2682,7 @@
 			)
 		)
 		(property "Value" "Vbatt_Vbus"
-			(at 159.258 67.056 90)
+			(at 170.688 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 67.31 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 67.31 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 67.31 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2723,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR041")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2546,15 +2731,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 177.8 85.09 0)
+		(at 189.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1bbfb84b-ce2c-477c-b446-37ef83f0e0fd")
-		(property "Reference" "JP22"
-			(at 177.8 87.63 0)
+		(property "Reference" "JP23"
+			(at 189.23 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2747,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 162.814 90.424 0)
+			(at 174.244 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2756,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 177.8 85.09 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 85.09 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2774,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 177.8 85.09 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,8 +2782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 177.8 85.09 0)
+		(property "Subsystem" "07-RTC"
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2792,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 177.8 85.09 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2809,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "JP22")
+					(reference "JP23")
 					(unit 1)
 				)
 			)
@@ -2632,15 +2817,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 36.83 0)
+		(at 64.77 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1eab224d-2663-4568-8e3e-82586c21a94c")
-		(property "Reference" "C15"
-			(at 123.19 35.56 0)
+		(property "Reference" "C23"
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2834,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 123.19 38.1 0)
+			(at 67.31 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,8 +2842,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.6152 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 65.7352 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 36.83 0)
+			(at 64.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2861,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 36.83 0)
+			(at 64.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,8 +2869,44 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 120.65 36.83 0)
+		(property "Subsystem" "07-RTC"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 64.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2923,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "C15")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2710,15 +2931,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 68.58 0)
+		(at 118.11 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a0053c4-6b45-4e42-95a8-1156d162e7e2")
-		(property "Reference" "#PWR032"
-			(at 106.68 74.93 0)
+		(property "Reference" "#PWR066"
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 72.39 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 68.58 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 68.58 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 68.58 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2988,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR032")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2775,15 +2996,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 83.82 90)
+		(at 149.86 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3d2918c3-fc4d-43e0-891d-dbd91946846d")
-		(property "Reference" "#PWR040"
-			(at 144.78 83.82 0)
+		(property "Reference" "#PWR069"
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +3013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.002 83.82 90)
+			(at 154.432 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +3021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 83.82 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +3030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 83.82 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +3039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 83.82 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,73 +3053,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 31.75 20.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "446afbd2-f93a-4314-969b-6c6cfae25cc8")
-		(property "Reference" "#PWR071"
-			(at 35.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vbatt_Vbus"
-			(at 28.702 20.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d67cea5-a363-4141-bb13-9ba5502e5b0c")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR071")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2906,15 +3061,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 40.64 0)
+		(at 64.77 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b16af0c-48c7-4fe4-956c-db9470053ec5")
-		(property "Reference" "#PWR044"
-			(at 120.65 46.99 0)
+		(property "Reference" "#PWR064"
+			(at 64.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 44.45 0)
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 40.64 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3118,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR044")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2971,15 +3126,15 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 102.87 83.82 90)
+		(at 114.3 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5f743bba-d98b-4115-a7c2-80d470d9b711")
-		(property "Reference" "Y1"
-			(at 96.774 84.074 90)
+		(property "Reference" "Y2"
+			(at 108.204 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3143,7 @@
 			)
 		)
 		(property "Value" "ABS07AIG-32.768KHZ-7-T"
-			(at 89.408 89.408 90)
+			(at 100.838 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,8 +3151,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 83.82 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 83.82 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3170,7 @@
 			)
 		)
 		(property "Description" "32.768 kHz ±20ppm 水晶振動子 7pF 80 kOhms 2-SMD、リードなし"
-			(at 102.87 83.82 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3179,7 @@
 			)
 		)
 		(property "MPN" "ABS07AIG-32.768KHZ-7-T"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3188,7 @@
 			)
 		)
 		(property "Manufacturer" "Abracon LLC"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3197,7 @@
 			)
 		)
 		(property "Package" "2-SMD（3.2x1.5）"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3206,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3215,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "535-13350-1-ND"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3224,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://www.digikey.jp/ja/products/detail/abracon-llc/ABS07AIG-32.768KHZ-7-T/5817604?gclsrc=aw.ds&gad_source=1&gad_campaignid=20220851003"
-			(at 102.87 83.82 90)
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,8 +3232,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 102.87 83.82 90)
+		(property "Subsystem" "07-RTC"
+			(at 114.3 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +3250,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -3103,15 +3258,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 36.83 0)
+		(at 74.93 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "652da57d-203c-4b69-b63d-018882da26b9")
-		(property "Reference" "C16"
-			(at 133.35 35.56 0)
+		(property "Reference" "C24"
+			(at 77.47 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3275,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 133.35 38.1 0)
+			(at 77.47 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,8 +3283,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 131.7752 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 75.8952 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 36.83 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 36.83 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,8 +3310,44 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 130.81 36.83 0)
+		(property "Subsystem" "07-RTC"
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Generic)"
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3364,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "C16")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3181,15 +3372,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 58.42 180)
+		(at 153.67 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "671ecd69-7f80-4f98-ab4f-c772766e3738")
-		(property "Reference" "R25"
-			(at 137.414 58.42 90)
+		(property "Reference" "R42"
+			(at 148.844 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3388,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 139.954 58.42 90)
+			(at 151.384 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3396,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 144.018 58.42 90)
+			(at 155.448 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 58.42 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3414,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 58.42 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,8 +3422,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" "06-MCU-IO"
-			(at 142.24 58.42 90)
+		(property "Subsystem" "07-RTC"
+			(at 153.67 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3432,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 142.24 58.42 90)
+			(at 153.67 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3441,25 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 142.24 58.42 90)
+			(at 153.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 153.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 153.67 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3476,92 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "R25")
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f2e5405-5dbb-496d-af21-004be41b2250")
+		(property "Reference" "TP24"
+			(at 164.338 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INT_G"
+			(at 163.8299 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56fa8a3b-078c-4379-9429-fd4a59231270")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -3275,15 +3569,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 90.17 0)
+		(at 133.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "78049224-b665-47ce-9e4b-d908c68f5e67")
-		(property "Reference" "#PWR037"
-			(at 121.92 96.52 0)
+		(property "Reference" "#PWR068"
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 93.98 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 90.17 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 90.17 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 90.17 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3626,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR037")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3340,15 +3634,15 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:PCF8523T")
-		(at 121.92 80.01 0)
+		(at 133.35 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "843c62a4-ff70-4313-a2ea-0b71f10e2d60")
-		(property "Reference" "U6"
-			(at 133.858 73.406 0)
+		(property "Reference" "U7"
+			(at 145.288 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3650,7 @@
 			)
 		)
 		(property "Value" "PCF8523T"
-			(at 137.16 75.438 0)
+			(at 148.59 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3658,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 142.24 88.9 0)
+			(at 153.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3667,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf"
-			(at 121.92 80.01 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3676,7 @@
 			)
 		)
 		(property "Description" "Realtime Clock/Calendar I2C Interface, SOIC-8"
-			(at 121.92 80.01 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,8 +3684,62 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 121.92 80.01 0)
+		(property "Subsystem" "07-RTC"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PCF8523T/1,118"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NXP"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOP-8"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 SKU" "C2651516"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://lcsc.com/product-detail/Real-Time-Clocks_NXP-PCF8523T-1-118_C2651516.html?s_z=n_PCF8523T"
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3774,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3434,7 +3782,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 142.24 53.34 270)
+		(at 153.67 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3443,7 +3791,7 @@
 		(dnp no)
 		(uuid "8d485660-af92-4a6f-b7b9-a134b05024d0")
 		(property "Reference" "#PWR070"
-			(at 138.43 53.34 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3800,7 @@
 			)
 		)
 		(property "Value" "Vbatt_Vbus"
-			(at 145.288 53.086 90)
+			(at 156.718 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 53.34 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 53.34 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 53.34 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,15 +3849,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 74.93 180)
+		(at 166.37 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "97da2065-4765-4d25-9541-99b1623bbc81")
-		(property "Reference" "R40"
-			(at 159.258 73.914 0)
+		(property "Reference" "R43"
+			(at 170.688 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3865,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 159.258 76.2 0)
+			(at 170.688 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 156.718 74.93 90)
+			(at 168.148 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 74.93 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,8 +3899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 154.94 74.93 0)
+		(property "Subsystem" "07-RTC"
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3909,34 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 154.94 74.93 0)
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3953,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "R40")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3586,7 +3961,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 120.65 33.02 0)
+		(at 64.77 22.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3594,8 +3969,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2ce7721-04ed-4be6-bc4d-cd1a1833f6ab")
-		(property "Reference" "#PWR043"
-			(at 120.65 36.83 0)
+		(property "Reference" "#PWR063"
+			(at 64.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3979,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 120.65 28.702 0)
+			(at 64.77 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 33.02 0)
+			(at 64.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 33.02 0)
+			(at 64.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +4005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 33.02 0)
+			(at 64.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +4019,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR043")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3652,15 +4027,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 146.05 80.01 0)
+		(at 157.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c25247bb-4097-42d3-92f8-5aa50fc39a76")
-		(property "Reference" "JP19"
-			(at 146.05 77.724 0)
+		(property "Reference" "JP21"
+			(at 157.48 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +4043,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 131.064 85.344 0)
+			(at 142.494 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 146.05 80.01 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 80.01 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +4070,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 146.05 80.01 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,8 +4078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 146.05 80.01 0)
+		(property "Subsystem" "07-RTC"
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +4088,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 146.05 80.01 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4105,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "JP19")
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -3738,15 +4113,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 40.64 0)
+		(at 74.93 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c8677504-97fd-425b-b506-4bf2338b8b97")
-		(property "Reference" "#PWR045"
-			(at 130.81 46.99 0)
+		(property "Reference" "#PWR065"
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +4130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 44.45 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 40.64 0)
+			(at 74.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +4147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 40.64 0)
+			(at 74.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +4156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 40.64 0)
+			(at 74.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +4170,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR045")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3803,7 +4178,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 168.91 80.01 0)
+		(at 177.8 105.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3812,7 +4187,7 @@
 		(dnp no)
 		(uuid "d7ac96dc-03e8-4859-95c9-82055d892b2e")
 		(property "Reference" "Q6"
-			(at 177.8 80.01 90)
+			(at 185.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +4195,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 175.26 80.01 90)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +4203,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 82.55 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +4212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 67.31 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +4221,7 @@
 			)
 		)
 		(property "Description" "20V 3.1A 1.6W 142mΩ@2.5V,2.7A 1V@250uA 1 P-Channel SOT-23 MOSFETs ROHS"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4230,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 168.91 62.865 0)
+			(at 177.8 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4239,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 168.91 60.96 0)
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4248,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 168.91 64.77 0)
+			(at 177.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4257,7 @@
 			)
 		)
 		(property "MPN" "SI2301CDS-T1-GE3"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4266,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +4275,7 @@
 			)
 		)
 		(property "Package" "SOT-23"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4284,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +4293,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "C10487"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4302,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://lcsc.com/product-detail/MOSFETs_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.html?s_z=n_SI2301CDS-T1-GE3"
-			(at 168.91 80.01 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,8 +4310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" "01-Power-Mux"
-			(at 168.91 80.01 90)
+		(property "Subsystem" "07-RTC"
+			(at 177.8 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,15 +4339,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 158.75 92.71 180)
+		(at 170.18 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "daf76735-641f-4dc7-b7bb-43466001b221")
-		(property "Reference" "JP23"
-			(at 158.75 94.996 0)
+		(property "Reference" "JP22"
+			(at 170.18 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4355,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 173.736 87.376 0)
+			(at 185.166 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4364,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 158.75 92.71 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 92.71 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4382,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 158.75 92.71 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,8 +4390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 158.75 92.71 0)
+		(property "Subsystem" "07-RTC"
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4400,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 158.75 92.71 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4417,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "JP23")
+					(reference "JP22")
 					(unit 1)
 				)
 			)
@@ -4050,15 +4425,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 135.89 88.9 90)
+		(at 147.32 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dffcfb0b-230e-4718-9709-9054c05012f6")
-		(property "Reference" "J5"
-			(at 135.636 90.424 90)
+		(property "Reference" "J9"
+			(at 147.066 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4442,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 139.7 89.5349 90)
+			(at 151.13 114.9349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,8 +4451,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 88.9 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 88.9 0)
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4470,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 135.89 88.9 0)
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,8 +4478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 135.89 88.9 90)
+		(property "Subsystem" "07-RTC"
+			(at 147.32 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4496,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "J5")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4129,7 +4504,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 121.92 57.15 0)
+		(at 133.35 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4137,8 +4512,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb285f37-290e-42ba-af95-7293d5a3643d")
-		(property "Reference" "#PWR035"
-			(at 121.92 60.96 0)
+		(property "Reference" "#PWR067"
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4522,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 121.92 52.832 0)
+			(at 133.35 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 57.15 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 57.15 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 57.15 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4562,7 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR035")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4195,15 +4570,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 60.96 180)
+		(at 130.81 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f62382e7-6592-4f65-9358-ecf7d8dd3c63")
-		(property "Reference" "R23"
-			(at 122.428 59.436 0)
+		(property "Reference" "R41"
+			(at 133.858 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4586,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 122.174 61.468 0)
+			(at 133.604 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 121.158 60.96 90)
+			(at 132.588 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 60.96 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4612,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 60.96 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,8 +4620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" ""
-			(at 119.38 60.96 0)
+		(property "Subsystem" "07-RTC"
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4630,34 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 119.38 60.96 0)
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "(Generic)"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "(Generic)"
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,24 +4674,23 @@
 		(instances
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "R23")
+					(reference "R41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 142.24 67.31 270)
-		(mirror x)
+		(lib_id "Connector:TestPoint")
+		(at 184.15 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fe4a9303-edc1-456a-9d72-ed30b959d55e")
-		(property "Reference" "D10"
-			(at 144.78 66.294 90)
+		(uuid "fae05f0c-e9b8-4cbc-854e-9dbb391ead85")
+		(property "Reference" "TP25"
+			(at 185.928 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,17 +4698,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RED/INT"
-			(at 144.78 68.834 90)
+		(property "Value" "INT_D"
+			(at 185.4199 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 142.24 67.31 0)
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4718,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 67.31 0)
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5513a86b-9ceb-4b85-b4cf-ea435cc6dc30")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 153.67 92.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe4a9303-edc1-456a-9d72-ed30b959d55e")
+		(property "Reference" "D10"
+			(at 156.21 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RED/INT"
+			(at 156.21 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4812,7 @@
 			)
 		)
 		(property "Description" "25mA 67mcd~195mcd -30℃~+85℃ 615nm~630nm Discrete Diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4821,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,8 +4829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Subsystem" "06-MCU-IO"
-			(at 142.24 67.31 0)
+		(property "Subsystem" "07-RTC"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4839,7 @@
 			)
 		)
 		(property "MPN" "NCD0805R1"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4848,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4857,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4866,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4875,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "C84256"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4884,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.html"
-			(at 142.24 67.31 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

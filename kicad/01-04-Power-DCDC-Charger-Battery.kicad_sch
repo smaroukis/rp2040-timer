@@ -4292,16 +4292,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 19.05) (xy 26.67 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09215a39-efa1-44ff-a065-3280d0667c46")
-	)
-	(wire
-		(pts
 			(xy 72.39 104.14) (xy 72.39 107.95)
 		)
 		(stroke
@@ -4702,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 39.37) (xy 153.67 39.37)
+			(xy 156.21 39.37) (xy 153.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5730,16 +5720,6 @@
 		)
 		(uuid "056b6d50-0f39-43a4-8483-20c10746f20c")
 	)
-	(label "Vbat"
-		(at 35.56 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09de4f66-aa1a-4d3b-a0a8-6af4d27ae26e")
-	)
 	(label "Batt+"
 		(at 34.29 101.6 180)
 		(effects
@@ -5749,16 +5729,6 @@
 			(justify right bottom)
 		)
 		(uuid "27bf2212-7978-4eb3-bebe-255f16bd387e")
-	)
-	(label "Vbat"
-		(at 190.5 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36a717ea-83e8-4fbf-ab2c-95c07d629a41")
 	)
 	(label "Batt-"
 		(at 35.56 146.05 180)
@@ -5780,26 +5750,6 @@
 		)
 		(uuid "49c700bb-0334-42bf-b974-60f61c979c9c")
 	)
-	(label "Vbat"
-		(at 26.67 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f8f5266-688e-418e-b5f9-c264fcbfebad")
-	)
-	(label "Vbat"
-		(at 160.02 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b713742-5008-44df-ab6e-7f82d67ce7c3")
-	)
 	(label "STAT"
 		(at 153.67 44.45 0)
 		(effects
@@ -5809,16 +5759,6 @@
 			(justify left bottom)
 		)
 		(uuid "8614df93-75d1-497f-b5da-607de24a912e")
-	)
-	(label "Vbat"
-		(at 45.72 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9537872a-c3a9-44f4-805b-fc1df96fb0bd")
 	)
 	(label "Batt-"
 		(at 34.29 114.3 180)
@@ -5840,17 +5780,6 @@
 			(justify right)
 		)
 		(uuid "056b8031-5dd0-49a8-ad0f-c44dafdf600f")
-	)
-	(hierarchical_label "PWR_CTL"
-		(shape input)
-		(at 29.21 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31e37ed7-5a25-4bb2-92af-d5a4882c4c9f")
 	)
 	(hierarchical_label "ADC0_VUSB_In"
 		(shape output)
@@ -5874,6 +5803,17 @@
 		)
 		(uuid "5a54d57d-b561-41d5-b553-50cc99672fe0")
 	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 190.5 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bd1b409-4732-4058-af4c-c188ce53f846")
+	)
 	(hierarchical_label "BTN_PWR_RTC"
 		(shape input)
 		(at 140.97 121.92 180)
@@ -5884,6 +5824,17 @@
 			(justify right)
 		)
 		(uuid "701649b5-8011-4fa4-927e-a2b4bb256752")
+	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 156.21 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b872ddd-4b11-407e-bfa3-228cf78acae9")
 	)
 	(hierarchical_label "ADC1_VSW_In"
 		(shape output)
@@ -5907,20 +5858,9 @@
 		)
 		(uuid "b769fe72-1c79-407e-ad39-3964c43c6f79")
 	)
-	(hierarchical_label "BTN_PWR_RTC"
-		(shape input)
-		(at 30.48 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9e8198d-2d8e-418e-86f8-14210b5e2516")
-	)
 	(hierarchical_label "VBAT"
 		(shape output)
-		(at 21.59 19.05 180)
+		(at 45.72 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5939,6 +5879,17 @@
 			(justify left)
 		)
 		(uuid "ecbe8321-40e4-47e0-88db-63d09d5d31b7")
+	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 35.56 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd252462-aa3f-4b65-acf2-043a61d62389")
 	)
 	(symbol
 		(lib_id "Device:C")

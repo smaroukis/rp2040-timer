@@ -2695,6 +2695,12 @@
 		(uuid "1ee6b177-f9c9-43fd-862b-e047186186a6")
 	)
 	(junction
+		(at 97.79 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b9b9ec2-6a95-4c0d-8475-634e64534695")
+	)
+	(junction
 		(at 58.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2754,6 +2760,12 @@
 		(color 0 0 0 0)
 		(uuid "ec0eb2c5-7930-496d-bb43-f8709c03c1f5")
 	)
+	(junction
+		(at 97.79 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9250087-7f0a-4976-beca-f85c7f460976")
+	)
 	(no_connect
 		(at 73.66 87.63)
 		(uuid "1cd3406f-8bb0-471a-b192-d705415b39f4")
@@ -2795,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "0be2c1d8-ad46-46e0-85f6-14fbc1f020c3")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1709f2-c7ce-480e-a52f-810823f6fe81")
 	)
 	(wire
 		(pts
@@ -3205,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "8ad75234-224b-468e-ba02-270fb2a7ae2d")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b784c66-d799-4cca-80f8-eed2453c0abc")
 	)
 	(wire
 		(pts
@@ -5746,9 +5778,9 @@
 		(at 102.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c6f0a4f7-a3cd-483d-bc40-97f9a603528f")
 		(property "Reference" "U1"
 			(at 103.124 69.596 0)

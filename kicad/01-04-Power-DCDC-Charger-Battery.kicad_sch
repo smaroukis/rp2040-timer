@@ -3991,6 +3991,12 @@
 		(uuid "199cedb6-3eb0-4b48-9794-76f7c01138d4")
 	)
 	(junction
+		(at 57.15 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2427259e-bbc3-4b89-8d40-09caa559bda9")
+	)
+	(junction
 		(at 158.75 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4057,12 +4063,6 @@
 		(uuid "5d6c443f-6694-4238-9823-8898d7bf4f28")
 	)
 	(junction
-		(at 57.15 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6023f719-55cc-4df7-a65a-ca894506aaaa")
-	)
-	(junction
 		(at 96.52 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4091,12 +4091,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b5da2ce-dfd9-4314-985d-68a2febbd109")
-	)
-	(junction
-		(at 60.96 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85c063d5-cbd7-4bef-bc93-6e985e0dfbb1")
 	)
 	(junction
 		(at 201.93 120.65)
@@ -4459,16 +4453,6 @@
 			(type default)
 		)
 		(uuid "1f769316-c07b-4f23-92c5-1725cbe46244")
-	)
-	(wire
-		(pts
-			(xy 54.61 45.72) (xy 60.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "203a16c9-1931-4c10-98cb-e5fcf12f5537")
 	)
 	(wire
 		(pts
@@ -5362,16 +5346,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 27.94) (xy 60.96 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03334ff-fb99-417c-9875-e0fc94e88f82")
-	)
-	(wire
-		(pts
 			(xy 71.12 27.94) (xy 73.66 27.94)
 		)
 		(stroke
@@ -5562,6 +5536,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 27.94) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d2fd14-6baa-46d8-b931-d309e9dad8b1")
+	)
+	(wire
+		(pts
 			(xy 158.75 100.33) (xy 152.4 100.33)
 		)
 		(stroke
@@ -5652,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 66.04 45.72)
+			(xy 54.61 45.72) (xy 66.04 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8296,7 +8280,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 50.8 35.56 180)
+		(at 57.15 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8304,7 +8288,7 @@
 		(dnp no)
 		(uuid "38459ef7-9c4e-4dd4-93c9-787929300dba")
 		(property "Reference" "JP2"
-			(at 49.022 32.766 0)
+			(at 54.356 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8297,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 52.0699 33.02 90)
+			(at 54.61 30.4801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8307,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 50.8 35.56 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 35.56 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8325,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 50.8 35.56 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8334,7 @@
 			)
 		)
 		(property "Subsystem" "01A-Power-Mux"
-			(at 50.8 35.56 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8343,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 50.8 35.56 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11945,7 +11929,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 57.15 31.75 90)
+		(at 50.8 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11953,25 +11937,25 @@
 		(dnp no)
 		(uuid "a472006b-bf4b-48b9-bec2-7d9aee7952a9")
 		(property "Reference" "D1"
-			(at 59.182 30.48 90)
+			(at 49.276 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "BATT"
-			(at 58.674 32.512 90)
+			(at 48.768 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 57.15 31.75 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 31.75 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11973,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 57.15 31.75 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11982,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 31.75 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +11991,7 @@
 			)
 		)
 		(property "MPN" "KT-0805G"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12000,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12009,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12018,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "C2297"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +12027,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0805G_C2297.html?s_z=n_KT-0805G"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12052,7 +12036,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +12045,7 @@
 			)
 		)
 		(property "Subsystem" "01A-Power-Mux"
-			(at 57.15 31.75 90)
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14543,90 +14527,6 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
 					(reference "JP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9cb2f28-150d-4f92-ac25-f91952738ddd")
-		(property "Reference" "TP5"
-			(at 62.738 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 63.246 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Subsystem" "01A-Power-Mux"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "(Embedded)"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90d1dfaf-93f0-42ff-8db9-5458d78149bf")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

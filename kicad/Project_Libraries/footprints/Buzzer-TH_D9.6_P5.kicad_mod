@@ -1,4 +1,4 @@
-(footprint "Buz-TH_D9.6_P5"
+(footprint "Buzzer-TH_D9.6_P5"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -124,7 +124,7 @@
 		(remove_unused_layers no)
 		(uuid "c49bb931-4866-4ded-9718-339ae2c6422c")
 	)
-	(pad "1" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 2.5 0)
 		(size 1.8 1.8)
 		(drill 1)

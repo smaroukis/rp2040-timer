@@ -1,4 +1,4 @@
-25635736471915188
+25635737817837277
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102669,12 +102669,19 @@ Battery-Holder-BH-123A_37.5P_1.8D_MH
 2
 2
 project footprints
-Buz-TH_D9.6_P5
+Buzzer-TH_D9.6_P5
 Buzzer Through Hole 9.6mm body diameter, pins 5mm pitch 1mm hole. Reference PN = HNB09A05
 Buzzer Beeper HNB09A05
 0
 2
-1
+2
+project footprints
+Buzzer_SPKR_PKMCS0909E4000-R1
+Murata  BUZZER PIEZO 9X9MM SMD
+Buzzer Beeper Piezo
+0
+2
+2
 project footprints
 IND_SDER041H-2R2MS
 
@@ -102703,13 +102710,6 @@ SON50P150X150X80-6N
 0
 6
 6
-project footprints
-SPKR_PKMCS0909E4000-R1
-
-
-0
-2
-2
 project footprints
 TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
 wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm

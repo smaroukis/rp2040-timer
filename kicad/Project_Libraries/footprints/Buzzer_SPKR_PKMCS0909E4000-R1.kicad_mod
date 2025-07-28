@@ -1,8 +1,10 @@
-(footprint "SPKR_PKMCS0909E4000-R1"
+(footprint "Buzzer_SPKR_PKMCS0909E4000-R1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Murata  BUZZER PIEZO 9X9MM SMD")
+	(tags "Buzzer Beeper Piezo")
 	(property "Reference" "REF**"
 		(at -2.325 -5.635 0)
 		(layer "F.SilkS")
@@ -14,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SPKR_PKMCS0909E4000-R1"
+	(property "Value" "Buzzer_SPKR_PKMCS0909E4000-R1"
 		(at 8.47 5.635 0)
 		(layer "F.Fab")
 		(uuid "4bfb1dfb-2933-4719-b0fe-e00e5a2fc1f6")

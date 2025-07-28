@@ -10226,7 +10226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project footprints:SPKR_PKMCS0909E4000-R1"
+		(property "Footprint" "project footprints:Buzzer_SPKR_PKMCS0909E4000-R1"
 			(at 173.355 161.29 90)
 			(effects
 				(font
@@ -14540,7 +14540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project footprints:Buz-TH_D9.6_P5"
+		(property "Footprint" "project footprints:Buzzer-TH_D9.6_P5"
 			(at 161.925 181.61 90)
 			(effects
 				(font

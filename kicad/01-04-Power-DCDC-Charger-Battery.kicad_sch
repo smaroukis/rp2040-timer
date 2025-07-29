@@ -4171,6 +4171,12 @@
 		(uuid "cb864d43-b3d8-40f9-803c-fdf2832f08ff")
 	)
 	(junction
+		(at 162.56 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d61a0e3a-ee68-4b22-8f10-5e73f632b86b")
+	)
+	(junction
 		(at 52.07 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,6 +4872,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 34.29) (xy 166.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5feba0a2-d2fe-45e9-ac67-cb93f774e9b8")
+	)
+	(wire
+		(pts
 			(xy 132.08 44.45) (xy 132.08 45.72)
 		)
 		(stroke
@@ -5296,16 +5312,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 34.29) (xy 166.37 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4664489-97a6-48ab-8694-dcedf1befce9")
-	)
-	(wire
-		(pts
 			(xy 96.52 152.4) (xy 96.52 149.86)
 		)
 		(stroke
@@ -5446,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 34.29) (xy 156.21 34.29)
+			(xy 143.51 34.29) (xy 162.56 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6184,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.0052 38.1 0)
 			(effects
 				(font
@@ -6238,7 +6244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 193.04 34.29 0)
 			(effects
 				(font
@@ -6874,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 52.07 143.51 0)
 			(effects
 				(font
@@ -6934,7 +6940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.3052 38.1 0)
 			(effects
 				(font
@@ -6988,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 180.34 34.29 0)
 			(effects
 				(font
@@ -7661,7 +7667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n, 10V"
+		(property "Value" "470n"
 			(at 168.91 131.826 0)
 			(effects
 				(font
@@ -8361,94 +8367,6 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 160.02 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ef944ac-e841-496f-81ad-f692655a4589")
-		(property "Reference" "JP8"
-			(at 161.036 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 161.2899 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 160.02 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 160.02 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Subsystem" ""
-			(at 160.02 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "(Embedded)"
-			(at 160.02 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81e19f68-cf8f-4cc7-9a0c-145ff10dea95")
-		)
-		(pin "1"
-			(uuid "d3e9ff1e-41b5-4b52-8806-4e099b371521")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -11694,6 +11612,91 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9822ae18-c4da-4a0a-853c-88ea113f3720")
+		(property "Reference" "TP5"
+			(at 162.306 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U2_VDD"
+			(at 161.2901 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "project footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "(Embedded)"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65b6706b-2c6c-42c0-9d10-3c367100af1a")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

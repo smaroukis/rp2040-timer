@@ -6295,6 +6295,48 @@
 		)
 	)
 	(sheet
+		(at 88.9 165.1)
+		(size 34.29 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "892e3d5c-3b02-4812-a25c-8412b58cd20c")
+		(property "Sheetname" "TM1638_Display"
+			(at 88.9 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TM1638_Display.kicad_sch"
+			(at 88.9 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 144.78 52.07)
 		(size 38.1 26.67)
 		(exclude_from_sim no)

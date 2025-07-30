@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 58.42) (xy 144.78 55.88)
+			(xy 138.43 59.69) (xy 138.43 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 130.81 91.44)
+			(xy 130.81 87.63) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 130.81 82.55)
+			(xy 133.35 80.01) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 146.05 55.88)
+			(xy 138.43 57.15) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2312,6 +2312,16 @@
 			(type default)
 		)
 		(uuid "fff1dc54-ae39-4e76-b93a-03c1674f97bd")
+	)
+	(label "VDD_IN"
+		(at 130.81 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0151841a-47e6-415e-a34f-3851c3827592")
 	)
 	(label "INT_G"
 		(at 166.37 105.41 0)
@@ -2357,7 +2367,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 146.05 55.88 0)
+		(at 139.7 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2667,120 +2677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1eab224d-2663-4568-8e3e-82586c21a94c")
-		(property "Reference" "C23"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 137.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 135.5852 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Subsystem" "07-RTC"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "(Generic)"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "(Generic)"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "(Generic)"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "165192ad-66d1-4235-8c3a-fcde00f4a270")
-		)
-		(pin "1"
-			(uuid "62bc530e-5ab8-4d2a-863b-8745e9e28f2e")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 93.98 0)
 		(unit 1)
@@ -2905,71 +2801,6 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b16af0c-48c7-4fe4-956c-db9470053ec5")
-		(property "Reference" "#PWR064"
-			(at 134.62 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8ec7686-6133-4aac-985d-9685dd3e45b9")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3109,7 +2940,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 62.23 0)
+		(at 138.43 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3117,7 +2948,7 @@
 		(dnp no)
 		(uuid "652da57d-203c-4b69-b63d-018882da26b9")
 		(property "Reference" "C24"
-			(at 147.32 60.96 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +2957,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 147.32 63.5 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +2966,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 145.7452 66.04 0)
+			(at 139.3952 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +2984,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +2993,7 @@
 			)
 		)
 		(property "Subsystem" "07-RTC"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3002,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3011,7 @@
 			)
 		)
 		(property "Manufacturer" "(Generic)"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3020,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3029,7 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
-			(at 144.78 62.23 0)
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,72 +3642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 134.62 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2ce7721-04ed-4be6-bc4d-cd1a1833f6ab")
-		(property "Reference" "#PWR063"
-			(at 134.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 134.62 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "586cd412-1c28-4561-b6db-7679a3f60277")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 157.48 105.41 0)
 		(unit 1)
@@ -3964,7 +3729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 66.04 0)
+		(at 138.43 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3972,7 +3737,7 @@
 		(dnp no)
 		(uuid "c8677504-97fd-425b-b506-4bf2338b8b97")
 		(property "Reference" "#PWR065"
-			(at 144.78 72.39 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 69.85 0)
+			(at 138.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 66.04 0)
+			(at 138.43 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 66.04 0)
+			(at 138.43 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +3772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 66.04 0)
+			(at 138.43 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4120,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 133.35 82.55 0)
+		(at 133.35 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4364,7 +4129,7 @@
 		(dnp no)
 		(uuid "eb285f37-290e-42ba-af95-7293d5a3643d")
 		(property "Reference" "#PWR067"
-			(at 133.35 86.36 0)
+			(at 133.35 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4138,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 133.35 78.232 0)
+			(at 133.35 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 82.55 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 82.55 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 82.55 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4186,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 86.36 180)
+		(at 130.81 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4429,7 +4194,7 @@
 		(dnp no)
 		(uuid "f62382e7-6592-4f65-9358-ecf7d8dd3c63")
 		(property "Reference" "R41"
-			(at 133.858 84.836 0)
+			(at 133.858 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4202,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 133.604 86.868 0)
+			(at 133.604 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.588 86.36 90)
+			(at 132.588 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4237,7 @@
 			)
 		)
 		(property "Subsystem" "07-RTC"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4246,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4255,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4264,7 @@
 			)
 		)
 		(property "Manufacturer" "(Generic)"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4273,7 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
-			(at 130.81 86.36 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

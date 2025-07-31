@@ -47136,10 +47136,10 @@
 	)
 	(gr_rect
 		(start 17.78 9.512)
-		(end 262.78 182.512)
+		(end 117.78 109.512)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")

@@ -5710,6 +5710,16 @@
 		)
 		(uuid "056b6d50-0f39-43a4-8483-20c10746f20c")
 	)
+	(label "V_OUT"
+		(at 228.6 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f0e4322-7361-473e-b5c2-fcebbc33e617")
+	)
 	(label "Batt+"
 		(at 34.29 101.6 180)
 		(effects

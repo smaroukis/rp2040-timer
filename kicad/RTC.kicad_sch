@@ -2333,7 +2333,7 @@
 		)
 		(uuid "0b20bdbb-e130-49d3-a88b-01cb1af94d83")
 	)
-	(label "CLKOUT"
+	(label "INT_CLKOUT"
 		(at 147.32 105.41 0)
 		(effects
 			(font

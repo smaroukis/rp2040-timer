@@ -3973,6 +3973,12 @@
 		(uuid "0e6e341d-1c14-488d-bf63-6fdbb038e688")
 	)
 	(junction
+		(at 224.79 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10734ee7-24f0-481c-988f-bad6ba20674d")
+	)
+	(junction
 		(at 87.63 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4207,12 +4213,6 @@
 		(uuid "e59552e5-975c-4b23-8e41-549438784b1e")
 	)
 	(junction
-		(at 228.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e68973b7-eae0-4197-b8f1-ca8681c8987a")
-	)
-	(junction
 		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4248,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 114.3) (xy 228.6 115.57)
+			(xy 224.79 114.3) (xy 224.79 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4638,6 +4638,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 106.68) (xy 242.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426030bf-a0d4-4e2a-a769-70819ad93b33")
+	)
+	(wire
+		(pts
 			(xy 41.91 133.35) (xy 41.91 134.62)
 		)
 		(stroke
@@ -5008,6 +5018,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 123.19) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7486f666-3ce9-4cd2-a1bb-055168a22511")
+	)
+	(wire
+		(pts
 			(xy 248.92 123.19) (xy 254 123.19)
 		)
 		(stroke
@@ -5078,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 219.71 106.68)
+			(xy 215.9 106.68) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5278,16 +5298,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 106.68) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad5d636-3e20-4dfa-8a37-4a0d716af19f")
-	)
-	(wire
-		(pts
 			(xy 85.09 139.7) (xy 87.63 139.7)
 		)
 		(stroke
@@ -5425,16 +5435,6 @@
 			(type default)
 		)
 		(uuid "c79f561b-9da3-48d0-913a-430ac93ec44e")
-	)
-	(wire
-		(pts
-			(xy 228.6 106.68) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd2dc89-a280-45da-a0c3-3090b71136f2")
 	)
 	(wire
 		(pts
@@ -5726,16 +5726,6 @@
 		)
 		(uuid "056b6d50-0f39-43a4-8483-20c10746f20c")
 	)
-	(label "V_OUT"
-		(at 228.6 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f0e4322-7361-473e-b5c2-fcebbc33e617")
-	)
 	(label "Batt+"
 		(at 34.29 101.6 180)
 		(effects
@@ -5815,6 +5805,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7b4f9c6-fa00-4037-830b-f6c934b950f2")
+	)
+	(label "V_OUT"
+		(at 232.41 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c14aef-2035-4eb5-acc3-b6e990868909")
 	)
 	(hierarchical_label "5V_USB"
 		(shape input)
@@ -8228,7 +8228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 119.38 0)
+		(at 224.79 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8236,7 +8236,7 @@
 		(dnp no)
 		(uuid "2dc8a01a-e0ff-41f8-a118-244c1015f689")
 		(property "Reference" "R18"
-			(at 231.14 117.602 0)
+			(at 227.33 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8245,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 231.394 119.888 0)
+			(at 227.584 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.822 119.38 90)
+			(at 223.012 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8272,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8281,7 @@
 			)
 		)
 		(property "Subsystem" "01A-Power-Mux"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8290,7 @@
 			)
 		)
 		(property "MPN" "(Generic)"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8299,7 @@
 			)
 		)
 		(property "Manufacturer" "(Generic)"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8308,7 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8317,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 228.6 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11181,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 228.6 110.49 90)
+		(at 224.79 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11189,7 +11189,7 @@
 		(dnp no)
 		(uuid "906e3dec-7c90-467e-9489-5a3607a0e930")
 		(property "Reference" "D8"
-			(at 231.14 108.966 90)
+			(at 227.33 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +11198,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 231.14 111.506 90)
+			(at 227.33 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11207,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 228.6 110.49 0)
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11216,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 110.49 0)
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11225,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 228.6 110.49 0)
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11234,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 110.49 0)
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11243,7 @@
 			)
 		)
 		(property "MPN" "KT-0805G"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11252,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11261,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11270,7 @@
 			)
 		)
 		(property "Supplier 1 SKU" "C2297"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11279,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0805G_C2297.html?s_z=n_KT-0805G"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11288,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,7 +11297,7 @@
 			)
 		)
 		(property "Subsystem" "01A-Power-Mux"
-			(at 228.6 110.49 90)
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,7 +14590,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 223.52 106.68 180)
+		(at 228.6 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14598,7 +14598,7 @@
 		(dnp no)
 		(uuid "f6afeb5f-6ce6-488c-90e4-de7d36e01371")
 		(property "Reference" "JP13"
-			(at 221.742 103.886 0)
+			(at 226.822 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14607,7 +14607,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 224.7899 104.14 90)
+			(at 229.8699 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14617,7 +14617,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 223.52 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14626,7 +14626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,7 +14635,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 223.52 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14644,7 +14644,7 @@
 			)
 		)
 		(property "Subsystem" "01A-Power-Mux"
-			(at 223.52 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14653,7 +14653,7 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
-			(at 223.52 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

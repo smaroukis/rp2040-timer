@@ -11,9 +11,22 @@ TEMP_FILE="$OUTPUT_FILE.tmp"
 
 echo "Combining individual symbol files into project library..."
 
-# Check if combined library already exists
+# Check if combined library already exists and create backup
 if [[ -f "$OUTPUT_FILE" ]]; then
-    echo "Existing combined library found. Checking for new symbols to add..."
+    echo "Existing combined library found. Creating backup..."
+    
+    # Create timestamp for backup filename
+    TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+    BACKUP_FILE="$SYMBOLS_DIR/Archive/Project_Library_backup_$TIMESTAMP.kicad_sym"
+    
+    # Ensure Archive directory exists
+    mkdir -p "$SYMBOLS_DIR/Archive"
+    
+    # Create backup
+    cp "$OUTPUT_FILE" "$BACKUP_FILE"
+    echo "  Backup created: $(basename "$BACKUP_FILE")"
+    
+    echo "Checking for new symbols to add..."
     # Copy existing library to temp file (without closing parenthesis)
     head -n -1 "$OUTPUT_FILE" > "$TEMP_FILE"
 else

@@ -216,7 +216,7 @@
 	(footprint "project footprints:7-Seg-CC28-FJ2481CH"
 		(layer "F.Cu")
 		(uuid "0338ed6a-79f2-4b58-bfae-edd84c859dc0")
-		(at 82.55 33.815)
+		(at 82.55 31.237)
 		(descr "4 digit 7 segment LED 0.28inch digits")
 		(tags "4 digit 7 segment ")
 		(property "Reference" "U8"
@@ -611,7 +611,7 @@
 			(layer "User.2")
 			(uuid "13809714-ce90-4356-9210-6ef902cc7e30")
 			(pts
-				(xy 104.95 35.005) (xy 104.95 25.005)
+				(xy 104.95 32.427) (xy 104.95 22.427)
 			)
 			(height 3.1)
 			(orientation 1)
@@ -633,7 +633,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "10"
-				(at 106.9 30.005 90)
+				(at 106.9 27.427 90)
 				(layer "User.2")
 				(uuid "13809714-ce90-4356-9210-6ef902cc7e30")
 				(effects
@@ -649,7 +649,7 @@
 			(layer "User.2")
 			(uuid "15c73008-234b-4bd2-af70-fead1f61d464")
 			(pts
-				(xy 110.03 25.005) (xy 77.93 25.005)
+				(xy 110.03 22.427) (xy 77.93 22.427)
 			)
 			(height -5.69)
 			(orientation 0)
@@ -671,7 +671,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "32.1"
-				(at 93.98 18.165 0)
+				(at 93.98 15.587 0)
 				(layer "User.2")
 				(uuid "15c73008-234b-4bd2-af70-fead1f61d464")
 				(effects
@@ -687,7 +687,7 @@
 			(layer "User.2")
 			(uuid "553983ae-c666-4c54-8617-2d389f10e399")
 			(pts
-				(xy 72.85 35.005) (xy 82.55 33.815)
+				(xy 72.85 32.427) (xy 82.55 31.237)
 			)
 			(height -2.3)
 			(orientation 1)
@@ -709,7 +709,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "1.19"
-				(at 69.4 34.41 90)
+				(at 69.4 31.832 90)
 				(layer "User.2")
 				(uuid "553983ae-c666-4c54-8617-2d389f10e399")
 				(effects
@@ -725,7 +725,7 @@
 			(layer "User.2")
 			(uuid "7585853f-f3f7-48c8-9a7e-d9b0aaef7ea1")
 			(pts
-				(xy 95.25 26.195) (xy 95.25 33.815)
+				(xy 95.25 23.617) (xy 95.25 31.237)
 			)
 			(height 3.8)
 			(orientation 1)
@@ -747,7 +747,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "7.62"
-				(at 97.9 30.005 90)
+				(at 97.9 27.427 90)
 				(layer "User.2")
 				(uuid "7585853f-f3f7-48c8-9a7e-d9b0aaef7ea1")
 				(effects
@@ -763,7 +763,7 @@
 			(layer "User.2")
 			(uuid "e056e756-320e-4ba7-849b-3137a79bbf2d")
 			(pts
-				(xy 95.25 26.195) (xy 104.95 25.005)
+				(xy 95.25 23.617) (xy 104.95 22.427)
 			)
 			(height 17.8)
 			(orientation 1)
@@ -785,7 +785,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "1.19"
-				(at 111.9 25.6 90)
+				(at 111.9 23.022 90)
 				(layer "User.2")
 				(uuid "e056e756-320e-4ba7-849b-3137a79bbf2d")
 				(effects
@@ -8998,7 +8998,7 @@
 	(footprint "project footprints:7-Seg-CC28-FJ2481CH"
 		(layer "F.Cu")
 		(uuid "382edfb5-7c74-45d0-96cd-fdadde91ff87")
-		(at 82.55 45.339)
+		(at 82.55 42.761)
 		(descr "4 digit 7 segment LED 0.28inch digits")
 		(tags "4 digit 7 segment ")
 		(property "Reference" "U9"
@@ -9393,7 +9393,7 @@
 			(layer "User.2")
 			(uuid "08b3ab75-18c2-4dca-8de5-0bc02e44400e")
 			(pts
-				(xy 95.25 37.719) (xy 104.95 36.529)
+				(xy 95.25 35.141) (xy 104.95 33.951)
 			)
 			(height 17.8)
 			(orientation 1)
@@ -9415,7 +9415,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "1.19"
-				(at 111.9 37.124 90)
+				(at 111.9 34.546 90)
 				(layer "User.2")
 				(uuid "08b3ab75-18c2-4dca-8de5-0bc02e44400e")
 				(effects
@@ -9431,7 +9431,7 @@
 			(layer "User.2")
 			(uuid "1a5cdc96-ff36-4ad4-947a-bcb43a8324a3")
 			(pts
-				(xy 72.85 46.529) (xy 82.55 45.339)
+				(xy 72.85 43.951) (xy 82.55 42.761)
 			)
 			(height -2.3)
 			(orientation 1)
@@ -9453,7 +9453,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "1.19"
-				(at 69.4 45.934 90)
+				(at 69.4 43.356 90)
 				(layer "User.2")
 				(uuid "1a5cdc96-ff36-4ad4-947a-bcb43a8324a3")
 				(effects
@@ -9469,7 +9469,7 @@
 			(layer "User.2")
 			(uuid "ccdb43c4-a3b4-47e9-92b2-429d88d98ba5")
 			(pts
-				(xy 110.03 36.529) (xy 77.93 36.529)
+				(xy 110.03 33.951) (xy 77.93 33.951)
 			)
 			(height -5.69)
 			(orientation 0)
@@ -9491,7 +9491,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "32.1"
-				(at 93.98 29.689 0)
+				(at 93.98 27.111 0)
 				(layer "User.2")
 				(uuid "ccdb43c4-a3b4-47e9-92b2-429d88d98ba5")
 				(effects
@@ -9507,7 +9507,7 @@
 			(layer "User.2")
 			(uuid "cd14e752-bd90-4a9a-bc8e-164e62bb28dc")
 			(pts
-				(xy 95.25 37.719) (xy 95.25 45.339)
+				(xy 95.25 35.141) (xy 95.25 42.761)
 			)
 			(height 3.8)
 			(orientation 1)
@@ -9529,7 +9529,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "7.62"
-				(at 97.9 41.529 90)
+				(at 97.9 38.951 90)
 				(layer "User.2")
 				(uuid "cd14e752-bd90-4a9a-bc8e-164e62bb28dc")
 				(effects
@@ -9545,7 +9545,7 @@
 			(layer "User.2")
 			(uuid "e7c96da5-0100-47dd-9578-70c13e4ad7c9")
 			(pts
-				(xy 104.95 46.529) (xy 104.95 36.529)
+				(xy 104.95 43.951) (xy 104.95 33.951)
 			)
 			(height 3.1)
 			(orientation 1)
@@ -9567,7 +9567,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "10"
-				(at 106.9 41.529 90)
+				(at 106.9 38.951 90)
 				(layer "User.2")
 				(uuid "e7c96da5-0100-47dd-9578-70c13e4ad7c9")
 				(effects

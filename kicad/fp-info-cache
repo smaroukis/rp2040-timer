@@ -1,4 +1,4 @@
-25639246041065383
+25641000164768909
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102649,8 +102649,8 @@ Varistor VF
 2
 project footprints
 7-Seg-CC28-FJ2481CH
-4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
-4 digit 7 segment green LED
+4 digit 7 segment LED 0.28inch digits
+4 digit 7 segment 
 0
 14
 14
@@ -102717,6 +102717,13 @@ mountinghole
 0
 0
 0
+project footprints
+SOIC127P1041X265-28N
+28-SOIC, 1.27 mm pitch, 10.41 mm span, 17.90 X 7.50 X 2.65 mm body<p>28-pin SOIC package with 1.27 mm pitch, 10.41 mm span with body size 17.90 X 7.50 X 2.65 mm</p>
+
+0
+28
+28
 project footprints
 SON50P150X150X80-6N
 

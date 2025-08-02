@@ -383,6 +383,18 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_issues|2324100|241300|93cf358d-a91e-4164-8dc1-7ba401a451a2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|2324100|304800|626a3661-8d16-4108-ab25-e4c3f66f8c03|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|2324100|368300|0178636f-c477-48dc-9bc3-70fa6ffdb228|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "multiple_net_names|215900|190500|09de4f66-aa1a-4d3b-a0a8-6af4d27ae26e|c341a44f-c338-4f23-ae9e-9629af9bd77e|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0",
         ""
       ],
@@ -395,7 +407,19 @@
         ""
       ],
       [
+        "multiple_net_names|736600|558800|de9cb792-6411-433f-a269-3d6c1547a84b|a4df28bc-cc76-4c1c-95f2-679847c96274|/9d26b66f-2a94-42e5-8460-016e0bf95186|/9d26b66f-2a94-42e5-8460-016e0bf95186|/9d26b66f-2a94-42e5-8460-016e0bf95186",
+        ""
+      ],
+      [
+        "multiple_net_names|736600|609600|b539e382-ac06-42b4-98a0-91489d1edd4f|3c2f833d-7224-4aaa-b972-3e10deff785d|/9d26b66f-2a94-42e5-8460-016e0bf95186|/9d26b66f-2a94-42e5-8460-016e0bf95186|/9d26b66f-2a94-42e5-8460-016e0bf95186",
+        ""
+      ],
+      [
         "multiple_net_names|863600|457200|056b8031-5dd0-49a8-ad0f-c44dafdf600f|4ef6895a-a21b-4905-9f3c-30bdffbcba32|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0",
+        ""
+      ],
+      [
+        "multiple_net_names|863600|457200|5a54d57d-b561-41d5-b553-50cc99672fe0|4ef6895a-a21b-4905-9f3c-30bdffbcba32|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0|/9d26b66f-2a94-42e5-8460-016e0bf95186/9c84c2c8-9981-4486-adaf-4a40ca17b6d0",
         ""
       ],
       [
@@ -745,7 +769,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Subsystem",
           "name": "Subsystem",
           "show": true
@@ -971,14 +995,20 @@
           "label": "Lab_In_Stock",
           "name": "Lab_In_Stock",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Stock_In_Lab",
+          "name": "Stock_In_Lab",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_asc": true,
+      "sort_field": "Subsystem"
     },
     "connection_grid_size": 50.0,
     "drawing": {

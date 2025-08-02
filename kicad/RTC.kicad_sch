@@ -2387,6 +2387,17 @@
 		)
 		(uuid "999694bd-fcab-4012-926f-083be6db2adb")
 	)
+	(hierarchical_label "VBAT_VBUS"
+		(shape input)
+		(at 167.64 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5463bb0-9fa4-4024-81b8-eae5b791af65")
+	)
 	(hierarchical_label "RTC_INT_GPIN0"
 		(shape output)
 		(at 189.23 120.65 0)
@@ -2397,6 +2408,17 @@
 			(justify left)
 		)
 		(uuid "abdf37b9-c105-4fcd-9141-191862709e13")
+	)
+	(hierarchical_label "VBAT_VBUS"
+		(shape input)
+		(at 153.67 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc8d5a69-df8e-44b6-bce1-8920f9b27322")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
@@ -2518,73 +2540,6 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 167.64 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07113e5e-a228-4076-aa89-d36591d7c9b6")
-		(property "Reference" "#PWR071"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vbatt_Vbus"
-			(at 170.688 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "871b1eb5-0478-49e5-8748-3da53bc4ea40")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3457,73 +3412,6 @@
 			(project "10k-Hour-Timer-RP2040"
 				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 153.67 78.74 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d485660-af92-4a6f-b7b9-a134b05024d0")
-		(property "Reference" "#PWR070"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vbatt_Vbus"
-			(at 156.718 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b1cf89b-a47e-4b32-8f90-478ef1eb7014")
-		)
-		(instances
-			(project "10k-Hour-Timer-RP2040"
-				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186/0e234469-901c-4318-947f-74f6fef01c6d"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)

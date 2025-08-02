@@ -1,4 +1,4 @@
-25635737817837277
+25639246041065383
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102648,6 +102648,13 @@ Varistor VF
 2
 2
 project footprints
+7-Seg-CC28-FJ2481CH
+4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
+4 digit 7 segment green LED
+0
+14
+14
+project footprints
 BEADC1608X95N
 
 
@@ -102703,6 +102710,13 @@ connector JST SH horizontal
 0
 5
 4
+project footprints
+MountingHole_4.7mm
+Mounting Hole 4.7mm, no annular
+mountinghole
+0
+0
+0
 project footprints
 SON50P150X150X80-6N
 

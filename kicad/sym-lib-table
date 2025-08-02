@@ -5,4 +5,5 @@
   (lib (name "BQ29700DSER")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/symbols/BQ29700DSER.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Generic_MountingPin")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/symbols/Connector_Generic_MountingPin.kicad_sym")(options "")(descr ""))
   (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/symbols/Project_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "User_Segments2TheAbsurd")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/symbols/User_Segments2TheAbsurd.kicad_sym")(options "")(descr ""))
 )

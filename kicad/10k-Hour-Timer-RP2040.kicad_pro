@@ -677,7 +677,9 @@
     "pinned_footprint_libs": [
       "project footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Project_Library"
+    ]
   },
   "meta": {
     "filename": "10k-Hour-Timer-RP2040.kicad_pro",
@@ -968,15 +970,15 @@
           "group_by": false,
           "label": "Lab_In_Stock",
           "name": "Lab_In_Stock",
-          "show": false
+          "show": true
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Package"
+      "sort_asc": false,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

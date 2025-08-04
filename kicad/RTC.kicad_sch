@@ -2530,6 +2530,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dea968f7-603f-4967-86ed-be40f1d6b777")
 		)
@@ -2984,6 +2993,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -3983,6 +4001,15 @@
 			)
 		)
 		(property "Subsystem" "07-RTC"
+			(at 147.32 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 147.32 114.3 90)
 			(effects
 				(font

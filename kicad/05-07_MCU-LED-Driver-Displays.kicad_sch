@@ -8121,6 +8121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c46f227-2148-4a91-b0f3-20268c6b8ee6")
 		)
@@ -8543,6 +8552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 262.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd357764-8c1e-4ca4-8486-93ee2461e9b4")
 		)
@@ -8624,6 +8642,15 @@
 			)
 		)
 		(property "MPN" "(Embedded)"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -9105,6 +9132,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 139.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9342f276-ac40-43ba-89e6-23892859cb06")
 		)
@@ -9219,6 +9255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 31.75 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac98e6de-67f5-4699-a3ee-0b9f6ecfc933")
 		)
@@ -9280,6 +9325,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 74.93 180.34 0)
 			(effects
 				(font
@@ -9842,6 +9896,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 189.23 22.86 0)
 			(effects
 				(font
@@ -10727,6 +10790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5389c41f-4f7b-45a1-80e4-c2fadac77c9e")
 		)
@@ -11130,6 +11202,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 129.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb3768e0-da45-4367-878f-c01edb87f099")
 		)
@@ -11236,6 +11317,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 166.37 22.86 0)
 			(effects
 				(font
@@ -11461,6 +11551,15 @@
 			)
 		)
 		(property "Package" "PB_6x6"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -11964,6 +12063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "891365af-4437-4603-9923-4a628d7ae8b9")
 		)
@@ -12086,6 +12194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f889522-cd22-42db-9c53-4934734a21ec")
 		)
@@ -12192,6 +12309,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 229.87 86.36 0)
 			(effects
 				(font
@@ -13638,6 +13764,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 113.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60ec12eb-d5e8-4689-8c2c-e47b4d4b1cc4")
 		)
@@ -13809,6 +13944,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 55.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -14344,6 +14488,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -15436,6 +15589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 31.75 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad9e3a92-867a-4cae-a142-e44e80e65c69")
 		)
@@ -15889,6 +16051,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -16540,6 +16711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b0a6ccd-ae43-4e3a-8b83-26f10e1fc125")
 		)
@@ -16713,6 +16893,15 @@
 			)
 		)
 		(property "Package" "PB_6x6"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -17088,6 +17277,15 @@
 			)
 		)
 		(property "Supplier 1 URL" ""
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 50.8 60.96 0)
 			(effects
 				(font

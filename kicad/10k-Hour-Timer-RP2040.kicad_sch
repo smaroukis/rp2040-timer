@@ -4121,6 +4121,182 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at -58.42 -17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "05ed5e25-2527-4527-9e65-1d573df445e6")
+		(property "Reference" "J12"
+			(at -58.42 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at -58.42 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project footprints:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+			(at -54.61 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at -54.61 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DX07S016JA1R1500"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JAE Electronics"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://lcsc.com/product-detail/USB-Connectors_JAE-Electronics-DX07S016JA1R1500_C3197885.html"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 SKU" "C3197885"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" "01A-USB"
+			(at -58.42 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A9"
+			(uuid "9de70e82-3e23-4614-bbe3-c81b7a77e1b6")
+		)
+		(pin "A4"
+			(uuid "cd60a3b7-d5f2-46eb-89c1-820a2d092bea")
+		)
+		(pin "B4"
+			(uuid "ed69a40c-fdb5-4014-b2f8-056c53bf7611")
+		)
+		(pin "B9"
+			(uuid "26e2a3aa-a19a-4890-9fed-bfa61c1d29f9")
+		)
+		(pin "B5"
+			(uuid "b9e6a73c-4f94-414b-b296-38b2dd07f6a5")
+		)
+		(pin "A5"
+			(uuid "0a03c83e-592e-4834-9542-53f4a674688f")
+		)
+		(pin "B8"
+			(uuid "ef5d2e96-d122-4b86-88c7-561e49665777")
+		)
+		(pin "A7"
+			(uuid "9020dd15-95d4-4ba9-9e31-035474d1d44b")
+		)
+		(pin "B6"
+			(uuid "490d4471-f37e-4e0c-bf07-33221a3a6a3c")
+		)
+		(pin "B12"
+			(uuid "241eb440-d46c-435b-9ce8-4f47b6651e61")
+		)
+		(pin "B7"
+			(uuid "c9de1781-654b-48da-8466-82db5608064c")
+		)
+		(pin "A8"
+			(uuid "ba00aa43-eeb5-4c91-bfef-63071a976c51")
+		)
+		(pin "A1"
+			(uuid "0087afa8-2358-466c-898b-34e1a71645db")
+		)
+		(pin "S1"
+			(uuid "1ce31bb4-c385-43bc-be97-7797bc52eadd")
+		)
+		(pin "A6"
+			(uuid "197f69be-03d1-4122-b9e9-929616d56e93")
+		)
+		(pin "B1"
+			(uuid "018a55be-14b6-484e-9695-5f567bf2fa2d")
+		)
+		(pin "A12"
+			(uuid "f81a0634-1973-404c-b6d8-763f2d2fa00e")
+		)
+		(instances
+			(project "10k-Hour-Timer-RP2040"
+				(path "/9d26b66f-2a94-42e5-8460-016e0bf95186"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 125.73 90)
 		(unit 1)
@@ -4635,6 +4811,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -5450,6 +5635,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "872ed731-ad7b-4905-a8be-6ef34cf484dd")
 		)
@@ -6005,6 +6199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbda64c6-4e98-4ce3-8d2b-f171a22e8079")
 		)
@@ -6156,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB4105-GF-A"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -6164,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project footprints:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+		(property "Footprint" "project footprints:GCT_USB4105-GF-A"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -6173,7 +6376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" ""
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -6182,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "CONN RCP USB2.0 TYP C 24P SMD RA"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6191,7 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DX07S016JA1R1500"
+		(property "MPN" "USB4105-GF-A"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6200,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JAE Electronics"
+		(property "Manufacturer" "GCT"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6209,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "LCSC"
+		(property "Supplier 1" "Digikey"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6218,7 +6421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 URL" "https://lcsc.com/product-detail/USB-Connectors_JAE-Electronics-DX07S016JA1R1500_C3197885.html"
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/gct/USB4105-GF-A/11198441"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6227,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 SKU" "C3197885"
+		(property "Supplier 1 SKU" "2073-USB4105-GF-ACT-ND"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -6246,6 +6449,15 @@
 			)
 		)
 		(property "Subsystem" "01A-USB"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 54.61 57.15 0)
 			(effects
 				(font

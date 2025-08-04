@@ -807,7 +807,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Subsystem",
           "name": "Subsystem",
           "show": true
@@ -826,6 +826,12 @@
         },
         {
           "group_by": false,
+          "label": "Lab_In_Stock",
+          "name": "Lab_In_Stock",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -834,19 +840,19 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1014,39 +1020,27 @@
           "group_by": false,
           "label": "Supplier 2 URL",
           "name": "Supplier 2 URL",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier 2",
           "name": "Supplier 2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier 2 SKU",
           "name": "Supplier 2 SKU",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Lab_In_Stock",
-          "name": "Lab_In_Stock",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Stock_In_Lab",
-          "name": "Stock_In_Lab",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Subsystem"
+      "sort_asc": false,
+      "sort_field": ""
     },
     "connection_grid_size": 50.0,
     "drawing": {

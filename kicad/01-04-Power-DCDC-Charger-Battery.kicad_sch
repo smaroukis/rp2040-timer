@@ -6532,6 +6532,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3090db4b-0e28-4029-84cb-850fb7f2c914")
 		)
@@ -7162,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 53.0352 147.32 0)
 			(effects
 				(font
@@ -7226,6 +7235,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 52.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 52.07 143.51 0)
 			(effects
 				(font
@@ -7340,6 +7358,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 180.34 34.29 0)
 			(effects
 				(font
@@ -8076,6 +8103,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -11738,6 +11774,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 243.84 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b734f17c-d4b5-49b5-b02b-aa6502578007")
 		)
@@ -12656,6 +12701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e4d9f40-13c3-434b-aa1f-164701ec01ce")
 		)
@@ -13251,6 +13305,15 @@
 			)
 		)
 		(property "Supplier 1" "(Generic)"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -14306,6 +14369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93c9d7f1-2e4d-4533-afba-75af1bf50e35")
 		)
@@ -14941,7 +15013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lab_In_Stock" "Yes"
+		(property "Lab_In_Stock" "Y"
 			(at 66.04 110.49 0)
 			(effects
 				(font

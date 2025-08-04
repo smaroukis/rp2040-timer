@@ -5862,6 +5862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "304b6479-5c8c-4963-8ce2-1500ef5b2049")
 		)
@@ -6054,6 +6063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90adbf0c-60f8-4070-81d4-53238bf3ab21")
 		)
@@ -6212,6 +6230,15 @@
 			)
 		)
 		(property "Subsystem" "06-MCU-IO"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lab_In_Stock" "Y"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -6603,7 +6630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock_In_Lab" "Y"
+		(property "Lab_In_Stock" "Y"
 			(at 168.91 35.56 0)
 			(effects
 				(font
@@ -7208,6 +7235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Lab_In_Stock" "Y"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "818572ad-d646-4f42-bb52-8f04d99e680e")
 		)
@@ -7630,7 +7666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock_In_Lab" "Y"
+		(property "Lab_In_Stock" "Y"
 			(at 248.92 34.29 0)
 			(effects
 				(font

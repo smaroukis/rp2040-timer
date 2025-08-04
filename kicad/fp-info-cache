@@ -1,4 +1,4 @@
-25641000187889909
+25642754535498950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102689,6 +102689,13 @@ Buzzer Beeper Piezo
 0
 2
 2
+project footprints
+GCT_USB4105-GF-A
+
+
+0
+16
+16
 project footprints
 IND_SDER041H-2R2MS
 

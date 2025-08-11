@@ -4003,7 +4003,7 @@
 		)
 		(uuid "c57b9ebc-a818-496e-a3df-6dc70080a073")
 	)
-	(text "TODO/v2: Integrated dual channel NMOS"
+	(text "TODO/v2: Integrated dual channel NMOS - XB5306A"
 		(exclude_from_sim no)
 		(at 65.278 90.17 0)
 		(effects

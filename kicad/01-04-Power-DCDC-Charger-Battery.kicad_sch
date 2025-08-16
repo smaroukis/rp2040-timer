@@ -5833,6 +5833,16 @@
 		)
 		(uuid "056b6d50-0f39-43a4-8483-20c10746f20c")
 	)
+	(label "PROG"
+		(at 132.08 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "086b6e7f-8af6-4dcb-b100-b91720714e8c")
+	)
 	(label "Batt+"
 		(at 34.29 101.6 180)
 		(effects

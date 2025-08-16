@@ -6828,16 +6828,6 @@
 		)
 		(uuid "27457a9a-82fa-4f16-9d59-234624e7bd9f")
 	)
-	(label "IO4"
-		(at 67.31 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e94d2a4-02f2-4929-9d47-ff146db8ac33")
-	)
 	(label "AVDD"
 		(at 154.94 41.91 0)
 		(effects
@@ -6917,6 +6907,16 @@
 			(justify left bottom)
 		)
 		(uuid "4d3bde68-ea57-47d9-b72b-81fa223a2f00")
+	)
+	(label "IO3_LD-"
+		(at 67.31 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ff3976f-3382-49cb-ac99-cd147fceebd7")
 	)
 	(label "IO21"
 		(at 179.07 110.49 180)
@@ -7138,6 +7138,16 @@
 		)
 		(uuid "904b45b5-f937-4c81-99a5-159c2aa2708c")
 	)
+	(label "IO4"
+		(at 67.31 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "924c717c-1335-4674-b2e8-fa72a185d3bb")
+	)
 	(label "IO2_LD-"
 		(at 67.31 177.8 180)
 		(effects
@@ -7207,16 +7217,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ff3ce3c-abf2-4548-abc0-60b7c8a48e02")
-	)
-	(label "IO14"
-		(at 85.09 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0a436d0-b843-4cd7-982b-3789e20718e8")
 	)
 	(label "IO16"
 		(at 85.09 182.88 0)
@@ -7309,6 +7309,26 @@
 		(uuid "cdacdccc-09b3-4512-ab94-0d69709c944c")
 	)
 	(label "IO9"
+		(at 85.09 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16dec24-c436-4ca8-b41d-313680f94251")
+	)
+	(label "IO14"
+		(at 85.09 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2a5d58c-608a-4075-91b2-1e2fc9d97497")
+	)
+	(label "IO9"
 		(at 179.07 80.01 180)
 		(effects
 			(font
@@ -7317,16 +7337,6 @@
 			(justify right bottom)
 		)
 		(uuid "d38ba94d-e6d1-46a7-a8fc-4c7470ccd2f6")
-	)
-	(label "IO9"
-		(at 67.31 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dabcbcb5-f0ef-4560-af08-ec170bb915f6")
 	)
 	(label "IO14"
 		(at 184.15 92.71 180)
@@ -7357,16 +7367,6 @@
 			(justify right bottom)
 		)
 		(uuid "e412a829-a8cf-4823-8bdd-308eba7f1ed1")
-	)
-	(label "IO3_LD-"
-		(at 85.09 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e69b5ef8-5e73-4f1f-83e9-592b922be68e")
 	)
 	(label "USB_DN"
 		(at 110.49 67.31 0)
@@ -9306,7 +9306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 74.93 180.34 0)
 			(effects
 				(font

@@ -3823,6 +3823,16 @@
 		)
 		(uuid "a4df28bc-cc76-4c1c-95f2-679847c96274")
 	)
+	(label "SHIELD"
+		(at 46.99 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aad4820a-2120-4e3b-a95e-de80edd3f338")
+	)
 	(label "USB_D+"
 		(at 104.14 60.96 0)
 		(effects

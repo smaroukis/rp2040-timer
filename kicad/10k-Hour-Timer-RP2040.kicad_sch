@@ -2739,6 +2739,16 @@
 		)
 		(uuid "726f7383-c286-43d0-93f3-e2e3c30e0c2d")
 	)
+	(text "USAGE: \"DNP\" field used for self mounting - i.e. if DNP then PCBA shall not mount"
+		(exclude_from_sim no)
+		(at 134.366 16.51 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "77644417-4e6f-478b-930a-03ee1e228bae")
+	)
 	(text "SWD"
 		(exclude_from_sim no)
 		(at 48.26 102.362 0)
@@ -4380,7 +4390,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "289bd1b3-df2e-4077-9763-50320be6b931")
 		(property "Reference" "J2"
 			(at 45.72 107.0355 0)
@@ -5000,7 +5010,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1K"
 			(at 80.264 44.958 90)
 			(effects
 				(font
@@ -5560,9 +5570,9 @@
 		(at 44.45 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5e8f51b3-c416-4aee-ad6f-51cab6a504ee")
 		(property "Reference" "J1"
 			(at 43.18 124.4599 0)
@@ -6358,7 +6368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aaf7f2dd-3637-4351-a0a0-920261f23799")
 		(property "Reference" "J3"
@@ -6553,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1K"
 			(at 80.518 51.816 90)
 			(effects
 				(font

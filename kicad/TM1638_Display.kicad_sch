@@ -5983,6 +5983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Subsystem" "08-LED"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "304b6479-5c8c-4963-8ce2-1500ef5b2049")
 		)
@@ -6295,7 +6304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "40bed974-bc94-43b8-8010-7ebeeb173a8e")
 		(property "Reference" "J5"
 			(at 98.806 83.82 0)
@@ -6743,6 +6752,15 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" "08-LED"
 			(at 168.91 35.56 0)
 			(effects
 				(font
@@ -7844,6 +7862,15 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Subsystem" "08-LED"
 			(at 248.92 34.29 0)
 			(effects
 				(font

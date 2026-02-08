@@ -1,6 +1,6 @@
 # 10k-Hour-Timer-RP2040
 
-A 10,000-hour timer project using the RP2040 microcontroller.
+An Eval Board for an RP2040 mcu + seven segment LED display + TM1638 driver + peripherals. 
 
 ## Project Structure
 
@@ -20,5 +20,3 @@ This project uses the RP2040 microcontroller with supporting circuitry for power
 
 [Add license information here]
 
-test push
-test2

@@ -1,0 +1,14 @@
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-F_Cu.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-In1_Cu.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-In2_Cu.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-B_Cu.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-F_Paste.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-B_Paste.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-F_Silkscreen.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-B_Silkscreen.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-F_Mask.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-B_Mask.gbr'.
+Plotted to '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-Edge_Cuts.gbr'.
+Created Gerber job file '/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/10k-Hour-Timer-RP2040-job.gbrjob'.
+Info: Done.
+Info: Done.

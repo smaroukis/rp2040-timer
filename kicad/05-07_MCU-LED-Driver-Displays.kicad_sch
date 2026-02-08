@@ -8283,7 +8283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "15d02388-92e6-4cc1-8d5d-3d9b252c965a")
 		(property "Reference" "R44"
 			(at 114.808 161.798 90)
@@ -8584,7 +8584,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23cb2da4-d61e-40e1-8c0c-d97b24361f77")
 		(property "Reference" "J7"
 			(at 196.342 59.69 0)
@@ -9286,7 +9286,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e5773b4-a3a0-4a97-97ee-a6aa7bfbd7a8")
 		(property "Reference" "J6"
@@ -10708,7 +10708,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "58aca9cc-89f8-431c-8a36-c1be71dc0d98")
 		(property "Reference" "SW3"
@@ -10763,7 +10763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "(Generic)"
+		(property "MPN" "(Generic)/1825910-6"
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -10772,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "(Generic)"
+		(property "Manufacturer" "(Generic)/TE"
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -10781,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "(Generic)"
+		(property "Supplier 1" "(Generic)/Digikey"
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -10791,6 +10791,15 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536?_gl=1*h967is*_up*MQ..*_gs*MQ..&gclsrc=aw.ds"
 			(at 100.33 57.15 0)
 			(effects
 				(font
@@ -11468,7 +11477,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "681bdaf1-11e9-4953-9ca2-351e7e7b6caa")
 		(property "Reference" "SW5"
@@ -11523,7 +11532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "(Generic)"
+		(property "MPN" "(Generic)/1825910-6"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -11532,7 +11541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "(Generic)"
+		(property "Manufacturer" "(Generic)/TE"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -11541,7 +11550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "(Generic)"
+		(property "Supplier 1" "(Generic)/Digikey"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -11560,6 +11569,15 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536?_gl=1*h967is*_up*MQ..*_gs*MQ..&gclsrc=aw.ds"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -12089,7 +12107,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 13.97 -11.43 0)
+		(at 22.86 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12098,7 +12116,7 @@
 		(fields_autoplaced yes)
 		(uuid "73758df5-57a0-4f99-bb05-fe0b3f411d30")
 		(property "Reference" "SW1"
-			(at 13.97 -19.05 0)
+			(at 22.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12124,7 @@
 			)
 		)
 		(property "Value" "B3U-1100PM"
-			(at 13.97 -16.51 0)
+			(at 22.86 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12132,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P"
-			(at 13.97 -16.51 0)
+			(at 22.86 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 13.97 -16.51 0)
+			(at 22.86 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12150,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12159,7 @@
 			)
 		)
 		(property "Subsystem" "05-MCU-XTAL-FLASH"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,7 +12168,7 @@
 			)
 		)
 		(property "MPN" "B3U-1100PM"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12159,7 +12177,7 @@
 			)
 		)
 		(property "Manufacturer" "omron"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12186,7 @@
 			)
 		)
 		(property "Package" "SMD 4mmx2.5mm"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +12195,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12204,7 @@
 			)
 		)
 		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/omron-electronics-inc-emc-div/B3U-1100PM/3908607?gclsrc=aw.ds&gad_source=1&gad_campaignid=20220851003"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +12213,7 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
-			(at 13.97 -11.43 0)
+			(at 22.86 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13672,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a951fd87-5fe9-4b20-9f25-9f81257f6071")
 		(property "Reference" "BZ1"
 			(at 116.84 182.88 0)
@@ -16645,7 +16663,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f431fa57-7051-4ced-82d4-e672105f8aae")
 		(property "Reference" "J8"
 			(at 199.39 132.0799 0)
@@ -16810,7 +16828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5ff7440-89c8-43e0-84fd-4db9a01730a4")
 		(property "Reference" "SW4"
@@ -16865,7 +16883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "(Generic)"
+		(property "MPN" "(Generic)/1825910-6"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -16874,7 +16892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "(Generic)"
+		(property "Manufacturer" "(Generic)/TE"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -16883,7 +16901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "(Generic)"
+		(property "Supplier 1" "(Generic)/Digikey"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -16902,6 +16920,15 @@
 			)
 		)
 		(property "Lab_In_Stock" "Y"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536?_gl=1*h967is*_up*MQ..*_gs*MQ..&gclsrc=aw.ds"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -17185,7 +17212,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd1693b2-2f28-4f04-86b0-2e18b3a7f0a3")
 		(property "Reference" "SW2"
@@ -17240,7 +17267,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "(Generic)"
+		(property "MPN" "(Generic)/1825910-6"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -17249,7 +17276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "(Generic)"
+		(property "Manufacturer" "(Generic)/TE"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -17267,7 +17294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "(Generic)"
+		(property "Supplier 1" "(Generic)/Digikey"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -17276,7 +17303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 URL" ""
+		(property "Supplier 1 URL" "https://www.digikey.jp/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536?_gl=1*h967is*_up*MQ..*_gs*MQ..&gclsrc=aw.ds"
 			(at 50.8 60.96 0)
 			(effects
 				(font

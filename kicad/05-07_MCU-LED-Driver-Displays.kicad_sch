@@ -9532,7 +9532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "0"
 			(at 159.512 34.544 90)
 			(effects
 				(font

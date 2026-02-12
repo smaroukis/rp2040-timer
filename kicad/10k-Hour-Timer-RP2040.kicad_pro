@@ -794,8 +794,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication_Outputs/2026-02-08-1134/",
-      "pos_files": "/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-08-1134/",
+      "plot": "/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-11/",
+      "pos_files": "/home/spencer/Applications/KiCad/10k-Hour-Timer-RP2040/kicad/Fabrication_Outputs/2026-02-11/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -1049,7 +1049,7 @@
           "show": true
         }
       ],
-      "filter_string": "",
+      "filter_string": "r27",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
